@@ -54,3 +54,21 @@ La vraie leçon : un modèle ne prédit pas un match. Il dit à quel point le r�
 Merci à tous ceux qui ont joué le jeu hier. [N] pronostics en commentaire, [N] avaient le bon score.
 
 #DataAnalyse #Football #ElClasico
+
+---
+
+## Reel Instagram / TikTok / Story — dimanche 25 octobre (après le post LinkedIn)
+
+> Publier `video/clasico_reel.mp4`. Mettre le lien GitHub dans la bio avant de publier.
+
+Les données ont-elles déjà le résultat du Clásico ? 📊
+
+264 Clásicos, 106 victoires chacun. 0 match nul sur les 18 derniers.
+Mon modèle donne 61 % au Barça ce soir.
+
+Ton score en commentaire 👇 Verdict demain.
+
+Analyse complète, données et code : lien en bio.
+
+#ElClasico #BarcaRealMadrid #DataAnalyse #Football #LaLiga
+*Analyse pédagogique — pas un conseil de pari.*

@@ -1,2 +1,5 @@
 __pycache__/
 .ipynb_checkpoints/
+video/audio.wav
+video/apercu_*.png
+video/images.mp4

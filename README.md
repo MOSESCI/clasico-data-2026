@@ -85,6 +85,7 @@ data/                      les données propres, figées au 23/10/2026
   cotes.csv                cotes du marché (anonymisées)
 graphiques/                graphiques exportés par le notebook
 carrousel/                 carrousels LinkedIn (charte, générateurs, HTML, PDF, images)
+video/                     Reel animé 9:16 (scènes, minutage, son, rendu)
 collecte/                  scripts de collecte et de construction des données
 ```
 
@@ -100,6 +101,16 @@ Les slides qui comparent les deux sont partagées en deux. Aucun blason ni logo 
 - `carrousel/generer_post1.py` : construit `post1_pronostic.html` à partir de `resultats.json` (aucun chiffre recopié à la main).
 - `carrousel/generer_post2.py` : construit le gabarit `post2_verdict.html` ; les zones `[À REMPLIR]` se complètent après le match.
 - `python carrousel/exporter.py carrousel/post1_pronostic.html` : produit le PDF et une image par slide (nécessite Chrome ou Edge).
+
+### Vidéo (Reels, TikTok, Stories)
+Une version animée de 36 s au format vertical (1080 × 1920) : `video/clasico_reel.mp4`.
+Musique et effets sonores sont composés par programme (aucun échantillon externe, donc aucun problème de droits).
+
+- `video/minutage.py` : le minutage unique, partagé par l'image et le son.
+- `python video/generer_scene.py` : construit les 8 scènes animées (`scene.html`) à partir de `resultats.json`.
+- `python video/audio.py` : compose la bande son ; `python video/audio.py --musique morceau.mp3` remplace la musique en gardant les effets.
+- `python video/rendre_video.py` : capture les 1 080 images (Chrome via Playwright) et assemble le MP4 avec le son.
+  Prérequis : `pip install playwright imageio-ffmpeg` et Google Chrome.
 
 ## Sources
 - Wikipédia : *List of El Clásico matches* et pages saison du FC Barcelona et du Real Madrid CF
