@@ -1,0 +1,138 @@
+{
+  "bilan": {
+    "matchs": 264,
+    "victoires_real": 106,
+    "nuls": 52,
+    "victoires_barca": 106,
+    "buts_real": 444,
+    "buts_barca": 441
+  },
+  "preuve_forme": {
+    "gagne": 11,
+    "perd": 7,
+    "nuls": 0,
+    "sur": 18,
+    "taux": 0.611,
+    "p_hasard": 0.24,
+    "correlation": -0.14,
+    "nuls_sur_18": 0
+  },
+  "joueurs": [
+    {
+      "club": "Barcelona",
+      "joueur": "Fermín López",
+      "clasicos": 9,
+      "avant": 0.51,
+      "pendant": 0.22,
+      "ecart": -0.29
+    },
+    {
+      "club": "Barcelona",
+      "joueur": "Lamine Yamal",
+      "clasicos": 9,
+      "avant": 0.48,
+      "pendant": 0.56,
+      "ecart": 0.08
+    },
+    {
+      "club": "Barcelona",
+      "joueur": "Raphinha",
+      "clasicos": 12,
+      "avant": 0.65,
+      "pendant": 0.75,
+      "ecart": 0.1
+    },
+    {
+      "club": "Real Madrid",
+      "joueur": "Arda Güler",
+      "clasicos": 4,
+      "avant": 0.58,
+      "pendant": 0.25,
+      "ecart": -0.33
+    },
+    {
+      "club": "Real Madrid",
+      "joueur": "Jude Bellingham",
+      "clasicos": 10,
+      "avant": 0.38,
+      "pendant": 0.6,
+      "ecart": 0.22
+    },
+    {
+      "club": "Real Madrid",
+      "joueur": "Kylian Mbappé",
+      "clasicos": 6,
+      "avant": 0.84,
+      "pendant": 1.0,
+      "ecart": 0.16
+    }
+  ],
+  "correlation_joueurs": 0.33,
+  "forme_actuelle": {
+    "Barcelona": {
+      "points": 12,
+      "diff_buts": 9,
+      "xg_diff": 7.41,
+      "resultats": "VVVVD",
+      "matchs": [
+        "Sevilla 3-1 (Liga)",
+        "Getafe 3-0 (Liga)",
+        "Galatasaray 4-1 (Ligue des champions)",
+        "Real Betis 5-2 (Liga)",
+        "Paris Saint-Germain 2-4 (Ligue des champions)"
+      ]
+    },
+    "Real Madrid": {
+      "points": 12,
+      "diff_buts": 7,
+      "xg_diff": -0.29,
+      "resultats": "DVVVV",
+      "matchs": [
+        "Atlético Madrid 1-2 (Liga)",
+        "Villarreal 1-0 (Liga)",
+        "AS Roma 4-3 (Ligue des champions)",
+        "Sevilla 4-1 (Liga)",
+        "RB Leipzig 4-1 (Ligue des champions)"
+      ]
+    }
+  },
+  "modele": {
+    "lambda_barca": 2.233,
+    "lambda_real": 1.179,
+    "barca": 0.612,
+    "nul": 0.197,
+    "real": 0.191
+  },
+  "modele_xg": {
+    "barca": 0.616,
+    "nul": 0.171,
+    "real": 0.213
+  },
+  "scores_probables": [
+    [
+      "2-1",
+      0.097
+    ],
+    [
+      "1-1",
+      0.087
+    ],
+    [
+      "2-0",
+      0.082
+    ],
+    [
+      "1-0",
+      0.074
+    ],
+    [
+      "3-1",
+      0.072
+    ]
+  ],
+  "marche": {
+    "barca": 0.593,
+    "nul": 0.165,
+    "real": 0.242
+  }
+}

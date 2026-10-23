@@ -1,0 +1,346 @@
+espn_id,joueur,titulaire,a_joue
+622990,Kylian Mbappé,1,1
+637511,Raphinha,1,1
+637513,Raphinha,0,1
+643772,Raphinha,1,1
+643821,Raphinha,0,1
+643833,Raphinha,0,1
+643844,Raphinha,1,1
+643856,Raphinha,1,1
+643905,Raphinha,0,1
+643912,Raphinha,1,1
+643928,Raphinha,0,1
+643975,Raphinha,1,1
+643983,Raphinha,0,1
+643991,Raphinha,0,1
+644003,Raphinha,1,1
+644011,Raphinha,1,1
+644023,Raphinha,1,1
+644042,Raphinha,1,1
+644060,Raphinha,1,1
+652621,Raphinha,1,1
+652644,Raphinha,1,1
+656879,Raphinha,1,1
+656892,Raphinha,1,1
+660265,Raphinha,0,1
+664609,Raphinha,1,1
+664612,Raphinha,1,1
+674016,Raphinha,1,1
+674016,Lamine Yamal,0,1
+674016,Fermín López,0,0
+674084,Jude Bellingham,1,1
+674089,Raphinha,1,1
+674089,Lamine Yamal,1,1
+674089,Fermín López,0,1
+674092,Jude Bellingham,1,1
+674100,Fermín López,1,1
+674100,Lamine Yamal,1,1
+674101,Fermín López,1,1
+674101,Lamine Yamal,0,1
+674107,Jude Bellingham,1,1
+674117,Fermín López,1,1
+674117,Lamine Yamal,0,1
+674117,Raphinha,0,1
+674117,Jude Bellingham,1,1
+674127,Arda Güler,0,0
+674127,Jude Bellingham,1,1
+674177,Jude Bellingham,1,1
+674180,Raphinha,1,1
+674180,Fermín López,0,0
+674180,Lamine Yamal,0,1
+674181,Jude Bellingham,1,1
+674184,Fermín López,1,1
+674184,Raphinha,1,1
+674184,Lamine Yamal,0,1
+674193,Jude Bellingham,1,1
+674193,Arda Güler,0,0
+674200,Raphinha,1,1
+674200,Lamine Yamal,0,1
+674200,Fermín López,0,1
+674279,Raphinha,1,1
+674279,Lamine Yamal,0,1
+674279,Fermín López,0,1
+674292,Fermín López,1,1
+674292,Raphinha,1,1
+674292,Lamine Yamal,0,1
+674296,Arda Güler,0,1
+674303,Fermín López,1,1
+674303,Raphinha,1,1
+674303,Lamine Yamal,1,1
+674308,Jude Bellingham,1,1
+674308,Arda Güler,0,0
+674315,Jude Bellingham,1,1
+674315,Arda Güler,0,0
+674319,Fermín López,1,1
+674319,Lamine Yamal,0,1
+674319,Raphinha,0,1
+674330,Jude Bellingham,1,1
+674330,Arda Güler,0,0
+674330,Raphinha,1,1
+674330,Lamine Yamal,1,1
+674330,Fermín López,0,1
+674382,Arda Güler,0,0
+674382,Jude Bellingham,1,1
+687554,Jude Bellingham,1,1
+687562,Lamine Yamal,1,1
+687562,Fermín López,0,1
+687572,Jude Bellingham,1,1
+687577,Fermín López,1,1
+687577,Lamine Yamal,1,1
+689480,Raphinha,1,1
+689480,Lamine Yamal,0,1
+689480,Fermín López,0,0
+689481,Arda Güler,0,1
+689481,Jude Bellingham,1,1
+690923,Fermín López,1,1
+690923,Raphinha,1,1
+690924,Arda Güler,1,1
+690924,Jude Bellingham,0,0
+695633,Arda Güler,0,0
+695633,Jude Bellingham,1,1
+695633,Fermín López,0,1
+695633,Lamine Yamal,0,1
+700716,Jude Bellingham,1,1
+700716,Arda Güler,0,0
+700717,Kylian Mbappé,1,1
+700717,Raphinha,1,1
+700717,Lamine Yamal,1,1
+700717,Fermín López,0,1
+700722,Jude Bellingham,1,1
+700722,Arda Güler,0,0
+700723,Raphinha,1,1
+700723,Lamine Yamal,1,1
+700723,Fermín López,0,1
+700723,Kylian Mbappé,1,1
+704734,Jude Bellingham,1,1
+704734,Arda Güler,0,0
+704739,Lamine Yamal,0,1
+704739,Raphinha,0,1
+704740,Raphinha,1,1
+704740,Lamine Yamal,1,1
+704745,Jude Bellingham,1,1
+704745,Kylian Mbappé,1,1
+704745,Arda Güler,0,1
+704753,Raphinha,1,1
+704753,Lamine Yamal,1,1
+704753,Fermín López,0,1
+704759,Kylian Mbappé,1,1
+704759,Jude Bellingham,1,1
+704759,Arda Güler,0,0
+704766,Jude Bellingham,1,1
+704766,Kylian Mbappé,1,1
+704766,Arda Güler,0,0
+704766,Fermín López,1,1
+704766,Raphinha,1,1
+704766,Lamine Yamal,1,1
+704778,Jude Bellingham,1,1
+704778,Kylian Mbappé,1,1
+704778,Arda Güler,0,0
+704822,Raphinha,1,1
+704822,Lamine Yamal,1,1
+704822,Fermín López,0,1
+704830,Fermín López,1,1
+704830,Raphinha,1,1
+704838,Jude Bellingham,1,1
+704838,Kylian Mbappé,1,1
+704838,Arda Güler,0,1
+704962,Fermín López,1,1
+704962,Raphinha,1,1
+704962,Lamine Yamal,1,1
+704966,Arda Güler,1,1
+704966,Kylian Mbappé,1,1
+704966,Jude Bellingham,0,1
+704970,Fermín López,1,1
+704970,Raphinha,1,1
+704970,Lamine Yamal,0,1
+704974,Arda Güler,0,1
+704974,Jude Bellingham,1,1
+704981,Arda Güler,1,1
+704981,Jude Bellingham,0,1
+704988,Lamine Yamal,1,1
+704988,Raphinha,0,1
+704988,Fermín López,0,1
+704994,Jude Bellingham,1,1
+704994,Kylian Mbappé,1,1
+704994,Arda Güler,1,1
+704996,Fermín López,1,1
+704996,Lamine Yamal,0,1
+704996,Raphinha,0,1
+705002,Raphinha,1,1
+705002,Lamine Yamal,1,1
+705002,Fermín López,0,1
+705002,Jude Bellingham,1,1
+705002,Kylian Mbappé,1,1
+705002,Arda Güler,1,1
+712532,Jude Bellingham,1,1
+712532,Kylian Mbappé,1,1
+712532,Arda Güler,0,0
+712533,Raphinha,1,1
+712533,Lamine Yamal,1,1
+712533,Fermín López,0,1
+712534,Jude Bellingham,1,1
+712534,Kylian Mbappé,1,1
+712534,Arda Güler,0,0
+712534,Raphinha,1,1
+712534,Lamine Yamal,1,1
+712534,Fermín López,0,0
+720322,Raphinha,1,1
+720322,Lamine Yamal,1,1
+720322,Fermín López,0,1
+720372,Fermín López,1,1
+720372,Raphinha,1,1
+720372,Lamine Yamal,1,1
+720442,Raphinha,1,1
+720442,Lamine Yamal,1,1
+720448,Jude Bellingham,1,1
+720448,Kylian Mbappé,0,1
+720448,Arda Güler,0,1
+720459,Jude Bellingham,1,1
+720459,Kylian Mbappé,1,1
+720459,Arda Güler,0,1
+721442,Jude Bellingham,1,1
+721442,Kylian Mbappé,1,1
+721442,Arda Güler,0,1
+724692,Arda Güler,1,1
+724692,Jude Bellingham,0,0
+724692,Kylian Mbappé,0,1
+724693,Fermín López,1,1
+733608,Jude Bellingham,1,1
+733608,Kylian Mbappé,1,1
+733608,Arda Güler,0,0
+733610,Fermín López,1,1
+733610,Raphinha,1,1
+733610,Lamine Yamal,1,1
+733612,Jude Bellingham,1,1
+733612,Kylian Mbappé,1,1
+733612,Arda Güler,0,0
+733614,Fermín López,1,1
+733614,Raphinha,1,1
+733614,Lamine Yamal,1,1
+733617,Raphinha,1,1
+733617,Lamine Yamal,1,1
+733617,Fermín López,0,1
+733619,Raphinha,1,1
+733619,Lamine Yamal,1,1
+733619,Fermín López,0,1
+735156,Raphinha,1,1
+735156,Lamine Yamal,1,1
+735156,Fermín López,0,1
+735156,Jude Bellingham,1,1
+735156,Kylian Mbappé,0,1
+735156,Arda Güler,0,1
+748115,Fermín López,1,1
+748115,Raphinha,1,1
+748115,Lamine Yamal,0,1
+748116,Jude Bellingham,1,1
+748116,Arda Güler,0,1
+748117,Fermín López,1,1
+748117,Raphinha,1,1
+748117,Lamine Yamal,1,1
+748117,Jude Bellingham,1,1
+748117,Kylian Mbappé,0,1
+748117,Arda Güler,0,1
+748208,Lamine Yamal,0,1
+748210,Jude Bellingham,1,1
+748210,Kylian Mbappé,1,1
+748210,Arda Güler,1,1
+748214,Arda Güler,1,1
+748214,Kylian Mbappé,1,1
+748214,Jude Bellingham,0,1
+748228,Lamine Yamal,1,1
+748228,Fermín López,0,1
+748231,Jude Bellingham,1,1
+748231,Kylian Mbappé,1,1
+748231,Arda Güler,0,1
+748236,Arda Güler,1,1
+748236,Jude Bellingham,1,1
+748236,Kylian Mbappé,1,1
+748236,Fermín López,1,1
+748236,Lamine Yamal,1,1
+748254,Jude Bellingham,1,1
+748254,Arda Güler,1,1
+748254,Kylian Mbappé,1,1
+748297,Arda Güler,1,1
+748297,Jude Bellingham,1,1
+748297,Kylian Mbappé,1,1
+748299,Raphinha,1,1
+748299,Lamine Yamal,1,1
+748299,Fermín López,0,1
+748307,Jude Bellingham,1,1
+748307,Arda Güler,1,1
+748307,Kylian Mbappé,1,1
+748312,Fermín López,1,1
+748312,Raphinha,1,1
+748312,Lamine Yamal,1,1
+748315,Jude Bellingham,1,1
+748315,Arda Güler,0,1
+748319,Raphinha,1,1
+748319,Lamine Yamal,1,1
+748319,Fermín López,0,1
+748449,Fermín López,1,1
+748449,Lamine Yamal,1,1
+748453,Jude Bellingham,1,1
+748453,Kylian Mbappé,1,1
+748453,Arda Güler,0,1
+748457,Jude Bellingham,1,1
+748457,Kylian Mbappé,1,1
+748460,Fermín López,1,1
+748465,Lamine Yamal,1,1
+748465,Fermín López,0,1
+748471,Jude Bellingham,1,1
+748471,Arda Güler,1,1
+748471,Kylian Mbappé,1,1
+748475,Jude Bellingham,1,1
+748480,Fermín López,1,1
+748480,Raphinha,0,0
+748484,Fermín López,1,1
+748484,Raphinha,0,1
+748484,Jude Bellingham,1,1
+757671,Arda Güler,1,1
+757671,Kylian Mbappé,1,1
+757671,Jude Bellingham,0,1
+757687,Lamine Yamal,1,1
+757690,Fermín López,1,1
+757690,Lamine Yamal,1,1
+757705,Arda Güler,1,1
+757705,Jude Bellingham,1,1
+757705,Kylian Mbappé,1,1
+762534,Lamine Yamal,1,1
+762534,Fermín López,1,1
+762534,Raphinha,0,0
+762543,Arda Güler,1,1
+762543,Kylian Mbappé,1,1
+762543,Jude Bellingham,0,1
+401862891,Jude Bellingham,1,1
+401862891,Arda Güler,1,1
+401862891,Kylian Mbappé,1,1
+401862892,Fermín López,1,1
+401862892,Lamine Yamal,1,1
+401882839,Jude Bellingham,1,1
+401882839,Arda Güler,1,1
+401882839,Kylian Mbappé,1,1
+401882846,Fermín López,1,1
+401882846,Lamine Yamal,1,1
+401882846,Raphinha,0,1
+401882848,Jude Bellingham,1,1
+401882848,Kylian Mbappé,1,1
+401882848,Arda Güler,1,1
+401882853,Lamine Yamal,1,1
+401882853,Fermín López,0,1
+401882859,Fermín López,1,1
+401882859,Raphinha,1,1
+401882859,Lamine Yamal,1,1
+401882865,Jude Bellingham,1,1
+401882865,Kylian Mbappé,1,1
+401882865,Arda Güler,1,1
+401915313,Jude Bellingham,1,1
+401915313,Kylian Mbappé,1,1
+401915313,Arda Güler,1,1
+401915399,Raphinha,1,1
+401915399,Lamine Yamal,1,1
+401915399,Fermín López,0,1
+401915414,Jude Bellingham,1,1
+401915414,Kylian Mbappé,1,1
+401915414,Arda Güler,0,1
+401915435,Fermín López,1,1
+401915435,Lamine Yamal,1,1

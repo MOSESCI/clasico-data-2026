@@ -1,0 +1,596 @@
+club,date,competition,adversaire,domicile,neutre,buts_pour,buts_pour,buts_contre,buts_contre,xg_pour,xg_contre,espn_id,controle_wikipedia
+Barcelona,2021-08-15,Liga,Real Sociedad,1,False,4,4.0,2,2.0,3.46,0.9,610769,identique
+Barcelona,2021-08-21,Liga,Athletic Club,0,False,1,1.0,1,1.0,1.18,1.43,610750,identique
+Barcelona,2021-08-29,Liga,Getafe,1,False,2,2.0,1,1.0,1.05,0.28,610743,identique
+Barcelona,2021-09-14,Ligue des champions,Bayern Munich,1,False,0,0.0,3,3.0,,,618785,identique
+Barcelona,2021-09-20,Liga,Granada,1,False,1,1.0,1,1.0,1.88,0.61,610724,identique
+Barcelona,2021-09-23,Liga,Cádiz,0,False,0,0.0,0,0.0,0.36,1.4,610712,identique
+Barcelona,2021-09-26,Liga,Levante,1,False,3,3.0,0,0.0,3.11,0.71,610707,identique
+Barcelona,2021-09-29,Ligue des champions,Benfica,0,False,0,0.0,3,3.0,,,618760,identique
+Barcelona,2021-10-02,Liga,Atlético Madrid,0,False,0,0.0,2,2.0,0.75,1.37,610691,identique
+Barcelona,2021-10-17,Liga,Valencia,1,False,3,3.0,1,1.0,2.38,0.38,610689,identique
+Barcelona,2021-10-20,Ligue des champions,Dynamo Kyiv,1,False,1,1.0,0,0.0,,,618750,identique
+Barcelona,2021-10-24,Liga,Real Madrid,1,False,1,1.0,2,2.0,1.59,1.55,610677,identique
+Barcelona,2021-10-27,Liga,Rayo Vallecano,0,False,0,0.0,1,1.0,2.86,0.79,610662,identique
+Barcelona,2021-10-30,Liga,Alavés,1,False,1,1.0,1,1.0,1.56,0.6,610650,identique
+Barcelona,2021-11-02,Ligue des champions,Dynamo Kyiv,0,False,1,1.0,0,0.0,,,618736,identique
+Barcelona,2021-11-06,Liga,Celta Vigo,0,False,3,3.0,3,3.0,1.14,1.77,610641,identique
+Barcelona,2021-11-20,Liga,Espanyol,1,False,1,1.0,0,0.0,1.51,1.41,610633,identique
+Barcelona,2021-11-23,Ligue des champions,Benfica,1,False,0,0.0,0,0.0,,,618721,identique
+Barcelona,2021-11-27,Liga,Villarreal,0,False,3,3.0,1,1.0,3.37,1.56,610621,identique
+Barcelona,2021-12-04,Liga,Real Betis,1,False,0,0.0,1,1.0,1.21,0.64,610616,identique
+Barcelona,2021-12-08,Ligue des champions,Bayern Munich,0,False,0,0.0,3,3.0,,,618696,identique
+Barcelona,2021-12-12,Liga,Osasuna,0,False,2,2.0,2,2.0,1.39,0.37,610601,identique
+Barcelona,2021-12-18,Liga,Elche,1,False,3,3.0,2,2.0,2.96,1.27,610593,identique
+Barcelona,2021-12-21,Liga,Sevilla,0,False,1,1.0,1,1.0,1.91,0.3,610732,identique
+Barcelona,2022-01-02,Liga,Mallorca,0,False,1,1.0,0,0.0,1.62,0.99,610581,identique
+Barcelona,2022-01-05,Coupe du Roi,Linares Deportivo,0,False,2,2.0,1,1.0,,,623990,identique
+Barcelona,2022-01-08,Liga,Granada,0,False,1,1.0,1,1.0,0.97,0.75,610572,identique
+Barcelona,2022-01-12,Supercoupe d'Espagne,Real Madrid,1,True,2,2.0,3,3.0,,,609925,identique
+Barcelona,2022-01-20,Coupe du Roi,Athletic Club,0,False,2,2.0,3,3.0,,,627144,identique
+Barcelona,2022-01-23,Liga,Alavés,0,False,1,1.0,0,0.0,1.15,0.73,610551,identique
+Barcelona,2022-02-06,Liga,Atlético Madrid,1,False,4,4.0,2,2.0,0.93,1.61,610541,identique
+Barcelona,2022-02-13,Liga,Espanyol,0,False,2,2.0,2,2.0,1.62,0.62,610531,identique
+Barcelona,2022-02-17,Ligue Europa,Napoli,1,False,1,1.0,1,1.0,,,622965,identique
+Barcelona,2022-02-20,Liga,Valencia,0,False,4,4.0,1,1.0,2.47,0.77,610522,identique
+Barcelona,2022-02-24,Ligue Europa,Napoli,0,False,4,4.0,2,2.0,,,622955,identique
+Barcelona,2022-02-27,Liga,Athletic Club,1,False,4,4.0,0,0.0,3.24,0.33,610511,identique
+Barcelona,2022-03-06,Liga,Elche,0,False,2,2.0,1,1.0,4.09,0.85,610501,identique
+Barcelona,2022-03-10,Ligue Europa,Galatasaray,1,False,0,0.0,0,0.0,,,632485,identique
+Barcelona,2022-03-13,Liga,Osasuna,1,False,4,4.0,0,0.0,3.9,0.11,610496,identique
+Barcelona,2022-03-17,Ligue Europa,Galatasaray,0,False,2,2.0,1,1.0,,,632476,identique
+Barcelona,2022-03-20,Liga,Real Madrid,0,False,4,4.0,0,0.0,4.26,0.63,610481,identique
+Barcelona,2022-04-03,Liga,Sevilla,1,False,1,1.0,0,0.0,1.93,0.49,610478,identique
+Barcelona,2022-04-07,Ligue Europa,Eintracht Frankfurt,0,False,1,1.0,1,1.0,,,633253,identique
+Barcelona,2022-04-10,Liga,Levante,0,False,3,3.0,2,2.0,1.36,2.99,610463,identique
+Barcelona,2022-04-14,Ligue Europa,Eintracht Frankfurt,1,False,2,2.0,3,3.0,,,633249,identique
+Barcelona,2022-04-18,Liga,Cádiz,1,False,0,0.0,1,1.0,1.35,1.93,610450,identique
+Barcelona,2022-04-21,Liga,Real Sociedad,0,False,1,1.0,0,0.0,1.96,1.03,610442,identique
+Barcelona,2022-04-24,Liga,Rayo Vallecano,1,False,0,0.0,1,1.0,1.11,0.25,610565,identique
+Barcelona,2022-05-01,Liga,Mallorca,1,False,2,2.0,1,1.0,1.64,1.24,610435,identique
+Barcelona,2022-05-07,Liga,Real Betis,0,False,2,2.0,1,1.0,1.2,0.63,610421,identique
+Barcelona,2022-05-10,Liga,Celta Vigo,1,False,3,3.0,1,1.0,1.23,0.85,610413,identique
+Barcelona,2022-05-15,Liga,Getafe,0,False,0,0.0,0,0.0,0.2,0.24,610401,identique
+Barcelona,2022-05-22,Liga,Villarreal,1,False,0,0.0,2,2.0,0.63,0.69,610399,identique
+Barcelona,2022-08-13,Liga,Rayo Vallecano,1,False,0,0.0,0,0.0,1.37,0.77,643772,identique
+Barcelona,2022-08-21,Liga,Real Sociedad,0,False,4,4.0,1,1.0,2.04,0.8,643785,identique
+Barcelona,2022-08-28,Liga,Real Valladolid,1,False,4,4.0,0,0.0,3.29,0.72,643800,identique
+Barcelona,2022-09-03,Liga,Sevilla,0,False,3,3.0,0,0.0,4.68,0.83,643806,identique
+Barcelona,2022-09-07,Ligue des champions,Viktoria Plzen,1,False,5,5.0,1,1.0,,,652596,identique
+Barcelona,2022-09-10,Liga,Cádiz,0,False,4,4.0,0,0.0,2.67,0.25,643820,identique
+Barcelona,2022-09-13,Ligue des champions,Bayern Munich,0,False,0,0.0,2,2.0,,,652607,identique
+Barcelona,2022-09-17,Liga,Elche,1,False,3,3.0,0,0.0,5.18,0.01,643821,identique
+Barcelona,2022-10-01,Liga,Mallorca,0,False,1,1.0,0,0.0,0.64,0.93,643833,identique
+Barcelona,2022-10-04,Ligue des champions,Internazionale,0,False,0,0.0,1,1.0,,,652621,identique
+Barcelona,2022-10-09,Liga,Celta Vigo,1,False,1,1.0,0,0.0,1.98,1.35,643844,identique
+Barcelona,2022-10-12,Ligue des champions,Internazionale,1,False,3,3.0,3,3.0,,,652644,identique
+Barcelona,2022-10-16,Liga,Real Madrid,0,False,1,1.0,3,3.0,1.67,1.47,643856,identique
+Barcelona,2022-10-20,Liga,Villarreal,1,False,3,3.0,0,0.0,3.62,0.5,643866,identique
+Barcelona,2022-10-23,Liga,Athletic Club,1,False,4,4.0,0,0.0,2.14,0.24,643879,identique
+Barcelona,2022-10-26,Ligue des champions,Bayern Munich,1,False,0,0.0,3,3.0,,,652665,identique
+Barcelona,2022-10-29,Liga,Valencia,0,False,1,1.0,0,0.0,2.33,0.19,643885,identique
+Barcelona,2022-11-01,Ligue des champions,Viktoria Plzen,0,False,4,4.0,2,2.0,,,652673,identique
+Barcelona,2022-11-05,Liga,Almería,1,False,2,2.0,0,0.0,4.34,0.54,643894,identique
+Barcelona,2022-11-08,Liga,Osasuna,0,False,2,2.0,1,1.0,1.01,1.24,643905,identique
+Barcelona,2022-12-31,Liga,Espanyol,1,False,1,1.0,1,1.0,2.75,0.85,643912,identique
+Barcelona,2023-01-04,Coupe du Roi,CF Intercity,0,False,4,4.0,3,3.0,,,660265,identique
+Barcelona,2023-01-08,Liga,Atlético Madrid,0,False,1,1.0,0,0.0,1.24,1.94,643928,identique
+Barcelona,2023-01-12,Supercoupe d'Espagne,Real Betis,0,True,2,2.0,2,2.0,,,637511,identique
+Barcelona,2023-01-15,Supercoupe d'Espagne,Real Madrid,0,True,3,3.0,1,1.0,,,637513,identique
+Barcelona,2023-01-19,Coupe du Roi,Ceuta,0,False,5,5.0,0,0.0,,,661175,identique
+Barcelona,2023-01-22,Liga,Getafe,1,False,1,1.0,0,0.0,0.71,1.25,643950,identique
+Barcelona,2023-01-25,Coupe du Roi,Real Sociedad,1,False,1,1.0,0,0.0,,,663534,identique
+Barcelona,2023-01-28,Liga,Girona,0,False,1,1.0,0,0.0,0.98,0.89,643956,identique
+Barcelona,2023-02-01,Liga,Real Betis,0,False,2,2.0,1,1.0,2.38,0.76,643931,identique
+Barcelona,2023-02-05,Liga,Sevilla,1,False,3,3.0,0,0.0,3.1,0.04,643967,identique
+Barcelona,2023-02-12,Liga,Villarreal,0,False,1,1.0,0,0.0,1.38,1.05,643975,identique
+Barcelona,2023-02-16,Ligue Europa,Manchester United,1,False,2,2.0,2,2.0,,,656879,identique
+Barcelona,2023-02-19,Liga,Cádiz,1,False,2,2.0,0,0.0,2.29,1.4,643983,identique
+Barcelona,2023-02-23,Ligue Europa,Manchester United,0,False,1,1.0,2,2.0,,,656892,identique
+Barcelona,2023-02-26,Liga,Almería,0,False,0,0.0,1,1.0,1.16,0.83,643991,identique
+Barcelona,2023-03-02,Coupe du Roi,Real Madrid,0,False,1,1.0,0,0.0,,,664609,identique
+Barcelona,2023-03-05,Liga,Valencia,1,False,1,1.0,0,0.0,2.09,0.63,644003,identique
+Barcelona,2023-03-12,Liga,Athletic Club,0,False,1,1.0,0,0.0,0.72,1.14,644011,identique
+Barcelona,2023-03-19,Liga,Real Madrid,1,False,2,2.0,1,1.0,1.67,0.52,644023,identique
+Barcelona,2023-04-01,Liga,Elche,0,False,4,4.0,0,0.0,1.62,0.51,644038,identique
+Barcelona,2023-04-05,Coupe du Roi,Real Madrid,1,False,0,0.0,4,4.0,,,664612,identique
+Barcelona,2023-04-10,Liga,Girona,1,False,0,0.0,0,0.0,1.05,0.49,644042,identique
+Barcelona,2023-04-16,Liga,Getafe,0,False,0,0.0,0,0.0,1.05,0.62,644060,identique
+Barcelona,2023-04-23,Liga,Atlético Madrid,1,False,1,1.0,0,0.0,2.13,0.71,644068,identique
+Barcelona,2023-04-26,Liga,Rayo Vallecano,0,False,1,1.0,2,2.0,1.01,0.86,644079,identique
+Barcelona,2023-04-29,Liga,Real Betis,1,False,4,4.0,0,0.0,3.09,0.23,644089,identique
+Barcelona,2023-05-02,Liga,Osasuna,1,False,1,1.0,0,0.0,2.4,0.36,644095,identique
+Barcelona,2023-05-14,Liga,Espanyol,0,False,4,4.0,2,2.0,3.65,2.73,644108,identique
+Barcelona,2023-05-20,Liga,Real Sociedad,1,False,1,1.0,2,2.0,1.84,2.8,644119,identique
+Barcelona,2023-05-23,Liga,Real Valladolid,0,False,1,1.0,3,3.0,1.73,2.21,644127,identique
+Barcelona,2023-05-28,Liga,Mallorca,1,False,3,3.0,0,0.0,4.41,0.12,644137,identique
+Barcelona,2023-06-04,Liga,Celta Vigo,0,False,1,1.0,2,2.0,1.42,0.57,644141,identique
+Barcelona,2023-08-13,Liga,Getafe,0,False,0,0.0,0,0.0,1.68,0.8,674016,identique
+Barcelona,2023-08-20,Liga,Cádiz,1,False,2,2.0,0,0.0,3.43,1.11,674023,identique
+Barcelona,2023-08-27,Liga,Villarreal,0,False,4,4.0,3,3.0,2.96,1.87,674039,identique
+Barcelona,2023-09-03,Liga,Osasuna,0,False,2,2.0,1,1.0,1.77,0.8,674041,identique
+Barcelona,2023-09-16,Liga,Real Betis,1,False,5,5.0,0,0.0,2.55,0.85,674054,identique
+Barcelona,2023-09-19,Ligue des champions,Antwerp,1,False,5,5.0,0,0.0,,,687543,identique
+Barcelona,2023-09-23,Liga,Celta Vigo,1,False,3,3.0,2,2.0,1.82,1.68,674070,identique
+Barcelona,2023-09-26,Liga,Mallorca,0,False,2,2.0,2,2.0,1.63,1.21,674080,identique
+Barcelona,2023-09-29,Liga,Sevilla,1,False,1,1.0,0,0.0,2.56,1.08,674089,identique
+Barcelona,2023-10-04,Ligue des champions,FC Porto,0,False,1,1.0,0,0.0,,,687562,identique
+Barcelona,2023-10-08,Liga,Granada,0,False,2,2.0,2,2.0,3.0,0.61,674100,identique
+Barcelona,2023-10-22,Liga,Athletic Club,1,False,1,1.0,0,0.0,1.7,0.45,674101,identique
+Barcelona,2023-10-25,Ligue des champions,Shakhtar Donetsk,1,False,2,2.0,1,1.0,,,687577,identique
+Barcelona,2023-10-28,Liga,Real Madrid,1,False,1,1.0,2,2.0,1.32,0.96,674117,identique
+Barcelona,2023-11-04,Liga,Real Sociedad,0,False,1,1.0,0,0.0,1.22,0.85,674123,identique
+Barcelona,2023-11-07,Ligue des champions,Shakhtar Donetsk,0,False,0,0.0,1,1.0,,,687584,identique
+Barcelona,2023-11-12,Liga,Alavés,1,False,2,2.0,1,1.0,1.81,1.84,674134,identique
+Barcelona,2023-11-25,Liga,Rayo Vallecano,0,False,1,1.0,1,1.0,1.31,0.91,674146,identique
+Barcelona,2023-11-28,Ligue des champions,FC Porto,1,False,2,2.0,1,1.0,,,687607,identique
+Barcelona,2023-12-03,Liga,Atlético Madrid,1,False,1,1.0,0,0.0,3.19,1.0,674153,identique
+Barcelona,2023-12-10,Liga,Girona,1,False,2,2.0,4,4.0,4.25,2.94,674163,identique
+Barcelona,2023-12-13,Ligue des champions,Antwerp,0,False,2,2.0,3,3.0,,,687627,identique
+Barcelona,2023-12-16,Liga,Valencia,0,False,1,1.0,1,1.0,3.16,0.79,674180,identique
+Barcelona,2023-12-20,Liga,Almería,1,False,3,3.0,2,2.0,4.05,1.4,674184,identique
+Barcelona,2024-01-04,Liga,Las Palmas,0,False,2,2.0,1,1.0,2.36,0.97,674200,identique
+Barcelona,2024-01-07,Coupe du Roi,Barbastro,0,False,3,3.0,2,2.0,,,690923,identique
+Barcelona,2024-01-11,Supercoupe d'Espagne,Osasuna,1,True,2,2.0,0,0.0,,,689480,identique
+Barcelona,2024-01-14,Supercoupe d'Espagne,Real Madrid,0,True,1,1.0,4,4.0,,,695633,identique
+Barcelona,2024-01-18,Coupe du Roi,Unionistas de Salamanca,0,False,3,3.0,1,1.0,,,694662,identique
+Barcelona,2024-01-21,Liga,Real Betis,0,False,4,4.0,2,2.0,2.71,1.61,674214,identique
+Barcelona,2024-01-24,Coupe du Roi,Athletic Club,0,False,2,2.0,4,4.0,,,697130,identique
+Barcelona,2024-01-27,Liga,Villarreal,1,False,3,3.0,5,5.0,2.03,2.37,674228,identique
+Barcelona,2024-01-31,Liga,Osasuna,1,False,1,1.0,0,0.0,2.22,1.42,674209,identique
+Barcelona,2024-02-03,Liga,Alavés,0,False,3,3.0,1,1.0,1.56,1.05,674237,identique
+Barcelona,2024-02-11,Liga,Granada,1,False,3,3.0,3,3.0,2.52,1.2,674247,identique
+Barcelona,2024-02-17,Liga,Celta Vigo,0,False,2,2.0,1,1.0,1.5,0.64,674251,identique
+Barcelona,2024-02-21,Ligue des champions,Napoli,0,False,1,1.0,1,1.0,,,691517,identique
+Barcelona,2024-02-24,Liga,Getafe,1,False,4,4.0,0,0.0,2.65,0.32,674268,identique
+Barcelona,2024-03-03,Liga,Athletic Club,0,False,0,0.0,0,0.0,0.71,0.47,674279,identique
+Barcelona,2024-03-08,Liga,Mallorca,1,False,1,1.0,0,0.0,2.06,0.5,674287,identique
+Barcelona,2024-03-12,Ligue des champions,Napoli,1,False,3,3.0,1,1.0,,,691520,identique
+Barcelona,2024-03-17,Liga,Atlético Madrid,0,False,3,3.0,0,0.0,1.95,0.57,674292,identique
+Barcelona,2024-03-30,Liga,Las Palmas,1,False,1,1.0,0,0.0,1.73,0.31,674303,identique
+Barcelona,2024-04-10,Ligue des champions,Paris Saint-Germain,0,False,3,3.0,2,2.0,,,700717,identique
+Barcelona,2024-04-13,Liga,Cádiz,0,False,1,1.0,0,0.0,0.83,0.79,674319,identique
+Barcelona,2024-04-16,Ligue des champions,Paris Saint-Germain,1,False,1,1.0,4,4.0,,,700723,identique
+Barcelona,2024-04-21,Liga,Real Madrid,0,False,2,2.0,3,3.0,1.35,2.77,674330,identique
+Barcelona,2024-04-29,Liga,Valencia,1,False,4,4.0,2,2.0,2.6,1.49,674337,identique
+Barcelona,2024-05-04,Liga,Girona,0,False,2,2.0,4,4.0,2.61,2.32,674345,identique
+Barcelona,2024-05-13,Liga,Real Sociedad,1,False,2,2.0,0,0.0,1.66,0.8,674356,identique
+Barcelona,2024-05-16,Liga,Almería,0,False,2,2.0,0,0.0,2.13,1.04,674363,identique
+Barcelona,2024-05-19,Liga,Rayo Vallecano,1,False,3,3.0,0,0.0,1.7,1.69,674378,identique
+Barcelona,2024-05-26,Liga,Sevilla,0,False,2,2.0,1,1.0,1.48,1.96,674387,identique
+Barcelona,2024-08-17,Liga,Valencia,0,False,2,2.0,1,1.0,3.49,1.55,704668,identique
+Barcelona,2024-08-24,Liga,Athletic Club,1,False,2,2.0,1,1.0,2.42,1.1,704672,identique
+Barcelona,2024-08-27,Liga,Rayo Vallecano,0,False,2,2.0,1,1.0,1.52,0.39,704685,identique
+Barcelona,2024-08-31,Liga,Real Valladolid,1,False,7,7.0,0,0.0,4.94,0.42,704692,identique
+Barcelona,2024-09-15,Liga,Girona,0,False,4,4.0,1,1.0,2.59,1.1,704703,identique
+Barcelona,2024-09-19,Ligue des champions,AS Monaco,0,False,1,1.0,2,2.0,,,720434,identique
+Barcelona,2024-09-22,Liga,Villarreal,0,False,5,5.0,1,1.0,4.19,2.4,704711,identique
+Barcelona,2024-09-25,Liga,Getafe,1,False,1,1.0,0,0.0,2.21,0.93,704720,identique
+Barcelona,2024-09-28,Liga,Osasuna,0,False,2,2.0,4,4.0,0.75,2.5,704739,identique
+Barcelona,2024-10-01,Ligue des champions,Young Boys,1,False,5,5.0,0,0.0,,,720442,identique
+Barcelona,2024-10-06,Liga,Alavés,0,False,3,3.0,0,0.0,2.49,0.79,704740,identique
+Barcelona,2024-10-20,Liga,Sevilla,1,False,5,5.0,1,1.0,4.09,0.6,704753,identique
+Barcelona,2024-10-23,Ligue des champions,Bayern Munich,1,False,4,4.0,1,1.0,,,720372,identique
+Barcelona,2024-10-26,Liga,Real Madrid,0,False,4,4.0,0,0.0,2.52,1.4,704766,identique
+Barcelona,2024-11-03,Liga,Espanyol,1,False,3,3.0,1,1.0,1.94,0.79,704773,identique
+Barcelona,2024-11-06,Ligue des champions,Red Star Belgrade,0,False,5,5.0,2,2.0,,,720385,identique
+Barcelona,2024-11-10,Liga,Real Sociedad,0,False,0,0.0,1,1.0,0.51,1.89,704786,identique
+Barcelona,2024-11-23,Liga,Celta Vigo,0,False,2,2.0,2,2.0,1.94,2.76,704792,identique
+Barcelona,2024-11-26,Ligue des champions,Brest,1,False,3,3.0,0,0.0,,,720394,identique
+Barcelona,2024-11-30,Liga,Las Palmas,1,False,1,1.0,2,2.0,2.18,0.6,704801,identique
+Barcelona,2024-12-03,Liga,Mallorca,0,False,5,5.0,1,1.0,5.38,0.92,704844,identique
+Barcelona,2024-12-07,Liga,Real Betis,0,False,2,2.0,2,2.0,1.54,2.76,704818,identique
+Barcelona,2024-12-11,Ligue des champions,Borussia Dortmund,0,False,3,3.0,2,2.0,,,720322,identique
+Barcelona,2024-12-15,Liga,Leganés,1,False,0,0.0,1,1.0,2.17,0.77,704822,identique
+Barcelona,2024-12-21,Liga,Atlético Madrid,1,False,1,1.0,2,2.0,3.37,0.71,704830,identique
+Barcelona,2025-01-04,Coupe du Roi,Barbastro,0,False,4,4.0,0,0.0,,,724693,identique
+Barcelona,2025-01-08,Supercoupe d'Espagne,Athletic Club,0,True,2,2.0,0,0.0,,,712533,identique
+Barcelona,2025-01-12,Supercoupe d'Espagne,Real Madrid,0,True,5,5.0,2,2.0,,,712534,identique
+Barcelona,2025-01-15,Coupe du Roi,Real Betis,1,False,5,5.0,1,1.0,,,729687,identique
+Barcelona,2025-01-18,Liga,Getafe,0,False,1,1.0,1,1.0,3.5,1.17,704851,identique
+Barcelona,2025-01-21,Ligue des champions,Benfica,0,False,5,5.0,4,4.0,,,720334,identique
+Barcelona,2025-01-26,Liga,Valencia,1,False,7,7.0,1,1.0,4.36,1.3,704863,identique
+Barcelona,2025-01-29,Ligue des champions,Atalanta,1,False,2,2.0,2,2.0,,,720362,identique
+Barcelona,2025-02-02,Liga,Alavés,1,False,1,1.0,0,0.0,1.19,0.13,704871,identique
+Barcelona,2025-02-06,Coupe du Roi,Valencia,0,False,5,5.0,0,0.0,,,730975,identique
+Barcelona,2025-02-09,Liga,Sevilla,0,False,4,4.0,1,1.0,1.93,0.92,704888,identique
+Barcelona,2025-02-17,Liga,Rayo Vallecano,1,False,1,1.0,0,0.0,2.83,1.31,704891,identique
+Barcelona,2025-02-22,Liga,Las Palmas,0,False,2,2.0,0,0.0,1.66,0.43,704909,identique
+Barcelona,2025-02-25,Coupe du Roi,Atlético Madrid,1,False,4,4.0,4,4.0,,,732586,identique
+Barcelona,2025-03-02,Liga,Real Sociedad,1,False,4,4.0,0,0.0,3.64,0.0,704911,identique
+Barcelona,2025-03-05,Ligue des champions,Benfica,0,False,1,1.0,0,0.0,,,733143,identique
+Barcelona,2025-03-11,Ligue des champions,Benfica,1,False,3,3.0,1,1.0,,,733144,identique
+Barcelona,2025-03-16,Liga,Atlético Madrid,0,False,4,4.0,2,2.0,2.16,1.09,704930,identique
+Barcelona,2025-03-27,Liga,Osasuna,1,False,3,3.0,0,0.0,4.64,0.53,704922,identique
+Barcelona,2025-03-30,Liga,Girona,1,False,4,4.0,1,1.0,2.75,0.49,704942,identique
+Barcelona,2025-04-02,Coupe du Roi,Atlético Madrid,0,False,1,1.0,0,0.0,,,732588,identique
+Barcelona,2025-04-05,Liga,Real Betis,1,False,1,1.0,1,1.0,1.47,0.25,704958,identique
+Barcelona,2025-04-09,Ligue des champions,Borussia Dortmund,1,False,4,4.0,0,0.0,,,733610,identique
+Barcelona,2025-04-12,Liga,Leganés,0,False,1,1.0,0,0.0,1.1,0.6,704962,identique
+Barcelona,2025-04-15,Ligue des champions,Borussia Dortmund,0,False,1,1.0,3,3.0,,,733614,identique
+Barcelona,2025-04-19,Liga,Celta Vigo,1,False,4,4.0,3,3.0,2.57,2.5,704970,identique
+Barcelona,2025-04-22,Liga,Mallorca,1,False,1,1.0,0,0.0,3.43,0.33,704988,identique
+Barcelona,2025-04-26,Coupe du Roi,Real Madrid,1,True,3,3.0,2,2.0,,,735156,identique
+Barcelona,2025-04-30,Ligue des champions,Internazionale,1,False,3,3.0,3,3.0,,,733617,identique
+Barcelona,2025-05-03,Liga,Real Valladolid,0,False,2,2.0,1,1.0,2.21,0.75,704996,identique
+Barcelona,2025-05-06,Ligue des champions,Internazionale,0,False,3,3.0,4,4.0,,,733619,identique
+Barcelona,2025-05-11,Liga,Real Madrid,1,False,4,4.0,3,3.0,4.11,2.56,705002,identique
+Barcelona,2025-05-15,Liga,Espanyol,0,False,2,2.0,0,0.0,0.74,1.52,705018,identique
+Barcelona,2025-05-18,Liga,Villarreal,1,False,2,2.0,3,3.0,1.57,1.96,705021,identique
+Barcelona,2025-05-25,Liga,Athletic Club,0,False,3,3.0,0,0.0,3.36,0.75,705035,identique
+Barcelona,2025-08-16,Liga,Mallorca,0,False,3,3.0,0,0.0,2.02,0.53,748153,identique
+Barcelona,2025-08-23,Liga,Levante,0,False,3,3.0,2,2.0,2.48,2.69,748162,identique
+Barcelona,2025-08-31,Liga,Rayo Vallecano,0,False,1,1.0,1,1.0,2.36,1.87,748165,identique
+Barcelona,2025-09-14,Liga,Valencia,1,False,6,6.0,0,0.0,3.46,0.12,748180,identique
+Barcelona,2025-09-18,Ligue des champions,Newcastle United,0,False,2,2.0,1,1.0,,,757669,identique
+Barcelona,2025-09-21,Liga,Getafe,1,False,3,3.0,0,0.0,2.96,0.22,748191,identique
+Barcelona,2025-09-25,Liga,Real Oviedo,0,False,3,3.0,1,1.0,2.07,1.45,748202,identique
+Barcelona,2025-09-28,Liga,Real Sociedad,1,False,2,2.0,1,1.0,3.01,0.96,748208,identique
+Barcelona,2025-10-01,Ligue des champions,Paris Saint-Germain,1,False,1,1.0,2,2.0,,,757687,identique
+Barcelona,2025-10-05,Liga,Sevilla,0,False,1,1.0,4,4.0,2.48,2.89,748215,identique
+Barcelona,2025-10-18,Liga,Girona,1,False,2,2.0,1,1.0,2.42,1.69,748228,identique
+Barcelona,2025-10-21,Ligue des champions,Olympiacos,1,False,6,6.0,1,1.0,,,757690,identique
+Barcelona,2025-10-26,Liga,Real Madrid,0,False,1,1.0,2,2.0,1.12,3.41,748236,identique
+Barcelona,2025-11-02,Liga,Elche,1,False,3,3.0,1,1.0,2.81,0.55,748247,identique
+Barcelona,2025-11-05,Ligue des champions,Club Brugge,0,False,3,3.0,3,3.0,,,757723,identique
+Barcelona,2025-11-09,Liga,Celta Vigo,0,False,4,4.0,2,2.0,3.43,0.51,748260,identique
+Barcelona,2025-11-22,Liga,Athletic Club,1,False,4,4.0,0,0.0,2.33,1.05,748272,identique
+Barcelona,2025-11-25,Ligue des champions,Chelsea,0,False,0,0.0,3,3.0,,,757732,identique
+Barcelona,2025-11-29,Liga,Alavés,1,False,3,3.0,1,1.0,2.51,2.09,748282,identique
+Barcelona,2025-12-02,Liga,Atlético Madrid,1,False,3,3.0,1,1.0,3.46,1.35,748331,identique
+Barcelona,2025-12-06,Liga,Real Betis,0,False,5,5.0,3,3.0,3.3,2.74,748289,identique
+Barcelona,2025-12-09,Ligue des champions,Eintracht Frankfurt,1,False,2,2.0,1,1.0,,,757746,identique
+Barcelona,2025-12-13,Liga,Osasuna,1,False,2,2.0,0,0.0,2.14,0.23,748299,identique
+Barcelona,2025-12-16,Coupe du Roi,CD Guadalajara,0,False,2,2.0,0,0.0,,,762534,identique
+Barcelona,2025-12-21,Liga,Villarreal,0,False,2,2.0,0,0.0,3.27,2.16,748312,identique
+Barcelona,2026-01-03,Liga,Espanyol,0,False,2,2.0,0,0.0,2.94,1.8,748319,identique
+Barcelona,2026-01-07,Supercoupe d'Espagne,Athletic Club,1,True,5,5.0,0,0.0,,,748115,identique
+Barcelona,2026-01-11,Supercoupe d'Espagne,Real Madrid,1,True,3,3.0,2,2.0,,,748117,identique
+Barcelona,2026-01-15,Coupe du Roi,Racing Santander,0,False,2,2.0,0,0.0,,,401846959,identique
+Barcelona,2026-01-18,Liga,Real Sociedad,0,False,1,1.0,2,2.0,3.92,1.56,748343,identique
+Barcelona,2026-01-21,Ligue des champions,Slavia Prague,0,False,4,4.0,2,2.0,,,757778,identique
+Barcelona,2026-01-25,Liga,Real Oviedo,1,False,3,3.0,0,0.0,2.6,0.49,748346,identique
+Barcelona,2026-01-28,Ligue des champions,F.C. København,1,False,4,4.0,1,1.0,,,757783,identique
+Barcelona,2026-01-31,Liga,Elche,0,False,3,3.0,1,1.0,7.11,0.84,748354,identique
+Barcelona,2026-02-03,Coupe du Roi,Albacete,0,False,2,2.0,1,1.0,,,401856363,identique
+Barcelona,2026-02-07,Liga,Mallorca,1,False,3,3.0,0,0.0,2.48,1.01,748370,identique
+Barcelona,2026-02-12,Coupe du Roi,Atlético Madrid,0,False,0,0.0,4,4.0,,,401859849,identique
+Barcelona,2026-02-16,Liga,Girona,0,False,1,1.0,2,2.0,2.7,2.89,748381,identique
+Barcelona,2026-02-22,Liga,Levante,1,False,3,3.0,0,0.0,4.24,0.6,748391,identique
+Barcelona,2026-02-28,Liga,Villarreal,1,False,4,4.0,1,1.0,3.55,1.36,748402,identique
+Barcelona,2026-03-03,Coupe du Roi,Atlético Madrid,1,False,3,3.0,0,0.0,,,401859850,identique
+Barcelona,2026-03-07,Liga,Athletic Club,0,False,1,1.0,0,0.0,0.56,1.05,748409,identique
+Barcelona,2026-03-10,Ligue des champions,Newcastle United,0,False,1,1.0,1,1.0,,,401862577,identique
+Barcelona,2026-03-15,Liga,Sevilla,1,False,5,5.0,2,2.0,3.86,1.04,748415,identique
+Barcelona,2026-03-18,Ligue des champions,Newcastle United,1,False,7,7.0,2,2.0,,,401862582,identique
+Barcelona,2026-03-22,Liga,Rayo Vallecano,1,False,1,1.0,0,0.0,1.92,2.2,748432,identique
+Barcelona,2026-04-04,Liga,Atlético Madrid,0,False,2,2.0,1,1.0,2.69,0.92,748434,identique
+Barcelona,2026-04-08,Ligue des champions,Atlético Madrid,1,False,0,0.0,2,2.0,,,401862887,identique
+Barcelona,2026-04-11,Liga,Espanyol,1,False,4,4.0,1,1.0,3.31,1.13,748449,identique
+Barcelona,2026-04-14,Ligue des champions,Atlético Madrid,0,False,2,2.0,1,1.0,,,401862892,identique
+Barcelona,2026-04-22,Liga,Celta Vigo,1,False,1,1.0,0,0.0,1.54,1.07,748465,identique
+Barcelona,2026-04-25,Liga,Getafe,0,False,2,2.0,0,0.0,2.05,0.61,748460,identique
+Barcelona,2026-05-02,Liga,Osasuna,0,False,2,2.0,1,1.0,1.57,1.29,748480,identique
+Barcelona,2026-05-10,Liga,Real Madrid,1,False,2,2.0,0,0.0,1.72,0.56,748484,identique
+Barcelona,2026-05-13,Liga,Alavés,0,False,0,0.0,1,1.0,0.36,0.95,748498,identique
+Barcelona,2026-05-17,Liga,Real Betis,1,False,3,3.0,1,1.0,1.6,0.99,748508,identique
+Barcelona,2026-05-23,Liga,Valencia,0,False,1,1.0,3,3.0,1.29,1.83,748519,identique
+Barcelona,2026-08-23,Liga,Elche,0,False,5,5.0,0,0.0,4.25,1.18,401882913,identique
+Barcelona,2026-08-27,Liga,Athletic Club,1,False,2,2.0,0,0.0,3.92,0.22,401882921,identique
+Barcelona,2026-08-31,Liga,Rayo Vallecano,1,False,5,5.0,2,2.0,2.96,1.07,401882903,identique
+Barcelona,2026-09-06,Liga,Valencia,0,False,5,5.0,0,0.0,4.77,0.52,401882888,identique
+Barcelona,2026-09-09,Ligue des champions,Feyenoord Rotterdam,1,False,5,,1,,,,401915424,absent
+Barcelona,2026-09-13,Liga,Levante,0,False,4,4.0,2,2.0,2.47,2.67,401882883,identique
+Barcelona,2026-09-16,Liga,Racing Santander,1,False,7,7.0,2,2.0,7.48,1.38,401882871,identique
+Barcelona,2026-09-19,Liga,Sevilla,0,False,3,3.0,1,1.0,3.56,0.76,401882859,identique
+Barcelona,2026-10-10,Liga,Getafe,1,False,3,3.0,0,0.0,2.91,0.14,401882853,identique
+Barcelona,2026-10-13,Ligue des champions,Galatasaray,0,False,4,,1,,,,401915435,absent
+Barcelona,2026-10-17,Liga,Real Betis,0,False,5,5.0,2,2.0,3.19,1.35,401882846,identique
+Barcelona,2026-10-20,Ligue des champions,Paris Saint-Germain,0,False,2,,4,,,,401915399,absent
+Real Madrid,2021-08-14,Liga,Alavés,0,False,4,4.0,1,1.0,2.16,1.41,610768,identique
+Real Madrid,2021-08-22,Liga,Levante,0,False,3,3.0,3,3.0,2.14,1.64,610756,identique
+Real Madrid,2021-08-28,Liga,Real Betis,0,False,1,1.0,0,0.0,0.94,0.42,610747,identique
+Real Madrid,2021-09-12,Liga,Celta Vigo,1,False,5,5.0,2,2.0,3.04,1.99,610733,identique
+Real Madrid,2021-09-15,Ligue des champions,Internazionale,0,False,1,1.0,0,0.0,,,618781,identique
+Real Madrid,2021-09-19,Liga,Valencia,0,False,2,2.0,1,1.0,1.36,0.65,610727,identique
+Real Madrid,2021-09-22,Liga,Mallorca,1,False,6,6.0,1,1.0,2.37,1.19,610715,identique
+Real Madrid,2021-09-25,Liga,Villarreal,1,False,0,0.0,0,0.0,1.54,0.67,610709,identique
+Real Madrid,2021-09-28,Ligue des champions,Sheriff Tiraspol,1,False,1,1.0,2,2.0,,,618770,identique
+Real Madrid,2021-10-03,Liga,Espanyol,0,False,1,1.0,2,2.0,1.62,1.29,610696,identique
+Real Madrid,2021-10-19,Ligue des champions,Shakhtar Donetsk,0,False,5,5.0,0,0.0,,,618757,identique
+Real Madrid,2021-10-24,Liga,Barcelona,0,False,2,2.0,1,1.0,1.55,1.59,610677,identique
+Real Madrid,2021-10-27,Liga,Osasuna,1,False,0,0.0,0,0.0,0.66,0.71,610666,identique
+Real Madrid,2021-10-30,Liga,Elche,0,False,2,2.0,1,1.0,1.61,1.15,610658,identique
+Real Madrid,2021-11-03,Ligue des champions,Shakhtar Donetsk,1,False,2,2.0,1,1.0,,,618735,identique
+Real Madrid,2021-11-06,Liga,Rayo Vallecano,1,False,2,2.0,1,1.0,2.73,1.78,610647,identique
+Real Madrid,2021-11-21,Liga,Granada,0,False,4,4.0,1,1.0,3.78,0.56,610637,identique
+Real Madrid,2021-11-24,Ligue des champions,Sheriff Tiraspol,0,False,3,3.0,0,0.0,,,618717,identique
+Real Madrid,2021-11-28,Liga,Sevilla,1,False,2,2.0,1,1.0,1.25,1.3,610629,identique
+Real Madrid,2021-12-01,Liga,Athletic Club,1,False,1,1.0,0,0.0,1.61,2.7,610680,identique
+Real Madrid,2021-12-04,Liga,Real Sociedad,0,False,2,2.0,0,0.0,2.19,0.59,610617,identique
+Real Madrid,2021-12-07,Ligue des champions,Internazionale,1,False,2,2.0,0,0.0,,,618707,identique
+Real Madrid,2021-12-12,Liga,Atlético Madrid,1,False,2,2.0,0,0.0,0.59,0.77,610600,identique
+Real Madrid,2021-12-19,Liga,Cádiz,1,False,0,0.0,0,0.0,2.8,0.24,610592,identique
+Real Madrid,2021-12-22,Liga,Athletic Club,0,False,2,2.0,1,1.0,1.59,1.09,610566,identique
+Real Madrid,2022-01-02,Liga,Getafe,0,False,0,0.0,1,1.0,0.91,0.9,610587,identique
+Real Madrid,2022-01-05,Coupe du Roi,Alcoyano,0,False,3,3.0,1,1.0,,,623999,identique
+Real Madrid,2022-01-08,Liga,Valencia,1,False,4,4.0,1,1.0,4.11,1.12,610579,identique
+Real Madrid,2022-01-12,Supercoupe d'Espagne,Barcelona,0,True,3,3.0,2,2.0,,,609925,identique
+Real Madrid,2022-01-16,Supercoupe d'Espagne,Athletic Club,0,True,2,2.0,0,0.0,,,609923,identique
+Real Madrid,2022-01-20,Coupe du Roi,Elche,0,False,2,2.0,1,1.0,,,627145,identique
+Real Madrid,2022-01-23,Liga,Elche,1,False,2,2.0,2,2.0,3.83,0.73,610554,identique
+Real Madrid,2022-02-03,Coupe du Roi,Athletic Club,0,False,0,0.0,1,1.0,,,629172,identique
+Real Madrid,2022-02-06,Liga,Granada,1,False,1,1.0,0,0.0,1.47,0.4,610544,identique
+Real Madrid,2022-02-12,Liga,Villarreal,0,False,0,0.0,0,0.0,2.11,0.46,610538,identique
+Real Madrid,2022-02-15,Ligue des champions,Paris Saint-Germain,0,False,0,0.0,1,1.0,,,623001,identique
+Real Madrid,2022-02-19,Liga,Alavés,1,False,3,3.0,0,0.0,3.02,0.64,610520,identique
+Real Madrid,2022-02-26,Liga,Rayo Vallecano,0,False,1,1.0,0,0.0,1.93,1.2,610518,identique
+Real Madrid,2022-03-05,Liga,Real Sociedad,1,False,4,4.0,1,1.0,2.09,0.74,610507,identique
+Real Madrid,2022-03-09,Ligue des champions,Paris Saint-Germain,1,False,3,3.0,1,1.0,,,622990,identique
+Real Madrid,2022-03-14,Liga,Mallorca,0,False,3,3.0,0,0.0,1.82,1.18,610497,identique
+Real Madrid,2022-03-20,Liga,Barcelona,1,False,0,0.0,4,4.0,0.63,4.26,610481,identique
+Real Madrid,2022-04-02,Liga,Celta Vigo,0,False,2,2.0,1,1.0,2.95,1.07,610477,identique
+Real Madrid,2022-04-06,Ligue des champions,Chelsea,0,False,3,3.0,1,1.0,,,633247,identique
+Real Madrid,2022-04-09,Liga,Getafe,1,False,2,2.0,0,0.0,1.62,0.41,610465,identique
+Real Madrid,2022-04-12,Ligue des champions,Chelsea,1,False,2,2.0,3,3.0,,,633241,identique
+Real Madrid,2022-04-17,Liga,Sevilla,0,False,3,3.0,2,2.0,1.54,1.17,610458,identique
+Real Madrid,2022-04-20,Liga,Osasuna,0,False,3,3.0,1,1.0,4.6,0.87,610447,identique
+Real Madrid,2022-04-26,Ligue des champions,Manchester City,0,False,3,3.0,4,4.0,,,634246,identique
+Real Madrid,2022-04-30,Liga,Espanyol,1,False,4,4.0,0,0.0,2.32,1.64,610433,identique
+Real Madrid,2022-05-04,Ligue des champions,Manchester City,1,False,3,3.0,1,1.0,,,634249,identique
+Real Madrid,2022-05-08,Liga,Atlético Madrid,0,False,0,0.0,1,1.0,1.14,2.45,610426,identique
+Real Madrid,2022-05-12,Liga,Levante,1,False,6,6.0,0,0.0,4.9,0.7,610416,identique
+Real Madrid,2022-05-15,Liga,Cádiz,0,False,1,1.0,1,1.0,1.92,2.67,610406,identique
+Real Madrid,2022-05-20,Liga,Real Betis,1,False,0,0.0,0,0.0,1.82,1.44,610398,identique
+Real Madrid,2022-05-28,Ligue des champions,Liverpool,0,False,1,1.0,0,0.0,,,634861,identique
+Real Madrid,2022-08-10,Supercoupe d'Europe,Eintracht Frankfurt,1,True,2,2.0,0,0.0,,,635831,identique
+Real Madrid,2022-08-14,Liga,Almería,0,False,2,2.0,1,1.0,3.11,0.8,643779,identique
+Real Madrid,2022-08-20,Liga,Celta Vigo,0,False,4,4.0,1,1.0,3.6,1.32,643790,identique
+Real Madrid,2022-08-28,Liga,Espanyol,0,False,3,3.0,1,1.0,2.05,1.63,643797,identique
+Real Madrid,2022-09-03,Liga,Real Betis,1,False,2,2.0,1,1.0,3.21,0.33,643808,identique
+Real Madrid,2022-09-06,Ligue des champions,Celtic,0,False,3,3.0,0,0.0,,,652590,identique
+Real Madrid,2022-09-11,Liga,Mallorca,1,False,4,4.0,1,1.0,2.22,0.95,643814,identique
+Real Madrid,2022-09-14,Ligue des champions,RB Leipzig,1,False,2,2.0,0,0.0,,,652613,identique
+Real Madrid,2022-09-18,Liga,Atlético Madrid,0,False,2,2.0,1,1.0,1.09,1.1,643829,identique
+Real Madrid,2022-10-02,Liga,Osasuna,1,False,1,1.0,1,1.0,2.56,0.47,643840,identique
+Real Madrid,2022-10-05,Ligue des champions,Shakhtar Donetsk,1,False,2,2.0,1,1.0,,,652633,identique
+Real Madrid,2022-10-08,Liga,Getafe,0,False,1,1.0,0,0.0,1.48,0.26,643841,identique
+Real Madrid,2022-10-11,Ligue des champions,Shakhtar Donetsk,0,False,1,1.0,1,1.0,,,652641,identique
+Real Madrid,2022-10-16,Liga,Barcelona,1,False,3,3.0,1,1.0,1.47,1.67,643856,identique
+Real Madrid,2022-10-19,Liga,Elche,0,False,3,3.0,0,0.0,1.62,1.05,643868,identique
+Real Madrid,2022-10-22,Liga,Sevilla,1,False,3,3.0,1,1.0,2.18,0.52,643874,identique
+Real Madrid,2022-10-25,Ligue des champions,RB Leipzig,0,False,2,2.0,3,3.0,,,652655,identique
+Real Madrid,2022-10-30,Liga,Girona,1,False,1,1.0,1,1.0,2.66,2.0,643881,identique
+Real Madrid,2022-11-02,Ligue des champions,Celtic,1,False,5,5.0,1,1.0,,,652675,identique
+Real Madrid,2022-11-07,Liga,Rayo Vallecano,0,False,2,2.0,3,3.0,2.21,1.66,643898,identique
+Real Madrid,2022-11-10,Liga,Cádiz,1,False,2,2.0,1,1.0,1.73,1.12,643908,identique
+Real Madrid,2022-12-30,Liga,Real Valladolid,0,False,2,2.0,0,0.0,2.53,0.54,643919,identique
+Real Madrid,2023-01-03,Coupe du Roi,Cacereno,0,False,1,1.0,0,0.0,,,660263,identique
+Real Madrid,2023-01-07,Liga,Villarreal,0,False,1,1.0,2,2.0,2.17,2.42,643930,identique
+Real Madrid,2023-01-11,Supercoupe d'Espagne,Valencia,1,True,1,1.0,1,1.0,,,637512,identique
+Real Madrid,2023-01-15,Supercoupe d'Espagne,Barcelona,1,True,1,1.0,3,3.0,,,637513,identique
+Real Madrid,2023-01-19,Coupe du Roi,Villarreal,0,False,3,3.0,2,2.0,,,661177,identique
+Real Madrid,2023-01-22,Liga,Athletic Club,0,False,2,2.0,0,0.0,0.95,1.16,643941,identique
+Real Madrid,2023-01-26,Coupe du Roi,Atlético Madrid,1,False,3,3.0,1,1.0,,,663536,identique
+Real Madrid,2023-01-29,Liga,Real Sociedad,1,False,0,0.0,0,0.0,1.4,0.37,643954,identique
+Real Madrid,2023-02-02,Liga,Valencia,1,False,2,2.0,0,0.0,2.6,0.21,643932,identique
+Real Madrid,2023-02-05,Liga,Mallorca,0,False,0,0.0,1,1.0,1.4,0.24,643963,identique
+Real Madrid,2023-02-08,Mondial des clubs,Al Ahly,0,True,4,4.0,1,1.0,,,664848,identique
+Real Madrid,2023-02-11,Mondial des clubs,Al Hilal,1,True,5,5.0,3,3.0,,,665265,identique
+Real Madrid,2023-02-18,Liga,Osasuna,0,False,2,2.0,0,0.0,1.86,0.4,643990,identique
+Real Madrid,2023-02-21,Ligue des champions,Liverpool,0,False,5,5.0,2,2.0,,,656856,identique
+Real Madrid,2023-02-25,Liga,Atlético Madrid,1,False,1,1.0,1,1.0,1.56,0.22,643994,identique
+Real Madrid,2023-03-02,Coupe du Roi,Barcelona,1,False,0,0.0,1,1.0,,,664609,identique
+Real Madrid,2023-03-05,Liga,Real Betis,0,False,0,0.0,0,0.0,1.14,0.59,644008,identique
+Real Madrid,2023-03-11,Liga,Espanyol,1,False,3,3.0,1,1.0,1.78,1.1,644017,identique
+Real Madrid,2023-03-15,Ligue des champions,Liverpool,1,False,1,1.0,0,0.0,,,656864,identique
+Real Madrid,2023-03-19,Liga,Barcelona,0,False,1,1.0,2,2.0,0.52,1.67,644023,identique
+Real Madrid,2023-04-02,Liga,Real Valladolid,1,False,6,6.0,0,0.0,4.83,0.72,644032,identique
+Real Madrid,2023-04-05,Coupe du Roi,Barcelona,0,False,4,4.0,0,0.0,,,664612,identique
+Real Madrid,2023-04-08,Liga,Villarreal,1,False,2,2.0,3,3.0,2.23,1.24,644047,identique
+Real Madrid,2023-04-12,Ligue des champions,Chelsea,1,False,2,2.0,0,0.0,,,667469,identique
+Real Madrid,2023-04-15,Liga,Cádiz,0,False,2,2.0,0,0.0,4.49,0.58,644054,identique
+Real Madrid,2023-04-18,Ligue des champions,Chelsea,0,False,2,2.0,0,0.0,,,667471,identique
+Real Madrid,2023-04-22,Liga,Celta Vigo,1,False,2,2.0,0,0.0,1.81,0.74,644064,identique
+Real Madrid,2023-04-25,Liga,Girona,0,False,2,2.0,4,4.0,1.63,2.42,644075,identique
+Real Madrid,2023-04-29,Liga,Almería,1,False,4,4.0,2,2.0,3.21,1.38,644084,identique
+Real Madrid,2023-05-02,Liga,Real Sociedad,0,False,0,0.0,2,2.0,0.87,2.26,644092,identique
+Real Madrid,2023-05-06,Coupe du Roi,Osasuna,1,False,2,2.0,1,1.0,,,668069,identique
+Real Madrid,2023-05-09,Ligue des champions,Manchester City,1,False,1,1.0,1,1.0,,,668473,identique
+Real Madrid,2023-05-13,Liga,Getafe,1,False,1,1.0,0,0.0,0.88,0.59,644105,identique
+Real Madrid,2023-05-17,Ligue des champions,Manchester City,0,False,0,0.0,4,4.0,,,668475,identique
+Real Madrid,2023-05-21,Liga,Valencia,0,False,0,0.0,1,1.0,2.09,1.49,644118,identique
+Real Madrid,2023-05-24,Liga,Rayo Vallecano,1,False,2,2.0,1,1.0,1.66,0.45,644125,identique
+Real Madrid,2023-05-27,Liga,Sevilla,0,False,2,2.0,1,1.0,0.82,0.98,644138,identique
+Real Madrid,2023-06-04,Liga,Athletic Club,1,False,1,1.0,1,1.0,1.72,2.18,644147,identique
+Real Madrid,2023-08-12,Liga,Athletic Club,0,False,2,2.0,0,0.0,1.33,0.7,674012,identique
+Real Madrid,2023-08-19,Liga,Almería,0,False,3,3.0,1,1.0,2.88,1.81,674022,identique
+Real Madrid,2023-08-25,Liga,Celta Vigo,0,False,1,1.0,0,0.0,1.62,1.18,674032,identique
+Real Madrid,2023-09-02,Liga,Getafe,1,False,2,2.0,1,1.0,2.65,0.89,674043,identique
+Real Madrid,2023-09-17,Liga,Real Sociedad,1,False,2,2.0,1,1.0,2.57,2.15,674058,identique
+Real Madrid,2023-09-20,Ligue des champions,1. FC Union Berlin,1,False,1,1.0,0,0.0,,,687544,identique
+Real Madrid,2023-09-24,Liga,Atlético Madrid,0,False,1,1.0,3,3.0,0.85,1.8,674064,identique
+Real Madrid,2023-09-27,Liga,Las Palmas,1,False,2,2.0,0,0.0,2.72,0.62,674078,identique
+Real Madrid,2023-09-30,Liga,Girona,0,False,3,3.0,0,0.0,2.79,2.18,674084,identique
+Real Madrid,2023-10-03,Ligue des champions,Napoli,0,False,3,3.0,2,2.0,,,687554,identique
+Real Madrid,2023-10-07,Liga,Osasuna,1,False,4,4.0,0,0.0,4.48,0.16,674092,identique
+Real Madrid,2023-10-21,Liga,Sevilla,0,False,1,1.0,1,1.0,2.18,1.87,674107,identique
+Real Madrid,2023-10-24,Ligue des champions,Braga,0,False,2,2.0,1,1.0,,,687572,identique
+Real Madrid,2023-10-28,Liga,Barcelona,0,False,2,2.0,1,1.0,0.96,1.32,674117,identique
+Real Madrid,2023-11-05,Liga,Rayo Vallecano,1,False,0,0.0,0,0.0,1.85,0.13,674127,identique
+Real Madrid,2023-11-08,Ligue des champions,Braga,1,False,3,3.0,0,0.0,,,687597,identique
+Real Madrid,2023-11-11,Liga,Valencia,1,False,5,5.0,1,1.0,1.91,2.03,674139,identique
+Real Madrid,2023-11-26,Liga,Cádiz,0,False,3,3.0,0,0.0,1.84,1.13,674143,identique
+Real Madrid,2023-11-29,Ligue des champions,Napoli,1,False,4,4.0,2,2.0,,,687613,identique
+Real Madrid,2023-12-02,Liga,Granada,1,False,2,2.0,0,0.0,2.26,0.11,674159,identique
+Real Madrid,2023-12-09,Liga,Real Betis,0,False,1,1.0,1,1.0,0.8,1.52,674169,identique
+Real Madrid,2023-12-12,Ligue des champions,1. FC Union Berlin,0,False,3,3.0,2,2.0,,,687619,identique
+Real Madrid,2023-12-17,Liga,Villarreal,1,False,4,4.0,1,1.0,3.22,0.42,674177,identique
+Real Madrid,2023-12-21,Liga,Alavés,0,False,1,1.0,0,0.0,0.95,0.39,674181,identique
+Real Madrid,2024-01-03,Liga,Mallorca,1,False,1,1.0,0,0.0,1.88,0.84,674193,identique
+Real Madrid,2024-01-06,Coupe du Roi,Arandina,0,False,3,3.0,1,1.0,,,690924,identique
+Real Madrid,2024-01-10,Supercoupe d'Espagne,Atlético Madrid,1,True,5,5.0,3,3.0,,,689481,identique
+Real Madrid,2024-01-14,Supercoupe d'Espagne,Barcelona,1,True,4,4.0,1,1.0,,,695633,identique
+Real Madrid,2024-01-18,Coupe du Roi,Atlético Madrid,0,False,2,2.0,4,4.0,,,694657,identique
+Real Madrid,2024-01-21,Liga,Almería,1,False,3,3.0,2,2.0,3.07,0.93,674215,identique
+Real Madrid,2024-01-27,Liga,Las Palmas,0,False,2,2.0,1,1.0,2.06,0.93,674224,identique
+Real Madrid,2024-02-01,Liga,Getafe,0,False,2,2.0,0,0.0,2.72,0.79,674204,identique
+Real Madrid,2024-02-04,Liga,Atlético Madrid,1,False,1,1.0,1,1.0,2.36,1.35,674239,identique
+Real Madrid,2024-02-10,Liga,Girona,1,False,4,4.0,0,0.0,3.33,0.18,674250,identique
+Real Madrid,2024-02-13,Ligue des champions,RB Leipzig,0,False,1,1.0,0,0.0,,,691514,identique
+Real Madrid,2024-02-18,Liga,Rayo Vallecano,0,False,1,1.0,1,1.0,1.02,1.14,674257,identique
+Real Madrid,2024-02-25,Liga,Sevilla,1,False,1,1.0,0,0.0,1.02,0.97,674270,identique
+Real Madrid,2024-03-02,Liga,Valencia,0,False,2,2.0,2,2.0,1.46,1.33,674271,identique
+Real Madrid,2024-03-06,Ligue des champions,RB Leipzig,1,False,1,1.0,1,1.0,,,691525,identique
+Real Madrid,2024-03-10,Liga,Celta Vigo,1,False,4,4.0,0,0.0,3.69,0.54,674281,identique
+Real Madrid,2024-03-16,Liga,Osasuna,0,False,4,4.0,2,2.0,3.06,0.67,674296,identique
+Real Madrid,2024-03-31,Liga,Athletic Club,1,False,2,2.0,0,0.0,1.19,0.3,674308,identique
+Real Madrid,2024-04-09,Ligue des champions,Manchester City,1,False,3,3.0,3,3.0,,,700716,identique
+Real Madrid,2024-04-13,Liga,Mallorca,0,False,1,1.0,0,0.0,1.81,0.59,674315,identique
+Real Madrid,2024-04-17,Ligue des champions,Manchester City,0,False,1,1.0,1,1.0,,,700722,identique
+Real Madrid,2024-04-21,Liga,Barcelona,1,False,3,3.0,2,2.0,2.77,1.35,674330,identique
+Real Madrid,2024-04-26,Liga,Real Sociedad,0,False,1,1.0,0,0.0,0.46,0.38,674332,identique
+Real Madrid,2024-04-30,Ligue des champions,Bayern Munich,0,False,2,2.0,2,2.0,,,702056,identique
+Real Madrid,2024-05-04,Liga,Cádiz,1,False,3,3.0,0,0.0,2.63,1.0,674346,identique
+Real Madrid,2024-05-08,Ligue des champions,Bayern Munich,1,False,2,2.0,1,1.0,,,702057,identique
+Real Madrid,2024-05-11,Liga,Granada,0,False,4,4.0,0,0.0,2.79,0.7,674360,identique
+Real Madrid,2024-05-14,Liga,Alavés,1,False,5,5.0,0,0.0,2.88,1.51,674367,identique
+Real Madrid,2024-05-19,Liga,Villarreal,0,False,4,4.0,4,4.0,1.59,2.21,674372,identique
+Real Madrid,2024-05-25,Liga,Real Betis,1,False,0,0.0,0,0.0,1.24,1.16,674382,identique
+Real Madrid,2024-06-01,Ligue des champions,Borussia Dortmund,0,False,2,2.0,0,0.0,,,702410,identique
+Real Madrid,2024-08-14,Supercoupe d'Europe,Atalanta,1,True,2,2.0,0,0.0,,,702700,identique
+Real Madrid,2024-08-18,Liga,Mallorca,0,False,1,1.0,1,1.0,0.61,1.31,704663,identique
+Real Madrid,2024-08-25,Liga,Real Valladolid,1,False,3,3.0,0,0.0,2.18,0.38,704677,identique
+Real Madrid,2024-08-29,Liga,Las Palmas,0,False,1,1.0,1,1.0,3.28,0.81,704683,identique
+Real Madrid,2024-09-01,Liga,Real Betis,1,False,2,2.0,0,0.0,2.37,0.83,704699,identique
+Real Madrid,2024-09-14,Liga,Real Sociedad,0,False,2,2.0,0,0.0,2.28,1.42,704704,identique
+Real Madrid,2024-09-17,Ligue des champions,VfB Stuttgart,1,False,3,3.0,1,1.0,,,720420,identique
+Real Madrid,2024-09-21,Liga,Espanyol,1,False,4,4.0,1,1.0,4.89,0.32,704717,identique
+Real Madrid,2024-09-24,Liga,Alavés,1,False,3,3.0,2,2.0,1.8,0.85,704724,identique
+Real Madrid,2024-09-29,Liga,Atlético Madrid,0,False,1,1.0,1,1.0,0.66,1.05,704734,identique
+Real Madrid,2024-10-02,Ligue des champions,Lille,0,False,0,0.0,1,1.0,,,720448,identique
+Real Madrid,2024-10-05,Liga,Villarreal,1,False,2,2.0,0,0.0,0.46,1.46,704745,identique
+Real Madrid,2024-10-19,Liga,Celta Vigo,0,False,2,2.0,1,1.0,1.2,1.79,704759,identique
+Real Madrid,2024-10-22,Ligue des champions,Borussia Dortmund,1,False,5,5.0,2,2.0,,,720459,identique
+Real Madrid,2024-10-26,Liga,Barcelona,1,False,0,0.0,4,4.0,1.4,2.52,704766,identique
+Real Madrid,2024-11-05,Ligue des champions,AC Milan,1,False,1,1.0,3,3.0,,,720380,identique
+Real Madrid,2024-11-09,Liga,Osasuna,1,False,4,4.0,0,0.0,3.27,0.07,704785,identique
+Real Madrid,2024-11-24,Liga,Leganés,0,False,3,3.0,0,0.0,2.73,0.11,704796,identique
+Real Madrid,2024-11-27,Ligue des champions,Liverpool,0,False,0,0.0,2,2.0,,,720369,identique
+Real Madrid,2024-12-01,Liga,Getafe,1,False,2,2.0,0,0.0,3.24,0.35,704804,identique
+Real Madrid,2024-12-04,Liga,Athletic Club,0,False,1,1.0,2,2.0,1.98,2.08,704841,identique
+Real Madrid,2024-12-07,Liga,Girona,0,False,3,3.0,0,0.0,1.16,0.35,704814,identique
+Real Madrid,2024-12-10,Ligue des champions,Atalanta,0,False,3,3.0,2,2.0,,,720413,identique
+Real Madrid,2024-12-14,Liga,Rayo Vallecano,0,False,3,3.0,3,3.0,1.15,1.61,704824,identique
+Real Madrid,2024-12-18,Coupe intercontinentale,Pachuca,1,True,3,3.0,0,0.0,,,721442,identique
+Real Madrid,2024-12-22,Liga,Sevilla,1,False,4,4.0,2,2.0,2.9,1.41,704838,identique
+Real Madrid,2025-01-03,Liga,Valencia,0,False,2,2.0,1,1.0,2.69,1.35,704778,identique
+Real Madrid,2025-01-06,Coupe du Roi,CD Minera,0,False,5,5.0,0,0.0,,,724692,identique
+Real Madrid,2025-01-09,Supercoupe d'Espagne,Mallorca,1,True,3,3.0,0,0.0,,,712532,identique
+Real Madrid,2025-01-12,Supercoupe d'Espagne,Barcelona,1,True,2,2.0,5,5.0,,,712534,identique
+Real Madrid,2025-01-16,Coupe du Roi,Celta Vigo,1,False,5,5.0,2,2.0,,,729684,identique
+Real Madrid,2025-01-19,Liga,Las Palmas,1,False,4,4.0,1,1.0,6.41,1.06,704856,identique
+Real Madrid,2025-01-22,Ligue des champions,RB Salzburg,1,False,5,5.0,1,1.0,,,720345,identique
+Real Madrid,2025-01-25,Liga,Real Valladolid,0,False,3,3.0,0,0.0,2.46,0.23,704868,identique
+Real Madrid,2025-01-29,Ligue des champions,Brest,0,False,3,3.0,0,0.0,,,720364,identique
+Real Madrid,2025-02-01,Liga,Espanyol,0,False,0,0.0,1,1.0,1.53,0.53,704877,identique
+Real Madrid,2025-02-05,Coupe du Roi,Leganés,0,False,3,3.0,2,2.0,,,730977,identique
+Real Madrid,2025-02-08,Liga,Atlético Madrid,1,False,1,1.0,1,1.0,2.56,1.62,704886,identique
+Real Madrid,2025-02-11,Ligue des champions,Manchester City,0,False,3,3.0,2,2.0,,,732187,identique
+Real Madrid,2025-02-15,Liga,Osasuna,0,False,1,1.0,1,1.0,2.73,1.64,704895,identique
+Real Madrid,2025-02-19,Ligue des champions,Manchester City,1,False,3,3.0,1,1.0,,,732200,identique
+Real Madrid,2025-02-23,Liga,Girona,1,False,2,2.0,0,0.0,2.36,0.33,704906,identique
+Real Madrid,2025-02-26,Coupe du Roi,Real Sociedad,0,False,1,1.0,0,0.0,,,732587,identique
+Real Madrid,2025-03-01,Liga,Real Betis,0,False,1,1.0,2,2.0,1.05,2.24,704917,identique
+Real Madrid,2025-03-04,Ligue des champions,Atlético Madrid,1,False,2,2.0,1,1.0,,,733602,identique
+Real Madrid,2025-03-09,Liga,Rayo Vallecano,1,False,2,2.0,1,1.0,1.59,1.21,704926,identique
+Real Madrid,2025-03-12,Ligue des champions,Atlético Madrid,0,False,0,0.0,1,1.0,,,733606,identique
+Real Madrid,2025-03-15,Liga,Villarreal,0,False,2,2.0,1,1.0,1.1,2.01,704939,identique
+Real Madrid,2025-03-29,Liga,Leganés,1,False,3,3.0,2,2.0,3.59,2.38,704946,identique
+Real Madrid,2025-04-01,Coupe du Roi,Real Sociedad,1,False,4,4.0,4,4.0,,,732589,identique
+Real Madrid,2025-04-05,Liga,Valencia,1,False,1,1.0,2,2.0,3.36,1.09,704953,identique
+Real Madrid,2025-04-08,Ligue des champions,Arsenal,0,False,0,0.0,3,3.0,,,733608,identique
+Real Madrid,2025-04-13,Liga,Alavés,0,False,1,1.0,0,0.0,1.27,0.61,704966,identique
+Real Madrid,2025-04-16,Ligue des champions,Arsenal,1,False,1,1.0,2,2.0,,,733612,identique
+Real Madrid,2025-04-20,Liga,Athletic Club,1,False,1,1.0,0,0.0,2.41,0.13,704974,identique
+Real Madrid,2025-04-23,Liga,Getafe,0,False,1,1.0,0,0.0,1.75,2.54,704981,identique
+Real Madrid,2025-04-26,Coupe du Roi,Barcelona,0,False,2,2.0,3,3.0,,,735156,identique
+Real Madrid,2025-05-04,Liga,Celta Vigo,1,False,3,3.0,2,2.0,3.07,2.13,704994,identique
+Real Madrid,2025-05-11,Liga,Barcelona,0,False,3,3.0,4,4.0,2.56,4.11,705002,identique
+Real Madrid,2025-05-14,Liga,Mallorca,1,False,2,2.0,1,1.0,3.46,0.48,705014,identique
+Real Madrid,2025-05-18,Liga,Sevilla,0,False,2,2.0,0,0.0,1.96,0.48,705028,identique
+Real Madrid,2025-05-24,Liga,Real Sociedad,1,False,2,2.0,0,0.0,2.62,1.18,705034,identique
+Real Madrid,2025-06-18,Mondial des clubs,Al Hilal,1,True,1,1.0,1,1.0,,,724436,identique
+Real Madrid,2025-06-22,Mondial des clubs,Pachuca,1,True,3,3.0,1,1.0,,,724452,identique
+Real Madrid,2025-06-27,Mondial des clubs,RB Salzburg,0,True,3,,0,,,,724470,absent
+Real Madrid,2025-07-01,Mondial des clubs,Juventus,1,True,1,1.0,0,0.0,,,735950,identique
+Real Madrid,2025-07-05,Mondial des clubs,Borussia Dortmund,1,True,3,3.0,2,2.0,,,735955,identique
+Real Madrid,2025-07-09,Mondial des clubs,Paris Saint-Germain,0,True,0,0.0,4,4.0,,,735957,identique
+Real Madrid,2025-08-19,Liga,Osasuna,1,False,1,1.0,0,0.0,1.43,0.2,748145,identique
+Real Madrid,2025-08-24,Liga,Real Oviedo,0,False,3,3.0,0,0.0,1.82,0.34,748155,identique
+Real Madrid,2025-08-30,Liga,Mallorca,1,False,2,2.0,1,1.0,1.84,0.55,748167,identique
+Real Madrid,2025-09-13,Liga,Real Sociedad,0,False,2,2.0,1,1.0,2.54,3.15,748177,identique
+Real Madrid,2025-09-16,Ligue des champions,Marseille,1,False,2,2.0,1,1.0,,,757655,identique
+Real Madrid,2025-09-20,Liga,Espanyol,1,False,2,2.0,0,0.0,2.06,0.97,748186,identique
+Real Madrid,2025-09-23,Liga,Levante,0,False,4,4.0,1,1.0,4.06,1.7,748200,identique
+Real Madrid,2025-09-27,Liga,Atlético Madrid,0,False,2,2.0,5,5.0,1.03,2.79,748210,identique
+Real Madrid,2025-09-30,Ligue des champions,Kairat Almaty,0,False,5,5.0,0,0.0,,,757671,identique
+Real Madrid,2025-10-04,Liga,Villarreal,1,False,3,3.0,1,1.0,4.32,0.96,748214,identique
+Real Madrid,2025-10-19,Liga,Getafe,0,False,1,1.0,0,0.0,2.15,0.53,748231,identique
+Real Madrid,2025-10-22,Ligue des champions,Juventus,1,False,1,1.0,0,0.0,,,757705,identique
+Real Madrid,2025-10-26,Liga,Barcelona,1,False,2,2.0,1,1.0,3.41,1.12,748236,identique
+Real Madrid,2025-11-01,Liga,Valencia,1,False,4,4.0,0,0.0,2.9,0.29,748251,identique
+Real Madrid,2025-11-04,Ligue des champions,Liverpool,0,False,0,0.0,1,1.0,,,757714,identique
+Real Madrid,2025-11-09,Liga,Rayo Vallecano,0,False,0,0.0,0,0.0,0.84,1.61,748254,identique
+Real Madrid,2025-11-23,Liga,Elche,0,False,2,2.0,2,2.0,3.88,1.6,748266,identique
+Real Madrid,2025-11-26,Ligue des champions,Olympiacos,0,False,4,4.0,3,3.0,,,757737,identique
+Real Madrid,2025-11-30,Liga,Girona,0,False,1,1.0,1,1.0,2.21,1.05,748279,identique
+Real Madrid,2025-12-03,Liga,Athletic Club,0,False,3,3.0,0,0.0,2.37,0.92,748332,identique
+Real Madrid,2025-12-07,Liga,Celta Vigo,1,False,0,0.0,2,2.0,2.42,1.61,748290,identique
+Real Madrid,2025-12-10,Ligue des champions,Manchester City,1,False,1,1.0,2,2.0,,,757760,identique
+Real Madrid,2025-12-14,Liga,Alavés,0,False,2,2.0,1,1.0,1.91,1.31,748297,identique
+Real Madrid,2025-12-17,Coupe du Roi,Talavera,0,False,3,3.0,2,2.0,,,762543,identique
+Real Madrid,2025-12-20,Liga,Sevilla,1,False,2,2.0,0,0.0,4.0,1.51,748307,identique
+Real Madrid,2026-01-04,Liga,Real Betis,1,False,5,5.0,1,1.0,3.01,0.97,748315,identique
+Real Madrid,2026-01-08,Supercoupe d'Espagne,Atlético Madrid,0,True,2,2.0,1,1.0,,,748116,identique
+Real Madrid,2026-01-11,Supercoupe d'Espagne,Barcelona,0,True,2,2.0,3,3.0,,,748117,identique
+Real Madrid,2026-01-14,Coupe du Roi,Albacete,0,False,2,2.0,3,3.0,,,401846963,identique
+Real Madrid,2026-01-17,Liga,Levante,1,False,2,2.0,0,0.0,2.55,0.79,748342,identique
+Real Madrid,2026-01-20,Ligue des champions,AS Monaco,1,False,6,6.0,1,1.0,,,757764,identique
+Real Madrid,2026-01-24,Liga,Villarreal,0,False,2,2.0,0,0.0,1.62,0.95,748349,identique
+Real Madrid,2026-01-28,Ligue des champions,Benfica,0,False,2,2.0,4,4.0,,,757785,identique
+Real Madrid,2026-02-01,Liga,Rayo Vallecano,1,False,2,2.0,1,1.0,2.3,1.07,748356,identique
+Real Madrid,2026-02-08,Liga,Valencia,0,False,2,2.0,0,0.0,1.05,0.57,748364,identique
+Real Madrid,2026-02-14,Liga,Real Sociedad,1,False,4,4.0,1,1.0,3.06,1.66,748383,identique
+Real Madrid,2026-02-17,Ligue des champions,Benfica,0,False,1,1.0,0,0.0,,,401858735,identique
+Real Madrid,2026-02-21,Liga,Osasuna,0,False,1,1.0,2,2.0,2.02,2.31,748387,identique
+Real Madrid,2026-02-25,Ligue des champions,Benfica,1,False,2,2.0,1,1.0,,,401858769,identique
+Real Madrid,2026-03-02,Liga,Getafe,1,False,0,0.0,1,1.0,2.02,0.48,748395,identique
+Real Madrid,2026-03-06,Liga,Celta Vigo,0,False,2,2.0,1,1.0,0.64,0.91,748411,identique
+Real Madrid,2026-03-11,Ligue des champions,Manchester City,1,False,3,3.0,0,0.0,,,401862645,identique
+Real Madrid,2026-03-14,Liga,Elche,1,False,4,4.0,1,1.0,1.73,1.37,748418,identique
+Real Madrid,2026-03-17,Ligue des champions,Manchester City,0,False,2,2.0,1,1.0,,,401862647,identique
+Real Madrid,2026-03-22,Liga,Atlético Madrid,1,False,3,3.0,2,2.0,2.97,1.4,748433,identique
+Real Madrid,2026-04-04,Liga,Mallorca,0,False,1,1.0,2,2.0,1.51,1.04,748437,identique
+Real Madrid,2026-04-07,Ligue des champions,Bayern Munich,1,False,1,1.0,2,2.0,,,401862886,identique
+Real Madrid,2026-04-10,Liga,Girona,1,False,1,1.0,1,1.0,1.98,0.47,748453,identique
+Real Madrid,2026-04-15,Ligue des champions,Bayern Munich,0,False,3,3.0,4,4.0,,,401862891,identique
+Real Madrid,2026-04-21,Liga,Alavés,1,False,2,2.0,1,1.0,1.5,1.63,748471,identique
+Real Madrid,2026-04-24,Liga,Real Betis,0,False,1,1.0,1,1.0,1.1,1.02,748457,identique
+Real Madrid,2026-05-03,Liga,Espanyol,0,False,2,2.0,0,0.0,1.5,1.09,748475,identique
+Real Madrid,2026-05-10,Liga,Barcelona,0,False,0,0.0,2,2.0,0.56,1.72,748484,identique
+Real Madrid,2026-05-14,Liga,Real Oviedo,1,False,2,2.0,0,0.0,1.74,1.19,748503,identique
+Real Madrid,2026-05-17,Liga,Sevilla,0,False,1,1.0,0,0.0,1.47,0.68,748504,identique
+Real Madrid,2026-05-23,Liga,Athletic Club,1,False,4,4.0,2,2.0,1.95,1.45,748514,identique
+Real Madrid,2026-08-22,Liga,Espanyol,0,False,2,2.0,1,1.0,2.56,1.02,401882912,identique
+Real Madrid,2026-08-26,Liga,Real Sociedad,1,False,4,4.0,1,1.0,3.31,0.46,401882919,identique
+Real Madrid,2026-08-30,Liga,Málaga,1,False,4,4.0,0,0.0,3.41,0.76,401882899,identique
+Real Madrid,2026-09-04,Liga,Real Betis,0,False,0,0.0,1,1.0,3.38,0.89,401882894,identique
+Real Madrid,2026-09-08,Ligue des champions,Internazionale,1,False,2,2.0,1,1.0,,,401915451,identique
+Real Madrid,2026-09-12,Liga,Rayo Vallecano,1,False,4,4.0,1,1.0,3.12,1.19,401882880,identique
+Real Madrid,2026-09-15,Liga,Elche,0,False,3,3.0,2,2.0,3.46,1.05,401882872,identique
+Real Madrid,2026-09-20,Liga,Atlético Madrid,0,False,1,1.0,2,2.0,0.42,2.41,401882865,identique
+Real Madrid,2026-10-10,Liga,Villarreal,1,False,1,1.0,0,0.0,1.43,0.53,401882848,identique
+Real Madrid,2026-10-14,Ligue des champions,AS Roma,0,False,4,4.0,3,3.0,,,401915414,identique
+Real Madrid,2026-10-18,Liga,Sevilla,1,False,4,4.0,1,1.0,2.12,1.32,401882839,identique
+Real Madrid,2026-10-21,Ligue des champions,RB Leipzig,1,False,4,4.0,1,1.0,,,401915313,identique

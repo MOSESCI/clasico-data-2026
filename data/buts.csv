@@ -1,0 +1,629 @@
+espn_id,minute,type,equipe,buteur,passeur
+609925,25',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+609925,41',Goal,Barcelona,Luuk de Jong,
+609925,72',Goal,Real Madrid,Karim Benzema,
+609925,83',Goal - Header,Barcelona,Ansu Fati,Jordi Alba
+609925,98',Goal,Real Madrid,Federico Valverde,Rodrygo
+610481,29',Goal - Header,Barcelona,Pierre-Emerick Aubameyang,Ousmane Dembélé
+610481,38',Goal - Header,Barcelona,Ronald Araújo,Ousmane Dembélé
+610481,47',Goal,Barcelona,Ferran Torres,Pierre-Emerick Aubameyang
+610481,51',Goal,Barcelona,Pierre-Emerick Aubameyang,Ferran Torres
+610496,14',Penalty - Scored,Barcelona,Ferran Torres,
+610496,21',Goal,Barcelona,Ferran Torres,Ousmane Dembélé
+610496,27',Goal,Barcelona,Pierre-Emerick Aubameyang,Ousmane Dembélé
+610496,75',Goal,Barcelona,Ricard Puig,
+610497,55',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+610497,77',Penalty - Scored,Real Madrid,Karim Benzema,
+610497,82',Goal - Header,Real Madrid,Karim Benzema,Marcelo
+610501,44',Goal,Elche,Fidel,
+610501,60',Goal,Barcelona,Ferran Torres,Jordi Alba
+610501,84',Penalty - Scored,Barcelona,Memphis Depay,
+610507,10',Penalty - Scored,Real Sociedad,Mikel Oyarzabal,
+610507,40',Goal,Real Madrid,Eduardo Camavinga,Luka Modric
+610507,43',Goal,Real Madrid,Luka Modric,Karim Benzema
+610507,76',Penalty - Scored,Real Madrid,Karim Benzema,
+610507,79',Goal,Real Madrid,Marco Asensio,Dani Carvajal
+610511,37',Goal - Volley,Barcelona,Pierre-Emerick Aubameyang,
+610511,73',Goal,Barcelona,Ousmane Dembélé,Frenkie de Jong
+610511,90',Goal - Header,Barcelona,Luuk de Jong,Ousmane Dembélé
+610511,90'+4',Goal,Barcelona,Memphis Depay,Ousmane Dembélé
+610518,83',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+610520,63',Goal,Real Madrid,Marco Asensio,Karim Benzema
+610520,80',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+610520,90'+1',Penalty - Scored,Real Madrid,Karim Benzema,
+610566,4',Goal,Real Madrid,Karim Benzema,Toni Kroos
+610566,7',Goal,Real Madrid,Karim Benzema,
+610566,10',Goal,Athletic Club,Oihan Sancet,Óscar de Marcos
+610572,57',Goal - Header,Barcelona,Luuk de Jong,Dani Alves
+610572,89',Goal,Granada,Antonio Puertas,
+610579,43',Penalty - Scored,Real Madrid,Karim Benzema,
+610579,52',Goal,Real Madrid,Vinícius Júnior,
+610579,61',Goal - Header,Real Madrid,Vinícius Júnior,
+610579,76',Goal - Header,Valencia,Gonçalo Guedes,
+610579,88',Goal,Real Madrid,Karim Benzema,Ferland Mendy
+610581,44',Goal - Header,Barcelona,Luuk de Jong,Óscar Mingueza
+610587,9',Goal,Getafe,Enes Ünal,
+610593,16',Goal - Header,Barcelona,Ferran Jutglà,Ousmane Dembélé
+610593,19',Goal,Barcelona,Gavi,Clément Lenglet
+610593,62',Goal,Elche,José Antonio Morente,Lucas Boyé
+610593,63',Goal - Header,Elche,Pere Milla,José Antonio Morente
+610593,85',Goal,Barcelona,Nico González,Gavi
+610677,32',Goal,Real Madrid,David Alaba,Rodrygo
+610677,90'+4',Goal,Real Madrid,Lucas Vázquez,
+610677,90'+7',Goal - Volley,Barcelona,Sergio Agüero,Sergiño Dest
+610689,5',Goal,Valencia,José Gayà,
+610689,13',Goal,Barcelona,Ansu Fati,Memphis Depay
+610689,41',Penalty - Scored,Barcelona,Memphis Depay,
+610689,85',Goal,Barcelona,Philippe Coutinho,Sergiño Dest
+610691,23',Goal,Atlético Madrid,Thomas Lemar,Luis Suárez
+610691,44',Goal,Atlético Madrid,Luis Suárez,Thomas Lemar
+610696,17',Goal,Espanyol,Raúl de Tomás,Adri Embarba
+610696,60',Goal,Espanyol,Aleix Vidal,Keidi Bare
+610696,71',Goal,Real Madrid,Karim Benzema,Luka Jovic
+610707,7',Penalty - Scored,Barcelona,Memphis Depay,
+610707,14',Goal,Barcelona,Luuk de Jong,Sergiño Dest
+610707,90'+1',Goal,Barcelona,Ansu Fati,
+610715,3',Goal,Real Madrid,Karim Benzema,
+610715,24',Goal - Volley,Real Madrid,Marco Asensio,
+610715,25',Goal,Mallorca,Lee Kang-In,Matthew Hoppe
+610715,29',Goal,Real Madrid,Marco Asensio,Karim Benzema
+610715,55',Goal,Real Madrid,Marco Asensio,Karim Benzema
+610715,78',Goal,Real Madrid,Karim Benzema,David Alaba
+610715,84',Goal,Real Madrid,Isco,Vinícius Júnior
+610732,32',Goal,Sevilla,Alejandro Gómez,Ivan Rakitić
+610732,45',Goal - Header,Barcelona,Ronald Araújo,Ousmane Dembélé
+618750,36',Goal,Barcelona,Gerard Piqué,Jordi Alba
+618757,37',Own Goal,Real Madrid,,
+618757,51',Goal,Real Madrid,Vinícius Júnior,Luka Modric
+618757,56',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+618757,65',Goal,Real Madrid,Rodrygo,Vinícius Júnior
+618757,90'+1',Goal,Real Madrid,Karim Benzema,Marco Asensio
+618760,3',Goal,Benfica,Darwin Núñez,Julian Weigl
+618760,69',Goal,Benfica,Rafa Silva,
+618760,79',Penalty - Scored,Benfica,Darwin Núñez,
+618770,25',Goal - Header,Sheriff Tiraspol,Jasrubek Yakhshiboev,Cris Silva
+618770,65',Penalty - Scored,Real Madrid,Karim Benzema,
+618770,89',Goal,Sheriff Tiraspol,Sebastien Thill,Adama Traoré
+622990,39',Goal,Paris Saint-Germain,Kylian Mbappé,Neymar
+622990,61',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+622990,76',Goal,Real Madrid,Karim Benzema,Luka Modric
+622990,78',Goal,Real Madrid,Karim Benzema,
+623990,19',Goal - Header,Linares Deportivo,Hugo Díaz,Carnicer
+623990,63',Goal,Barcelona,Ousmane Dembélé,Óscar Mingueza
+623990,69',Goal,Barcelona,Ferran Jutglà,Nico González
+623999,39',Goal - Header,Real Madrid,Éder Militão,Rodrygo
+623999,66',Goal,Alcoyano,Daniel Vega Cintas,Mourad El Ghezouani
+623999,76',Goal,Real Madrid,Marco Asensio,Eden Hazard
+623999,78',Own Goal,Real Madrid,,
+632476,28',Goal - Header,Galatasaray,Marcão,Alexandru Cicaldau
+632476,37',Goal,Barcelona,Pedri,Ferran Torres
+632476,49',Goal,Barcelona,Pierre-Emerick Aubameyang,Frenkie de Jong
+637511,40',Goal - Volley,Barcelona,Robert Lewandowski,
+637511,77',Goal,Real Betis,Nabil Fekir,Luiz Henrique
+637511,93',Goal - Volley,Barcelona,Ansu Fati,
+637511,101',Goal,Real Betis,Lorenzo Morón,Luiz Henrique
+637512,39',Penalty - Scored,Real Madrid,Karim Benzema,
+637512,46',Goal - Volley,Valencia,Samuel Lino,Toni Lato
+637513,33',Goal,Barcelona,Gavi,Robert Lewandowski
+637513,45',Goal,Barcelona,Robert Lewandowski,Gavi
+637513,69',Goal,Barcelona,Pedri,
+637513,90'+3',Goal,Real Madrid,Karim Benzema,
+643821,34',Goal,Barcelona,Robert Lewandowski,Alejandro Balde
+643821,41',Goal,Barcelona,Memphis Depay,Alejandro Balde
+643821,48',Goal,Barcelona,Robert Lewandowski,
+643829,18',Goal - Volley,Real Madrid,Rodrygo,Aurélien Tchouaméni
+643829,36',Goal,Real Madrid,Federico Valverde,
+643829,83',Goal,Atlético Madrid,Mario Hermoso,
+643833,20',Goal,Barcelona,Robert Lewandowski,Ansu Fati
+643840,42',Goal,Real Madrid,Vinícius Júnior,David Alaba
+643840,50',Goal - Header,Osasuna,Enrique García,Unai García
+643841,3',Goal - Header,Real Madrid,Éder Militão,Luka Modric
+643844,17',Goal - Volley,Barcelona,Pedri,
+643856,12',Goal,Real Madrid,Karim Benzema,
+643856,35',Goal,Real Madrid,Federico Valverde,Ferland Mendy
+643856,83',Goal,Barcelona,Ferran Torres,Robert Lewandowski
+643856,90'+1',Penalty - Scored,Real Madrid,Rodrygo,
+643905,6',Goal - Header,Osasuna,David García,Rubén García
+643905,48',Goal,Barcelona,Pedri,
+643905,85',Goal - Header,Barcelona,Raphinha,Frenkie de Jong
+643908,40',Goal - Header,Real Madrid,Éder Militão,Toni Kroos
+643908,70',Goal - Volley,Real Madrid,Toni Kroos,
+643908,81',Goal,Cádiz,Lucas Pérez,
+643912,7',Goal - Header,Barcelona,Marcos Alonso,Andreas Christensen
+643912,73',Penalty - Scored,Espanyol,Joselu,
+643919,83',Penalty - Scored,Real Madrid,Karim Benzema,
+643919,89',Goal,Real Madrid,Karim Benzema,Eduardo Camavinga
+643928,22',Goal,Barcelona,Ousmane Dembélé,Gavi
+643930,47',Goal,Villarreal,Yéremy Pino,Gerard Moreno
+643930,60',Penalty - Scored,Real Madrid,Karim Benzema,
+643930,63',Penalty - Scored,Villarreal,Gerard Moreno,
+643975,18',Goal,Barcelona,Pedri,Robert Lewandowski
+643983,43',Goal,Barcelona,Sergi Roberto,
+643983,45'+1',Goal,Barcelona,Robert Lewandowski,Sergi Roberto
+643990,78',Goal,Real Madrid,Federico Valverde,Vinícius Júnior
+643990,90'+2',Goal,Real Madrid,Marco Asensio,Álvaro Rodríguez
+643991,24',Goal - Volley,Almería,El Bilal Toure,Luis Suárez
+643994,78',Goal - Header,Atlético Madrid,José María Giménez,Antoine Griezmann
+643994,85',Goal - Header,Real Madrid,Álvaro Rodríguez,Luka Modric
+644003,16',Goal - Header,Barcelona,Raphinha,Sergio Busquets
+644011,45'+1',Goal,Barcelona,Raphinha,Sergio Busquets
+644017,8',Goal,Espanyol,Joselu,Rubén Sánchez
+644017,22',Goal,Real Madrid,Vinícius Júnior,Toni Kroos
+644017,39',Goal - Header,Real Madrid,Éder Militão,Aurélien Tchouaméni
+644017,90'+3',Goal,Real Madrid,Marco Asensio,Nacho
+644023,9',Own Goal,Real Madrid,,
+644023,45',Goal,Barcelona,Sergi Roberto,
+644023,90'+2',Goal,Barcelona,Franck Kessié,Alejandro Balde
+644032,22',Goal,Real Madrid,Rodrygo,Marco Asensio
+644032,29',Goal - Header,Real Madrid,Karim Benzema,Vinícius Júnior
+644032,32',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+644032,36',Goal - Volley,Real Madrid,Karim Benzema,Rodrygo
+644032,73',Goal,Real Madrid,Marco Asensio,Rodrygo
+644032,90'+1',Goal,Real Madrid,Lucas Vázquez,Eden Hazard
+644038,20',Goal,Barcelona,Robert Lewandowski,Ronald Araújo
+644038,56',Goal,Barcelona,Ansu Fati,Ferran Torres
+644038,66',Goal,Barcelona,Robert Lewandowski,Gavi
+644038,70',Goal,Barcelona,Ferran Torres,Robert Lewandowski
+652621,45'+2',Goal,Internazionale,Hakan Çalhanoglu,Federico Dimarco
+652633,13',Goal,Real Madrid,Rodrygo,
+652633,28',Goal,Real Madrid,Vinícius Júnior,Rodrygo
+652633,39',Goal,Shakhtar Donetsk,Oleksandr Zubkov,Bogdan Mykhaylichenko
+652641,46',Goal - Header,Shakhtar Donetsk,Oleksandr Zubkov,Bogdan Mykhaylichenko
+652641,90'+5',Goal - Header,Real Madrid,Antonio Rüdiger,Toni Kroos
+652644,40',Goal,Barcelona,Ousmane Dembélé,Sergi Roberto
+652644,50',Goal,Internazionale,Nicolò Barella,Alessandro Bastoni
+652644,63',Goal,Internazionale,Lautaro Martínez,Hakan Çalhanoglu
+652644,82',Goal,Barcelona,Robert Lewandowski,
+652644,89',Goal,Internazionale,Robin Gosens,Lautaro Martínez
+652644,90'+2',Goal - Header,Barcelona,Robert Lewandowski,Eric García
+656856,4',Goal,Liverpool,Darwin Núñez,Mohamed Salah
+656856,14',Goal,Liverpool,Mohamed Salah,
+656856,21',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+656856,36',Goal,Real Madrid,Vinícius Júnior,
+656856,47',Goal - Header,Real Madrid,Éder Militão,Luka Modric
+656856,55',Goal,Real Madrid,Karim Benzema,Rodrygo
+656856,67',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+656864,78',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+656879,50',Goal - Header,Barcelona,Marcos Alonso,Raphinha
+656879,52',Goal,Manchester United,Marcus Rashford,Fred
+656879,59',Own Goal,Manchester United,,
+656879,76',Goal,Barcelona,Raphinha,Jules Koundé
+656892,18',Penalty - Scored,Barcelona,Robert Lewandowski,
+656892,47',Goal,Manchester United,Fred,Bruno Fernandes
+656892,73',Goal - Volley,Manchester United,Antony,
+660263,69',Goal,Real Madrid,Rodrygo,Dani Ceballos
+660265,4',Goal - Header,Barcelona,Ronald Araújo,Pablo Torre
+660265,59',Goal,CF Intercity,Oriol Soldevila,Vadik Murria
+660265,66',Goal,Barcelona,Ousmane Dembélé,Gavi
+660265,74',Goal - Header,CF Intercity,Oriol Soldevila,Cristo Romero
+660265,77',Goal,Barcelona,Raphinha,Jordi Alba
+660265,86',Goal,CF Intercity,Oriol Soldevila,Christian Herrera
+660265,103',Goal,Barcelona,Ansu Fati,Raphinha
+664609,26',Own Goal,Barcelona,,
+664612,45'+1',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+664612,50',Goal,Real Madrid,Karim Benzema,Luka Modric
+664612,58',Penalty - Scored,Real Madrid,Karim Benzema,
+664612,80',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+664848,42',Goal,Real Madrid,Vinícius Júnior,
+664848,46',Goal,Real Madrid,Federico Valverde,
+664848,65',Penalty - Scored,Al Ahly,Ali Maâloul,
+664848,90'+2',Goal,Real Madrid,Rodrygo,Dani Ceballos
+664848,90'+8',Goal,Real Madrid,Sergio Arribas,
+665265,13',Goal,Real Madrid,Vinícius Júnior,Karim Benzema
+665265,18',Goal,Real Madrid,Federico Valverde,
+665265,26',Goal,Al Hilal,Moussa Marega,Mohamed Kanno
+665265,54',Goal,Real Madrid,Karim Benzema,Vinícius Júnior
+665265,58',Goal,Real Madrid,Federico Valverde,Dani Carvajal
+665265,63',Goal,Al Hilal,Luciano Vietto,Saud Abdulhamid
+665265,69',Goal,Real Madrid,Vinícius Júnior,Dani Ceballos
+665265,79',Goal,Al Hilal,Luciano Vietto,Michael Delgado
+674084,17',Goal,Real Madrid,Joselu,Jude Bellingham
+674084,21',Goal - Header,Real Madrid,Aurélien Tchouaméni,Toni Kroos
+674084,71',Goal - Volley,Real Madrid,Jude Bellingham,Joselu
+674089,76',Own Goal,Barcelona,,
+674092,9',Goal,Real Madrid,Jude Bellingham,Dani Carvajal
+674092,54',Goal,Real Madrid,Jude Bellingham,Federico Valverde
+674092,65',Goal,Real Madrid,Vinícius Júnior,Federico Valverde
+674092,70',Goal,Real Madrid,Joselu,Vinícius Júnior
+674100,1',Goal,Granada,Bryan Zaragoza,Lucas Boyé
+674100,29',Goal,Granada,Bryan Zaragoza,Gerard Gumbau
+674100,45'+1',Goal,Barcelona,Lamine Yamal,
+674100,85',Goal,Barcelona,Sergi Roberto,Alejandro Balde
+674101,80',Goal,Barcelona,Marc Guiu,João Félix
+674107,74',Own Goal,Sevilla,,
+674107,78',Goal - Header,Real Madrid,Dani Carvajal,Toni Kroos
+674117,6',Goal,Barcelona,Ilkay Gündogan,
+674117,68',Goal,Real Madrid,Jude Bellingham,
+674117,90'+2',Goal - Volley,Real Madrid,Jude Bellingham,Luka Modric
+674177,25',Goal - Header,Real Madrid,Jude Bellingham,Luka Modric
+674177,37',Goal,Real Madrid,Rodrygo,Lucas Vázquez
+674177,54',Goal,Villarreal,José Luis Morales,Ramón Terrats
+674177,64',Goal,Real Madrid,Brahim Díaz,Fran García
+674177,68',Goal,Real Madrid,Luka Modric,
+674180,55',Goal,Barcelona,João Félix,Raphinha
+674180,70',Goal,Valencia,Hugo Guillamón,Diego López
+674181,90'+2',Goal - Header,Real Madrid,Lucas Vázquez,Toni Kroos
+674184,33',Goal,Barcelona,Raphinha,
+674184,41',Goal,Almería,Léo Baptistão,Sergio Arribas
+674184,60',Goal - Header,Barcelona,Sergi Roberto,Raphinha
+674184,71',Goal,Almería,Edgar González,
+674184,83',Goal,Barcelona,Sergi Roberto,Robert Lewandowski
+674193,78',Goal - Header,Real Madrid,Antonio Rüdiger,Luka Modric
+674200,12',Goal,Las Palmas,Munir El Haddadi,Sandro
+674200,55',Goal,Barcelona,Ferran Torres,Sergi Roberto
+674200,90'+3',Penalty - Scored,Barcelona,Ilkay Gündogan,
+674292,38',Goal,Barcelona,João Félix,Robert Lewandowski
+674292,47',Goal,Barcelona,Robert Lewandowski,Raphinha
+674292,65',Goal - Header,Barcelona,Fermín López,Robert Lewandowski
+674296,4',Goal,Real Madrid,Vinícius Júnior,
+674296,7',Goal,Osasuna,Ante Budimir,
+674296,18',Goal - Volley,Real Madrid,Dani Carvajal,Federico Valverde
+674296,61',Goal,Real Madrid,Brahim Díaz,Federico Valverde
+674296,64',Goal,Real Madrid,Vinícius Júnior,Federico Valverde
+674296,90'+1',Goal,Osasuna,Iker Muñoz,Jesús Areso
+674303,59',Goal - Header,Barcelona,Raphinha,João Félix
+674308,8',Goal,Real Madrid,Rodrygo,Brahim Díaz
+674308,73',Goal,Real Madrid,Rodrygo,Jude Bellingham
+674315,48',Goal,Real Madrid,Aurélien Tchouaméni,
+674319,37',Goal - Volley,Barcelona,João Félix,
+674330,6',Goal - Header,Barcelona,Andreas Christensen,Raphinha
+674330,18',Penalty - Scored,Real Madrid,Vinícius Júnior,
+674330,69',Goal,Barcelona,Fermín López,
+674330,73',Goal,Real Madrid,Lucas Vázquez,Vinícius Júnior
+674330,90'+1',Goal,Real Madrid,Jude Bellingham,Lucas Vázquez
+687554,19',Goal - Header,Napoli,Leo Østigard,
+687554,27',Goal,Real Madrid,Vinícius Júnior,Jude Bellingham
+687554,34',Goal,Real Madrid,Jude Bellingham,Eduardo Camavinga
+687554,54',Penalty - Scored,Napoli,Piotr Zielinski,
+687554,78',Own Goal,Real Madrid,,
+687562,45'+1',Goal,Barcelona,Ferran Torres,Ilkay Gündogan
+687572,16',Goal,Real Madrid,Rodrygo,
+687572,61',Goal,Real Madrid,Jude Bellingham,Vinícius Júnior
+687572,63',Goal,Braga,Álvaro Djaló,Simon Banza
+687577,28',Goal - Volley,Barcelona,Ferran Torres,
+687577,36',Goal,Barcelona,Fermín López,Ferran Torres
+687577,62',Goal,Shakhtar Donetsk,Georgiy Sudakov,Irakli Azarovi
+689480,59',Goal,Barcelona,Robert Lewandowski,Ilkay Gündogan
+689480,90'+3',Goal,Barcelona,Lamine Yamal,João Félix
+689481,6',Goal - Header,Atlético Madrid,Mario Hermoso,Antoine Griezmann
+689481,20',Goal - Header,Real Madrid,Antonio Rüdiger,Luka Modric
+689481,29',Goal,Real Madrid,Ferland Mendy,Dani Carvajal
+689481,37',Goal,Atlético Madrid,Antoine Griezmann,Rodrigo De Paul
+689481,78',Own Goal,Atlético Madrid,,
+689481,85',Goal,Real Madrid,Dani Carvajal,
+689481,116',Goal - Header,Real Madrid,Joselu,Dani Carvajal
+689481,120'+2',Goal,Real Madrid,Brahim Díaz,Joselu
+690923,18',Goal,Barcelona,Fermín López,
+690923,51',Goal,Barcelona,Raphinha,Héctor Fort
+690923,60',Goal,Barbastro,Adriá De Mesa,Jaime
+690923,88',Penalty - Scored,Barcelona,Robert Lewandowski,
+690923,90'+3',Penalty - Scored,Barbastro,Marc Prat,
+690924,54',Penalty - Scored,Real Madrid,Joselu,
+690924,55',Goal,Real Madrid,Brahim Díaz,
+690924,90'+1',Goal,Real Madrid,Rodrygo,Brahim Díaz
+690924,90'+3',Own Goal,Arandina,,
+695633,7',Goal,Real Madrid,Vinícius Júnior,Jude Bellingham
+695633,10',Goal,Real Madrid,Vinícius Júnior,Rodrygo
+695633,33',Goal - Volley,Barcelona,Robert Lewandowski,
+695633,39',Penalty - Scored,Real Madrid,Vinícius Júnior,
+695633,64',Goal,Real Madrid,Rodrygo,
+700716,2',Goal - Free-kick,Manchester City,Bernardo Silva,
+700716,12',Own Goal,Real Madrid,,
+700716,14',Goal,Real Madrid,Rodrygo,Vinícius Júnior
+700716,66',Goal,Manchester City,Phil Foden,John Stones
+700716,71',Goal,Manchester City,Josko Gvardiol,Jack Grealish
+700716,79',Goal - Volley,Real Madrid,Federico Valverde,Vinícius Júnior
+700717,37',Goal,Barcelona,Raphinha,
+700717,48',Goal,Paris Saint-Germain,Ousmane Dembélé,
+700717,50',Goal,Paris Saint-Germain,Vitinha,Fabián Ruiz
+700717,62',Goal - Volley,Barcelona,Raphinha,Pedri
+700717,77',Goal - Header,Barcelona,Andreas Christensen,Ilkay Gündogan
+700722,12',Goal,Real Madrid,Rodrygo,
+700722,76',Goal,Manchester City,Kevin De Bruyne,
+700723,12',Goal,Barcelona,Raphinha,Lamine Yamal
+700723,40',Goal,Paris Saint-Germain,Ousmane Dembélé,Bradley Barcola
+700723,54',Goal,Paris Saint-Germain,Vitinha,Achraf Hakimi
+700723,61',Penalty - Scored,Paris Saint-Germain,Kylian Mbappé,
+700723,89',Goal,Paris Saint-Germain,Kylian Mbappé,
+704734,64',Goal,Real Madrid,Éder Militão,Vinícius Júnior
+704734,90'+5',Goal,Atlético Madrid,Ángel Correa,Javi Galán
+704739,18',Goal - Header,Osasuna,Ante Budimir,Bryan Zaragoza
+704739,28',Goal,Osasuna,Bryan Zaragoza,Pablo Ibáñez
+704739,53',Goal,Barcelona,Pau Víctor,Gerard Martín
+704739,72',Penalty - Scored,Osasuna,Ante Budimir,
+704739,85',Goal,Osasuna,Abel Bretones,
+704739,89',Goal,Barcelona,Lamine Yamal,Ferran Torres
+704740,7',Goal - Header,Barcelona,Robert Lewandowski,Raphinha
+704740,22',Goal,Barcelona,Robert Lewandowski,Raphinha
+704740,32',Goal,Barcelona,Robert Lewandowski,Eric García
+704745,14',Goal,Real Madrid,Federico Valverde,Luka Modric
+704745,73',Goal,Real Madrid,Vinícius Júnior,Federico Valverde
+704753,24',Penalty - Scored,Barcelona,Robert Lewandowski,
+704753,28',Goal,Barcelona,Pedri,Lamine Yamal
+704753,39',Goal,Barcelona,Robert Lewandowski,Raphinha
+704753,82',Goal,Barcelona,Pablo Torre,
+704753,87',Goal,Sevilla,Stanis Idumbo,Loïc Badé
+704753,88',Goal - Free-kick,Barcelona,Pablo Torre,
+704759,20',Goal,Real Madrid,Kylian Mbappé,Eduardo Camavinga
+704759,51',Goal,Celta Vigo,Williot Swedberg,Óscar Mingueza
+704759,66',Goal,Real Madrid,Vinícius Júnior,Luka Modric
+704766,54',Goal,Barcelona,Robert Lewandowski,Marc Casadó
+704766,56',Goal - Header,Barcelona,Robert Lewandowski,Alejandro Balde
+704766,77',Goal,Barcelona,Lamine Yamal,Raphinha
+704766,84',Goal,Barcelona,Raphinha,Iñigo Martínez
+704778,27',Goal,Valencia,Hugo Duro,
+704778,85',Goal,Real Madrid,Luka Modric,Jude Bellingham
+704778,90'+6',Goal,Real Madrid,Jude Bellingham,
+704822,4',Goal - Header,Leganés,Sergio González,Óscar Rodríguez
+704830,30',Goal,Barcelona,Pedri,Gavi
+704830,60',Goal,Atlético Madrid,Rodrigo De Paul,
+704830,90'+6',Goal,Atlético Madrid,Alexander Sørloth,Nahuel Molina
+704838,10',Goal,Real Madrid,Kylian Mbappé,Rodrygo
+704838,20',Goal,Real Madrid,Federico Valverde,Eduardo Camavinga
+704838,34',Goal,Real Madrid,Rodrygo,Lucas Vázquez
+704838,35',Goal - Header,Sevilla,Isaac Romero,Juanlu Sanchez
+704838,53',Goal,Real Madrid,Brahim Díaz,Kylian Mbappé
+704838,85',Goal,Sevilla,Dodi Lukébakio,Peque
+704962,48',Own Goal,Barcelona,,
+704966,34',Goal,Real Madrid,Eduardo Camavinga,Federico Valverde
+704970,12',Goal,Barcelona,Ferran Torres,Iñigo Martínez
+704970,15',Goal,Celta Vigo,Borja Iglesias,Pablo Durán
+704970,52',Goal,Celta Vigo,Borja Iglesias,Yoel Lago
+704970,62',Goal,Celta Vigo,Borja Iglesias,Sergio Carreira
+704970,65',Goal,Barcelona,Dani Olmo,Raphinha
+704970,68',Goal - Header,Barcelona,Raphinha,Lamine Yamal
+704970,90'+8',Penalty - Scored,Barcelona,Raphinha,
+704974,90'+3',Goal,Real Madrid,Federico Valverde,
+704981,21',Goal,Real Madrid,Arda Güler,
+704988,46',Goal,Barcelona,Dani Olmo,Eric García
+704994,33',Goal,Real Madrid,Arda Güler,Lucas Vázquez
+704994,39',Goal,Real Madrid,Kylian Mbappé,Jude Bellingham
+704994,48',Goal,Real Madrid,Kylian Mbappé,Arda Güler
+704994,69',Goal,Celta Vigo,Javi Rodríguez,
+704994,76',Goal,Celta Vigo,Williot Swedberg,Iago Aspas
+704996,6',Goal,Real Valladolid,Iván Sánchez,Raúl Moro
+704996,54',Goal,Barcelona,Raphinha,
+704996,60',Goal,Barcelona,Fermín López,Gerard Martín
+705002,5',Penalty - Scored,Real Madrid,Kylian Mbappé,
+705002,14',Goal,Real Madrid,Kylian Mbappé,Vinícius Júnior
+705002,19',Goal - Header,Barcelona,Eric García,Ferran Torres
+705002,32',Goal,Barcelona,Lamine Yamal,Ferran Torres
+705002,34',Goal,Barcelona,Raphinha,Pedri
+705002,45',Goal,Barcelona,Raphinha,Ferran Torres
+705002,70',Goal,Real Madrid,Kylian Mbappé,Vinícius Júnior
+712532,63',Goal,Real Madrid,Jude Bellingham,
+712532,90'+2',Own Goal,Real Madrid,,
+712532,90'+5',Goal,Real Madrid,Rodrygo,
+712533,17',Goal,Barcelona,Gavi,
+712533,52',Goal,Barcelona,Lamine Yamal,
+712534,5',Goal,Real Madrid,Kylian Mbappé,
+712534,22',Goal,Barcelona,Lamine Yamal,
+712534,36',Penalty - Scored,Barcelona,Robert Lewandowski,
+712534,39',Goal,Barcelona,Raphinha,
+712534,45'+10',Goal,Barcelona,Alejandro Balde,
+712534,48',Goal,Barcelona,Raphinha,
+712534,60',Goal,Real Madrid,Rodrygo,
+720322,53',Goal,Barcelona,Raphinha,Dani Olmo
+720322,60',Penalty - Scored,Borussia Dortmund,Serhou Guirassy,
+720322,75',Goal,Barcelona,Ferran Torres,
+720322,78',Goal,Borussia Dortmund,Serhou Guirassy,Pascal Gross
+720322,85',Goal,Barcelona,Ferran Torres,Lamine Yamal
+720372,1',Goal,Barcelona,Raphinha,Fermín López
+720372,18',Goal - Volley,Bayern Munich,Harry Kane,Serge Gnabry
+720372,36',Goal,Barcelona,Robert Lewandowski,Fermín López
+720372,45',Goal,Barcelona,Raphinha,Marc Casadó
+720372,56',Goal,Barcelona,Raphinha,Lamine Yamal
+720442,8',Goal,Barcelona,Robert Lewandowski,Raphinha
+720442,34',Goal,Barcelona,Raphinha,
+720442,37',Goal - Header,Barcelona,Iñigo Martínez,Pedri
+720442,51',Goal - Header,Barcelona,Robert Lewandowski,Iñigo Martínez
+720442,81',Own Goal,Barcelona,,
+720448,45'+2',Penalty - Scored,Lille,Jonathan David,
+720459,30',Goal,Borussia Dortmund,Donyell Malen,Serhou Guirassy
+720459,34',Goal,Borussia Dortmund,Jamie Gittens,Donyell Malen
+720459,60',Goal - Header,Real Madrid,Antonio Rüdiger,Kylian Mbappé
+720459,62',Goal,Real Madrid,Vinícius Júnior,
+720459,83',Goal,Real Madrid,Lucas Vázquez,
+720459,86',Goal,Real Madrid,Vinícius Júnior,Jude Bellingham
+720459,90'+3',Goal,Real Madrid,Vinícius Júnior,
+721442,37',Goal,Real Madrid,Kylian Mbappé,Vinícius Júnior
+721442,53',Goal,Real Madrid,Rodrygo,Kylian Mbappé
+721442,84',Penalty - Scored,Real Madrid,Vinícius Júnior,
+724692,5',Goal,Real Madrid,Federico Valverde,
+724692,13',Goal - Header,Real Madrid,Eduardo Camavinga,Fran García
+724692,28',Goal,Real Madrid,Arda Güler,Federico Valverde
+724692,55',Goal,Real Madrid,Luka Modric,Brahim Díaz
+724692,88',Goal,Real Madrid,Arda Güler,Fran García
+724693,21',Goal - Header,Barcelona,Eric García,Ronald Araújo
+724693,31',Goal - Header,Barcelona,Robert Lewandowski,Pablo Torre
+724693,47',Goal,Barcelona,Robert Lewandowski,Pablo Torre
+724693,56',Goal,Barcelona,Pablo Torre,
+733608,58',Goal - Free-kick,Arsenal,Declan Rice,
+733608,70',Goal - Free-kick,Arsenal,Declan Rice,
+733608,75',Goal,Arsenal,Mikel Merino,Myles Lewis-Skelly
+733610,25',Goal,Barcelona,Raphinha,Pau Cubarsí
+733610,48',Goal - Header,Barcelona,Robert Lewandowski,Raphinha
+733610,66',Goal,Barcelona,Robert Lewandowski,Fermín López
+733610,77',Goal,Barcelona,Lamine Yamal,Raphinha
+733612,65',Goal,Arsenal,Bukayo Saka,Mikel Merino
+733612,67',Goal,Real Madrid,Vinícius Júnior,
+733612,90'+3',Goal,Arsenal,Gabriel Martinelli,Mikel Merino
+733614,11',Penalty - Scored,Borussia Dortmund,Serhou Guirassy,
+733614,49',Goal - Header,Borussia Dortmund,Serhou Guirassy,Ramy Bensebaini
+733614,54',Own Goal,Barcelona,,
+733614,76',Goal,Borussia Dortmund,Serhou Guirassy,
+733617,1',Goal,Internazionale,Marcus Thuram,Denzel Dumfries
+733617,21',Goal,Internazionale,Denzel Dumfries,Francesco Acerbi
+733617,24',Goal,Barcelona,Lamine Yamal,
+733617,38',Goal,Barcelona,Ferran Torres,Raphinha
+733617,63',Goal - Header,Internazionale,Denzel Dumfries,Hakan Çalhanoglu
+733617,65',Own Goal,Barcelona,,
+733619,21',Goal,Internazionale,Lautaro Martínez,Denzel Dumfries
+733619,45'+1',Penalty - Scored,Internazionale,Hakan Çalhanoglu,
+733619,54',Goal,Barcelona,Eric García,Gerard Martín
+733619,60',Goal - Header,Barcelona,Dani Olmo,Gerard Martín
+733619,87',Goal,Barcelona,Raphinha,
+733619,90'+3',Goal,Internazionale,Francesco Acerbi,Denzel Dumfries
+733619,99',Goal,Internazionale,Davide Frattesi,Mehdi Taremi
+735156,28',Goal,Barcelona,Pedri,Lamine Yamal
+735156,70',Goal - Free-kick,Real Madrid,Kylian Mbappé,
+735156,77',Goal - Header,Real Madrid,Aurélien Tchouaméni,Arda Güler
+735156,84',Goal,Barcelona,Ferran Torres,Lamine Yamal
+735156,116',Goal,Barcelona,Jules Koundé,
+748115,22',Goal,Barcelona,Ferran Torres,
+748115,30',Goal,Barcelona,Fermín López,
+748115,34',Goal,Barcelona,Roony Bardghji,
+748115,38',Goal,Barcelona,Raphinha,
+748115,52',Goal,Barcelona,Raphinha,
+748116,2',Goal,Real Madrid,Federico Valverde,
+748116,55',Goal,Real Madrid,Rodrygo,
+748116,58',Goal,Atlético Madrid,Alexander Sørloth,
+748117,36',Goal,Barcelona,Raphinha,
+748117,45'+2',Goal,Real Madrid,Vinícius Júnior,
+748117,45'+4',Goal,Barcelona,Robert Lewandowski,
+748117,45'+6',Goal,Real Madrid,Gonzalo García,
+748117,73',Goal,Barcelona,Raphinha,
+748208,31',Goal,Real Sociedad,Álvaro Odriozola,Ander Barrenetxea
+748208,43',Goal - Header,Barcelona,Jules Koundé,Marcus Rashford
+748208,59',Goal - Header,Barcelona,Robert Lewandowski,Lamine Yamal
+748210,14',Goal - Header,Atlético Madrid,Robin Le Normand,Giuliano Simeone
+748210,25',Goal,Real Madrid,Kylian Mbappé,Arda Güler
+748210,36',Goal,Real Madrid,Arda Güler,Vinícius Júnior
+748210,45'+3',Goal - Header,Atlético Madrid,Alexander Sørloth,Koke
+748210,51',Penalty - Scored,Atlético Madrid,Julián Álvarez,
+748210,63',Goal - Free-kick,Atlético Madrid,Julián Álvarez,
+748210,90'+3',Goal,Atlético Madrid,Antoine Griezmann,Álex Baena
+748214,47',Goal,Real Madrid,Vinícius Júnior,Kylian Mbappé
+748214,69',Penalty - Scored,Real Madrid,Vinícius Júnior,
+748214,73',Goal,Villarreal,Georges Mikautadze,Pape Gueye
+748214,81',Goal,Real Madrid,Kylian Mbappé,Brahim Díaz
+748215,13',Penalty - Scored,Sevilla,Alexis Sánchez,
+748215,37',Goal,Sevilla,Isaac Romero,Rubén Vargas
+748215,45'+7',Goal,Barcelona,Marcus Rashford,Pedri
+748215,90',Goal,Sevilla,José Ángel Carmona,Lucien Agoumé
+748215,90'+6',Goal,Sevilla,Akor Adams,Chidera Ejuke
+748228,13',Goal,Barcelona,Pedri,Lamine Yamal
+748228,20',Goal - Volley,Girona,Axel Witsel,Arnau Martínez
+748228,90'+3',Goal,Barcelona,Ronald Araújo,Frenkie de Jong
+748231,80',Goal,Real Madrid,Kylian Mbappé,Arda Güler
+748236,22',Goal,Real Madrid,Kylian Mbappé,Jude Bellingham
+748236,38',Goal,Barcelona,Fermín López,Marcus Rashford
+748236,43',Goal,Real Madrid,Jude Bellingham,Éder Militão
+748297,24',Goal,Real Madrid,Kylian Mbappé,Jude Bellingham
+748297,68',Goal,Alavés,Carlos Vicente,Antonio Blanco
+748297,76',Goal,Real Madrid,Rodrygo,Vinícius Júnior
+748299,70',Goal,Barcelona,Raphinha,Pedri
+748299,86',Goal,Barcelona,Raphinha,
+748307,38',Goal - Header,Real Madrid,Jude Bellingham,Rodrygo
+748307,86',Penalty - Scored,Real Madrid,Kylian Mbappé,
+748312,12',Penalty - Scored,Barcelona,Raphinha,
+748312,63',Goal,Barcelona,Lamine Yamal,Frenkie de Jong
+748315,20',Goal - Header,Real Madrid,Gonzalo García,Rodrygo
+748315,50',Goal,Real Madrid,Gonzalo García,Federico Valverde
+748315,56',Goal - Header,Real Madrid,Raúl Asencio,Rodrygo
+748315,66',Goal,Real Betis,Cucho Hernández,Aitor Ruibal
+748315,82',Goal,Real Madrid,Gonzalo García,Arda Güler
+748315,90'+3',Goal,Real Madrid,Fran García,Federico Valverde
+748319,86',Goal,Barcelona,Dani Olmo,Fermín López
+748319,90',Goal,Barcelona,Robert Lewandowski,Fermín López
+748449,9',Goal - Header,Barcelona,Ferran Torres,Lamine Yamal
+748449,25',Goal,Barcelona,Ferran Torres,Lamine Yamal
+748449,56',Goal,Espanyol,Pol Lozano,
+748449,87',Goal,Barcelona,Lamine Yamal,
+748449,89',Goal - Volley,Barcelona,Marcus Rashford,Frenkie de Jong
+748453,51',Goal,Real Madrid,Federico Valverde,Brahim Díaz
+748453,62',Goal,Girona,Thomas Lemar,Arnau Martínez
+748457,17',Goal,Real Madrid,Vinícius Júnior,
+748457,90'+4',Goal,Real Betis,Héctor Bellerín,Giovani Lo Celso
+748460,45',Goal,Barcelona,Fermín López,Pedri
+748460,74',Goal,Barcelona,Marcus Rashford,Robert Lewandowski
+748465,40',Penalty - Scored,Barcelona,Lamine Yamal,
+748471,30',Goal,Real Madrid,Kylian Mbappé,Arda Güler
+748471,50',Goal,Real Madrid,Vinícius Júnior,Federico Valverde
+748471,90'+3',Goal,Alavés,Toni Martínez,Ander Guevara
+748475,55',Goal,Real Madrid,Vinícius Júnior,Gonzalo García
+748475,66',Goal,Real Madrid,Vinícius Júnior,Jude Bellingham
+748480,81',Goal - Header,Barcelona,Robert Lewandowski,Marcus Rashford
+748480,86',Goal,Barcelona,Ferran Torres,Fermín López
+748480,88',Goal - Header,Osasuna,Raúl García,Abel Bretones
+748484,9',Goal - Free-kick,Barcelona,Marcus Rashford,
+748484,18',Goal,Barcelona,Ferran Torres,Dani Olmo
+757671,25',Penalty - Scored,Real Madrid,Kylian Mbappé,
+757671,52',Goal,Real Madrid,Kylian Mbappé,Thibaut Courtois
+757671,73',Goal,Real Madrid,Kylian Mbappé,Arda Güler
+757671,83',Goal - Header,Real Madrid,Eduardo Camavinga,Rodrygo
+757671,90'+3',Goal,Real Madrid,Brahim Díaz,Gonzalo García
+757687,19',Goal,Barcelona,Ferran Torres,Marcus Rashford
+757687,38',Goal,Paris Saint-Germain,Senny Mayulu,Nuno Mendes
+757687,90',Goal,Paris Saint-Germain,Gonçalo Ramos,Achraf Hakimi
+757690,7',Goal,Barcelona,Fermín López,Lamine Yamal
+757690,38',Goal,Barcelona,Fermín López,Dro Fernández
+757690,53',Penalty - Scored,Olympiacos,Ayoub El Kaabi,
+757690,68',Penalty - Scored,Barcelona,Lamine Yamal,
+757690,74',Goal,Barcelona,Marcus Rashford,Alejandro Balde
+757690,76',Goal,Barcelona,Fermín López,Roony Bardghji
+757690,79',Goal,Barcelona,Marcus Rashford,Pedri
+757705,57',Goal,Real Madrid,Jude Bellingham,
+762534,76',Goal - Header,Barcelona,Andreas Christensen,Frenkie de Jong
+762534,90',Goal,Barcelona,Marcus Rashford,Lamine Yamal
+762543,41',Penalty - Scored,Real Madrid,Kylian Mbappé,
+762543,45'+1',Own Goal,Real Madrid,,
+762543,80',Goal,Talavera,Nahuel Arroyo,Manuel Farrando
+762543,88',Goal,Real Madrid,Kylian Mbappé,Aurélien Tchouaméni
+762543,90'+1',Goal,Talavera,Gonzalo Di Renzo,
+401862891,1',Goal,Real Madrid,Arda Güler,
+401862891,6',Goal - Header,Bayern Munich,Aleksandar Pavlovic,Joshua Kimmich
+401862891,29',Goal - Free-kick,Real Madrid,Arda Güler,
+401862891,38',Goal,Bayern Munich,Harry Kane,Dayot Upamecano
+401862891,42',Goal,Real Madrid,Kylian Mbappé,Vinícius Júnior
+401862891,89',Goal,Bayern Munich,Luis Díaz,Jamal Musiala
+401862891,90'+4',Goal,Bayern Munich,Michael Olise,Harry Kane
+401862892,4',Goal,Barcelona,Lamine Yamal,Ferran Torres
+401862892,24',Goal,Barcelona,Ferran Torres,Dani Olmo
+401862892,31',Goal,Atlético Madrid,Ademola Lookman,Marcos Llorente
+401882839,30',Goal,Real Madrid,Arda Güler,Yan Diomande
+401882839,37',Goal,Real Madrid,Kylian Mbappé,Jude Bellingham
+401882839,63',Penalty - Scored,Real Madrid,Kylian Mbappé,
+401882839,80',Goal,Sevilla,Manu Bueno,Lucas Stassin
+401882839,82',Goal,Real Madrid,Yan Diomande,Aurélien Tchouaméni
+401882846,10',Goal,Barcelona,Lamine Yamal,Jules Koundé
+401882846,27',Goal - Header,Real Betis,Valentín Gómez,Pablo Fornals
+401882846,41',Goal - Header,Barcelona,Rodri,Fermín López
+401882846,51',Goal,Barcelona,Gabriel Jesus,Lamine Yamal
+401882846,53',Goal,Real Betis,Abde Ezzalzouli,Giovani Lo Celso
+401882846,62',Goal,Barcelona,Eric García,Pau Cubarsí
+401882846,81',Goal,Barcelona,Dani Olmo,Pau Cubarsí
+401882848,62',Goal,Real Madrid,Yan Diomande,Federico Valverde
+401882853,2',Goal,Barcelona,Anthony Gordon,
+401882853,30',Goal,Barcelona,Gabriel Jesus,
+401882853,73',Goal,Barcelona,Jules Koundé,Lamine Yamal
+401882859,19',Goal - Header,Sevilla,Youssouf Fofana,Felix Correia
+401882859,22',Goal,Barcelona,Raphinha,Andreas Christensen
+401882859,52',Goal - Header,Barcelona,Raphinha,Lamine Yamal
+401882859,69',Goal,Barcelona,Raphinha,Lamine Yamal
+401882865,53',Penalty - Scored,Atlético Madrid,Alejandro Grimaldo,
+401882865,59',Goal,Atlético Madrid,Jonathan David,Giuliano Simeone
+401882865,89',Goal - Header,Real Madrid,Antonio Rüdiger,Bernardo Silva
+401915313,43',Goal,Real Madrid,Bernardo Silva,
+401915313,52',Goal,Real Madrid,Arda Güler,Kylian Mbappé
+401915313,83',Goal,Real Madrid,Kylian Mbappé,Yan Diomande
+401915313,85',Goal,RB Leipzig,Tidiam Gomis,Christoph Baumgartner
+401915313,87',Goal - Volley,Real Madrid,Yan Diomande,Brahim Díaz
+401915399,38',Goal,Paris Saint-Germain,Désiré Doué,João Neves
+401915399,55',Goal,Barcelona,Xavi Espart,Fermín López
+401915399,72',Goal - Header,Paris Saint-Germain,Lucas Hernández,Désiré Doué
+401915399,79',Goal,Barcelona,Lamine Yamal,
+401915399,81',Goal,Paris Saint-Germain,Vitinha,
+401915399,86',Goal,Paris Saint-Germain,Fabián Ruiz,Achraf Hakimi
+401915414,20',Goal,AS Roma,Marten de Roon,Matìas Soulè
+401915414,25',Goal,Real Madrid,Kylian Mbappé,Yan Diomande
+401915414,51',Goal,AS Roma,Donyell Malen,Rodrigo Mora
+401915414,57',Goal,AS Roma,Donyell Malen,Matìas Soulè
+401915414,83',Goal,Real Madrid,Carlos Espí,
+401915414,85',Goal - Header,Real Madrid,Endrick,Arda Güler
+401915414,90',Goal - Volley,Real Madrid,Antonio Rüdiger,Arda Güler
+401915435,28',Goal,Galatasaray,Alexey Batrakov,Rafael Leão
+401915435,43',Goal,Barcelona,João Cancelo,Dani Olmo
+401915435,50',Goal - Header,Barcelona,Fermín López,Lamine Yamal
+401915435,53',Goal,Barcelona,Anthony Gordon,Lamine Yamal
+401915435,65',Goal,Barcelona,Karim Adeyemi,
