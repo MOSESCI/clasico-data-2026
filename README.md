@@ -84,7 +84,7 @@ data/                      les données propres, figées au 23/10/2026
   liga_2025_26.csv, liga_2026_27.csv   tous les matchs de Liga
   cotes.csv                cotes du marché (anonymisées)
 graphiques/                graphiques exportés par le notebook
-carrousel/                 carrousels LinkedIn (HTML modifiable + PDF)
+carrousel/                 carrousels LinkedIn (charte, générateurs, HTML, PDF, images)
 collecte/                  scripts de collecte et de construction des données
 ```
 
@@ -93,8 +93,13 @@ Les scripts de `collecte/` interrogent Wikipédia, ESPN et Understat avec des re
 `construire_donnees.py` assemble les fichiers bruts dans `data/`. `generer_notebook.py` régénère le notebook.
 
 ### Carrousel
-Modifier `carrousel/post1_pronostic.html` dans un éditeur de texte, puis :
-`python carrousel/exporter.py carrousel/post1_pronostic.html` (produit le PDF et une image par slide ; nécessite Chrome ou Edge).
+Chaque club garde sa charte : rayures *blaugrana* et or pour le Barça, blanc, or et bleu marine pour le Real.
+Les slides qui comparent les deux sont partagées en deux. Aucun blason ni logo officiel n'est utilisé.
+
+- `carrousel/charte.css` : les couleurs et la mise en forme communes aux deux carrousels.
+- `carrousel/generer_post1.py` : construit `post1_pronostic.html` à partir de `resultats.json` (aucun chiffre recopié à la main).
+- `carrousel/generer_post2.py` : construit le gabarit `post2_verdict.html` ; les zones `[À REMPLIR]` se complètent après le match.
+- `python carrousel/exporter.py carrousel/post1_pronostic.html` : produit le PDF et une image par slide (nécessite Chrome ou Edge).
 
 ## Sources
 - Wikipédia : *List of El Clásico matches* et pages saison du FC Barcelona et du Real Madrid CF

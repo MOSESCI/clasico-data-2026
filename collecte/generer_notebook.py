@@ -369,6 +369,7 @@ resultats = {
     "preuve_forme": {"gagne": int(gagne), "perd": int(perd), "nuls": int(nuls), "sur": int(len(comparables)),
                      "taux": round(float(taux), 3), "p_hasard": round(float(p_hasard), 3), "correlation": round(float(correlation), 2),
                      "nuls_sur_18": int((histo.vainqueur == "Nul").sum())},
+    "clasicos": histo[["date", "competition", "score", "vainqueur", "plus_en_forme"]].to_dict("records"),
     "joueurs": resume.reset_index().to_dict("records"), "correlation_joueurs": round(float(correlation_joueurs), 2),
     "forme_actuelle": actuelle,
     "modele": {k: round(float(modele[k]), 3) for k in ("lambda_barca", "lambda_real", "barca", "nul", "real")},

@@ -3,199 +3,419 @@
 <head>
 <meta charset="utf-8">
 <title>Clásico — Pronostic data</title>
-<!--
-  Carrousel LinkedIn n°1 — 9 slides au format 1080 × 1350.
-  Pour modifier un chiffre : chercher le texte ci-dessous et le remplacer, puis relancer
-  l'export PDF (voir README, section « Carrousel »). Les chiffres viennent de resultats.json.
--->
+<!-- Fichier généré par carrousel/generer_post1.py à partir de resultats.json.
+     Pour une retouche de texte ponctuelle, on peut modifier ce fichier directement,
+     mais elle sera écrasée à la prochaine génération : préférer modifier generer_post1.py. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --fond: #1A1A19; --carte: #232321; --trait: #3A3936;
-    --encre: #F2F0EA; --gris: #9A978F; --discret: #6E6C66;
-    --barca: #E0457B; --real: #B8891F;
-  }
-  @page { size: 1080px 1350px; margin: 0; }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { background: var(--fond); color: var(--encre); font-family: Inter, sans-serif; }
-  .slide {
-    width: 1080px; height: 1350px; padding: 96px 88px 80px; position: relative;
-    display: flex; flex-direction: column; page-break-after: always; overflow: hidden;
-  }
-  .kicker { font: 600 24px/1 Inter; letter-spacing: .14em; text-transform: uppercase; color: var(--gris); margin-bottom: 40px; }
-  h1 { font: 700 84px/1.04 "Space Grotesk"; letter-spacing: -.02em; }
-  h2 { font: 700 64px/1.08 "Space Grotesk"; letter-spacing: -.015em; margin-bottom: 36px; }
-  p, li { font-size: 32px; line-height: 1.4; color: var(--encre); }
-  .gris { color: var(--gris); }
-  .num { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-variant-numeric: tabular-nums; }
-  .b { color: var(--barca); } .r { color: var(--real); }
-  .hero { font: 700 168px/1 "Space Grotesk"; font-variant-numeric: tabular-nums; letter-spacing: -.03em; white-space: nowrap; margin: 24px 0 28px; }
-  .carte { background: var(--carte); border-radius: 20px; padding: 36px 40px; }
-  .pied {
-    position: absolute; left: 88px; right: 88px; bottom: 52px;
-    display: flex; justify-content: space-between; align-items: flex-end;
-    font-size: 20px; color: var(--discret);
-  }
-  .signature { color: var(--gris); font-weight: 600; }
-  .source { position: absolute; left: 88px; right: 88px; bottom: 96px; font-size: 19px; color: var(--discret); }
-  img.graph { width: 100%; border-radius: 12px; }
-  .grille3 { display: grid; gap: 28px; }
-  .etape { display: grid; grid-template-columns: 120px 1fr; gap: 28px; align-items: start; }
-  .etape .num { font-size: 64px; line-height: 1; color: var(--gris); }
-  .etape h3 { font: 700 38px/1.15 "Space Grotesk"; margin-bottom: 10px; }
-  .etape p { font-size: 28px; color: var(--gris); }
-  .duel { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
-  .forme { display: flex; gap: 10px; margin: 18px 0 22px; }
-  .pastille { width: 64px; height: 64px; border-radius: 12px; display: grid; place-items: center; font: 700 30px "Space Grotesk"; color: var(--fond); }
-  .V { background: #5E9E6E; } .N { background: var(--discret); } .D { background: #C4544A; }
-  .liste-matchs { font-size: 22px; line-height: 1.6; color: var(--gris); }
-  .probas { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 40px; }
-  .probas .carte { text-align: center; padding: 30px 16px; }
-  .probas .val { font: 700 104px/1 "Space Grotesk"; letter-spacing: -.03em; }
-  .probas .lib { font-size: 24px; color: var(--gris); margin-top: 12px; }
-  ul.limites { list-style: none; display: grid; gap: 30px; }
-  ul.limites li { padding-left: 52px; position: relative; }
-  ul.limites li::before { content: "—"; position: absolute; left: 0; color: var(--gris); }
-  .avert { font-size: 22px; color: var(--gris); border-top: 1px solid var(--trait); padding-top: 18px; margin-top: 28px; }
-  .fleche { font: 600 26px Inter; color: var(--gris); }
+/* Charte des carrousels Clásico : chaque club garde ses couleurs.
+   Barça : rayures blaugrana (bleu + grenat) et or. Real : blanc, or et bleu marine.
+   Aucun blason ni logo officiel : les couleurs suffisent à identifier chaque camp. */
+:root {
+  --nuit: #0D1326; --nuit-2: #151C35; --trait: #2A3150;
+  --texte: #F5F3EE; --gris: #A3A9BD; --discret: #737A93;
+  --fcb-bleu: #004D98; --fcb-grenat: #A50044; --fcb-or: #EDBB00; --fcb-nuit: #061A3A;
+  --rm-blanc: #FFFFFF; --rm-or: #FEBE10; --rm-marine: #00529F; --rm-encre: #0B1F3F; --rm-creme: #FBF6E6;
+}
+@page { size: 1080px 1350px; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--nuit); color: var(--texte); font-family: Inter, sans-serif; }
+
+.slide {
+  width: 1080px; height: 1350px; padding: 110px 88px 80px; position: relative;
+  display: flex; flex-direction: column; page-break-after: always; overflow: hidden;
+  background: radial-gradient(120% 80% at 50% 0%, var(--nuit-2) 0%, var(--nuit) 70%);
+}
+.sans-marge { padding: 0; }
+
+/* Typographie */
+.kicker { font: 700 24px/1 Inter; letter-spacing: .16em; text-transform: uppercase; color: var(--gris); margin-bottom: 30px; }
+h1 { font: 800 96px/.98 "Barlow Condensed"; text-transform: uppercase; letter-spacing: -.005em; }
+h2 { font: 800 76px/1 "Barlow Condensed"; text-transform: uppercase; margin-bottom: 30px; }
+h3 { font: 700 40px/1.05 "Barlow Condensed"; text-transform: uppercase; margin-bottom: 8px; }
+p, li { font-size: 31px; line-height: 1.4; }
+.gris { color: var(--gris); }
+.num { font-family: "Barlow Condensed"; font-weight: 800; font-size: 1.15em; font-variant-numeric: tabular-nums; }
+.txt-barca { color: #F05A8C; } .txt-real { color: var(--rm-or); }
+.or-barca { color: var(--fcb-or); } .marine { color: var(--rm-marine); } .marine-doux { color: #4E6A93; }
+
+/* Motifs des deux camps */
+.rayures { background: repeating-linear-gradient(90deg, var(--fcb-bleu) 0 76px, var(--fcb-grenat) 76px 152px); }
+.rayures-sombres {
+  background: linear-gradient(180deg, rgba(6, 18, 48, .55), rgba(6, 18, 48, .82)),
+              repeating-linear-gradient(90deg, var(--fcb-bleu) 0 76px, var(--fcb-grenat) 76px 152px);
+}
+.bandeau { position: absolute; top: 0; left: 0; right: 0; height: 18px; display: flex; }
+.bandeau .rayures { flex: 1; background: repeating-linear-gradient(90deg, var(--fcb-bleu) 0 40px, var(--fcb-grenat) 40px 80px); }
+.bandeau .blanc-or { flex: 1; background: var(--rm-blanc); border-bottom: 6px solid var(--rm-or); }
+
+/* Pied de slide */
+.pied {
+  position: absolute; left: 88px; right: 88px; bottom: 50px; display: flex; justify-content: space-between;
+  font-size: 21px; color: var(--discret); z-index: 5;
+}
+.signature { color: var(--gris); font-weight: 700; letter-spacing: .02em; }
+.pied-clair { color: var(--texte); }
+.pied-clair .signature { color: var(--texte); }
+.pied-clair span:last-child { color: var(--rm-marine); font-weight: 700; }
+.source { position: absolute; left: 88px; right: 88px; bottom: 92px; font-size: 19px; color: var(--discret); }
+
+/* 1 & 9 — écran partagé en diagonale */
+.split-diag { padding: 0; }
+.split-diag .cote-barca { position: absolute; inset: 0; clip-path: polygon(0 0, 64% 0, 36% 100%, 0 100%); }
+.split-diag .cote-real {
+  position: absolute; inset: 0; clip-path: polygon(64% 0, 100% 0, 100% 100%, 36% 100%);
+  background: linear-gradient(200deg, var(--rm-blanc) 55%, var(--rm-creme));
+}
+.split-diag::after {
+  content: ""; position: absolute; inset: 0; background: var(--rm-or);
+  clip-path: polygon(63.4% 0, 64.6% 0, 36.6% 100%, 35.4% 100%);
+}
+.etiquette-barca, .etiquette-real { position: absolute; font: 800 46px/1 "Barlow Condensed"; text-transform: uppercase; letter-spacing: .06em; }
+.etiquette-barca { top: 96px; left: 88px; color: var(--fcb-or); }
+.etiquette-real { top: 96px; right: 88px; color: var(--rm-marine); }
+.vs {
+  position: absolute; top: 300px; left: 50%; transform: translateX(-50%); z-index: 3;
+  width: 150px; height: 150px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--nuit); border: 6px solid var(--rm-or); font: 800 64px "Barlow Condensed"; color: var(--texte);
+}
+.carte-titre {
+  position: absolute; left: 64px; right: 64px; bottom: 140px; z-index: 4; overflow: hidden;
+  background: rgba(13, 19, 38, .95); border-radius: 28px; padding: 66px 56px 54px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .45);
+}
+.carte-titre::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 12px;
+  background: linear-gradient(90deg, var(--fcb-bleu) 0 25%, var(--fcb-grenat) 25% 50%, var(--rm-blanc) 50% 75%, var(--rm-or) 75%);
+}
+.carte-titre p { color: var(--gris); margin-top: 22px; font-size: 28px; }
+.carte-finale { top: 240px; bottom: auto; }
+.carte-finale .question { font: 800 52px/1.05 "Barlow Condensed"; text-transform: uppercase; color: var(--texte); margin-top: 40px; }
+.carte-finale .appel { margin-top: 34px; font-size: 30px; padding: 26px 30px; border-radius: 16px; background: var(--nuit-2); }
+.carte-finale .petit { font-size: 23px; }
+
+/* 2 — bilan : deux moitiés */
+.moitie { position: absolute; top: 0; height: 860px; width: 50%; padding: 110px 60px 0; text-align: center; }
+.moitie-barca { left: 0; }
+.moitie-real { right: 0; background: linear-gradient(200deg, var(--rm-blanc) 55%, var(--rm-creme)); border-left: 8px solid var(--rm-or); }
+.moitie .kicker { font-size: 28px; margin-bottom: 40px; }
+.geant { font: 800 300px/.9 "Barlow Condensed"; letter-spacing: -.02em; }
+.legende-geant { font: 700 40px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .12em; color: var(--texte); margin-top: 6px; }
+.moitie .buts { margin-top: 70px; font: 700 34px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .06em; color: var(--texte); }
+.moitie-real .legende-geant, .moitie-real .buts { color: var(--rm-encre); }
+.medaillon {
+  position: absolute; top: 330px; left: 50%; transform: translateX(-50%); width: 190px; height: 190px; border-radius: 50%;
+  background: var(--nuit); border: 6px solid var(--rm-or); display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font: 700 26px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .1em; color: var(--gris); z-index: 2;
+}
+.medaillon .num { font-size: 92px; line-height: .9; color: var(--texte); letter-spacing: 0; }
+.bas-sombre { position: absolute; top: 860px; left: 0; right: 0; bottom: 0; padding: 56px 88px 0; background: var(--nuit); }
+.bas-sombre h2 { font-size: 62px; margin-bottom: 18px; }
+.bas-sombre p { font-size: 28px; }
+
+/* 3 — méthode */
+.etapes { display: grid; gap: 34px; margin-top: 16px; }
+.etape { display: grid; grid-template-columns: 112px 1fr; gap: 30px; align-items: start; }
+.etape p { font-size: 27px; color: var(--gris); }
+.pastille-num {
+  width: 112px; height: 112px; border-radius: 18px; display: grid; place-items: center;
+  font: 800 52px "Barlow Condensed"; color: var(--texte);
+  background: linear-gradient(135deg, var(--fcb-bleu) 0 50%, var(--fcb-grenat) 50%); box-shadow: inset 0 -8px 0 var(--rm-or);
+}
+.etape:nth-child(2) .pastille-num { background: var(--rm-blanc); color: var(--rm-marine); box-shadow: inset 0 -8px 0 var(--rm-or); }
+.carte-neutre { background: var(--nuit-2); border: 1px solid var(--trait); border-radius: 20px; padding: 32px 38px; }
+.carte-neutre p { font-size: 29px; }
+
+/* 4 — preuve */
+.hero { font: 800 210px/.9 "Barlow Condensed"; margin: 0 0 16px; }
+.hero-sur { font-size: 100px; color: var(--gris); margin-left: 14px; }
+.frise { margin-top: 40px; }
+.frise-dates { display: flex; justify-content: space-between; font-size: 21px; color: var(--gris); margin-bottom: 12px; }
+.frise-tuiles { display: grid; grid-template-columns: repeat(18, 1fr); gap: 8px; }
+.tuile { height: 150px; border-radius: 10px; display: grid; place-items: center; font: 800 38px Inter; }
+.tuile-barca { background: repeating-linear-gradient(90deg, var(--fcb-bleu) 0 8px, var(--fcb-grenat) 8px 16px); color: var(--fcb-or); }
+.tuile-real { background: var(--rm-blanc); color: var(--rm-marine); box-shadow: inset 0 -10px 0 var(--rm-or); }
+.score { text-align: center; font: 700 22px "Barlow Condensed"; color: var(--texte); margin-top: 10px; }
+.frise-legende { margin-top: 18px; font-size: 21px; color: var(--gris); display: flex; align-items: center; gap: 10px; }
+.mini { display: inline-block; width: 26px; height: 26px; border-radius: 6px; margin-left: 8px; }
+.sep { margin: 0 6px; }
+
+/* 5 — forme actuelle */
+.duel { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+.carte-club { border-radius: 24px; padding: 34px 32px; min-height: 560px; }
+.carte-barca {
+  background: linear-gradient(180deg, rgba(6, 18, 48, .45), rgba(6, 18, 48, .85)),
+              repeating-linear-gradient(90deg, var(--fcb-bleu) 0 54px, var(--fcb-grenat) 54px 108px);
+  border-bottom: 10px solid var(--fcb-or);
+}
+.carte-real { background: linear-gradient(200deg, var(--rm-blanc) 55%, var(--rm-creme)); color: var(--rm-encre); border-bottom: 10px solid var(--rm-or); }
+.nom-club { font: 800 46px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .03em; }
+.carte-barca .nom-club { color: var(--fcb-or); } .carte-real .nom-club { color: var(--rm-marine); }
+.chips { display: flex; gap: 10px; margin: 22px 0 18px; }
+.chip { width: 66px; height: 66px; border-radius: 12px; display: grid; place-items: center; font: 800 36px "Barlow Condensed"; }
+.chip-barca.chip-V { background: var(--fcb-or); color: var(--fcb-nuit); }
+.chip-real.chip-V { background: var(--rm-marine); color: var(--rm-blanc); }
+.chip-N, .chip-D { background: transparent; border: 3px solid; }
+.chip-barca.chip-D { border-color: var(--texte); color: var(--texte); }
+.chip-real.chip-D { border-color: var(--rm-encre); color: var(--rm-encre); }
+.pts .num { font-size: 84px; }
+.pts .sur { font: 700 40px "Barlow Condensed"; opacity: .7; }
+.pts .db { font: 800 44px "Barlow Condensed"; margin-left: 18px; }
+.carte-barca .pts .db { color: var(--fcb-or); } .carte-real .pts .db { color: var(--rm-marine); }
+.liste { margin-top: 14px; font-size: 24px; line-height: 1.75; }
+.carte-barca .liste { color: #DCE3F2; } .carte-real .liste { color: #34496B; }
+.ldc { font-size: 17px; font-weight: 700; letter-spacing: .08em; padding: 2px 8px; border-radius: 6px; margin-left: 6px; vertical-align: 2px; }
+.carte-barca .ldc { background: rgba(255, 255, 255, .15); } .carte-real .ldc { background: rgba(0, 82, 159, .12); }
+
+/* 6 — joueurs */
+.panneau { border-radius: 22px; padding: 28px 34px 20px; margin-bottom: 18px; }
+.panneau-barca {
+  background: linear-gradient(180deg, rgba(6, 18, 48, .5), rgba(6, 18, 48, .86)),
+              repeating-linear-gradient(90deg, var(--fcb-bleu) 0 54px, var(--fcb-grenat) 54px 108px);
+}
+.panneau-real { background: linear-gradient(200deg, var(--rm-blanc) 55%, var(--rm-creme)); color: var(--rm-encre); }
+.rangee { display: grid; grid-template-columns: 300px 1fr; align-items: center; height: 76px; }
+.joueur { font: 700 34px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .02em; }
+.joueur .nb { font: 500 19px Inter; text-transform: none; opacity: .7; margin-left: 6px; }
+.piste { position: relative; height: 40px; }
+.piste::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 2px; opacity: .25; background: currentColor; }
+.trait { position: absolute; top: calc(50% - 3px); height: 6px; border-radius: 3px; }
+.trait-barca { background: rgba(237, 187, 0, .55); } .trait-real { background: rgba(0, 82, 159, .4); }
+.anneau, .point { position: absolute; top: 50%; transform: translate(-50%, -50%); border-radius: 50%; }
+.anneau { width: 30px; height: 30px; border: 5px solid; background: transparent; }
+.anneau-barca { border-color: var(--fcb-or); } .anneau-real { border-color: var(--rm-marine); }
+.point { width: 34px; height: 34px; }
+.point-barca { background: var(--fcb-or); } .point-real { background: var(--rm-or); border: 4px solid var(--rm-marine); }
+.point .val { position: absolute; left: 50%; bottom: 38px; transform: translateX(-50%); font: 800 26px "Barlow Condensed"; }
+.axe { display: grid; grid-template-columns: 300px 1fr; margin-top: 4px; }
+.graduations { position: relative; height: 24px; font-size: 18px; opacity: .65; }
+.graduations span { position: absolute; transform: translateX(-50%); }
+
+/* 7 — pronostic */
+.probas { display: grid; grid-template-columns: 1.25fr .9fr .9fr; gap: 18px; margin-bottom: 30px; }
+.proba { border-radius: 22px; padding: 30px 20px; text-align: center; }
+.proba .val { font: 800 128px/.95 "Barlow Condensed"; }
+.proba .val small { font-size: 60px; }
+.proba .lib { font: 700 27px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .1em; margin-top: 8px; }
+.proba-barca { color: var(--fcb-or); border-bottom: 10px solid var(--fcb-or); }
+.proba-barca .lib { color: var(--texte); }
+.proba-nul { background: var(--nuit-2); border: 2px solid var(--trait); color: var(--gris); }
+.proba-real { background: linear-gradient(200deg, var(--rm-blanc) 55%, var(--rm-creme)); color: var(--rm-marine); border-bottom: 10px solid var(--rm-or); }
+.proba-real .lib { color: var(--rm-encre); }
+.barres { display: grid; gap: 16px; margin-top: 30px; }
+.barre-ligne { display: grid; grid-template-columns: 200px 1fr; align-items: center; }
+.barre-nom { font-size: 23px; color: var(--gris); }
+.barre { display: flex; gap: 4px; height: 58px; }
+.seg { display: grid; place-items: center; border-radius: 8px; font: 800 28px "Barlow Condensed"; }
+.seg-barca { background: repeating-linear-gradient(90deg, var(--fcb-bleu) 0 20px, var(--fcb-grenat) 20px 40px); color: var(--fcb-or); }
+.seg-nul { background: #3A4160; color: var(--texte); }
+.seg-real { background: var(--rm-blanc); color: var(--rm-marine); box-shadow: inset 0 -6px 0 var(--rm-or); }
+.avert { font-size: 21px; color: var(--gris); border-top: 1px solid var(--trait); padding-top: 16px; margin-top: 22px; }
+
+/* 8 — limites */
+ul.limites { list-style: none; display: grid; gap: 30px; margin-top: 12px; }
+ul.limites li { padding-left: 56px; position: relative; }
+ul.limites li::before {
+  content: ""; position: absolute; left: 0; top: 14px; width: 30px; height: 14px; border-radius: 3px;
+  background: linear-gradient(90deg, var(--fcb-bleu) 0 25%, var(--fcb-grenat) 25% 50%, var(--rm-blanc) 50% 75%, var(--rm-or) 75%);
+}
+
 </style>
 </head>
 <body>
 
-<!-- 1. Accroche -->
-<section class="slide">
-  <div class="kicker">Clásico · Dimanche 25 octobre · 20h00 GMT</div>
-  <h1>Barça – Real ce soir.<br>Les données ont-elles déjà le résultat&nbsp;?</h1>
-  <p class="gris" style="margin-top:48px; font-size:36px;">18 Clásicos passés au crible.<br>595 matchs officiels. 1 modèle statistique.</p>
-  <div style="margin-top:auto; margin-bottom:90px; display:flex; gap:18px; align-items:center;">
-    <span style="width:120px;height:14px;border-radius:7px;background:var(--barca)"></span>
-    <span style="width:120px;height:14px;border-radius:7px;background:var(--real)"></span>
+<section class="slide split-diag">
+  <div class="cote-barca rayures"></div>
+  <div class="cote-real"></div>
+  <div class="etiquette-barca">FC Barcelone</div>
+  <div class="etiquette-real">Real Madrid</div>
+  <div class="vs">VS</div>
+  <div class="carte-titre">
+    <div class="kicker">Clásico · Dimanche 25 octobre · 20h00 GMT</div>
+    <h1>Les données ont-elles déjà le résultat&nbsp;?</h1>
+    <p>18 Clásicos passés au crible · 595 matchs officiels · 1 modèle statistique</p>
   </div>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span class="fleche">Faites défiler →</span></div>
+  <div class="pied pied-clair"><span class="signature">Moïse Monnin · Data Analyst</span><span>Faites défiler →</span></div>
 </section>
-
-<!-- 2. Bilan historique -->
-<section class="slide">
-  <div class="kicker">Le bilan depuis 1902</div>
-  <h2>264 Clásicos officiels.<br>Et personne devant.</h2>
-  <div class="hero"><span class="b">106</span><span class="gris" style="font-size:96px"> · 52 · </span><span class="r">106</span></div>
-  <p class="gris">Victoires du Barça · nuls · victoires du Real</p>
-  <div class="carte" style="margin-top:56px;">
-    <p>Buts marqués : <span class="num b">441</span> pour le Barça, <span class="num r">444</span> pour le Real.</p>
-    <p class="gris" style="margin-top:14px;">124 ans de rivalité, 3 buts d'écart. L'histoire ne départage personne : il faut regarder ailleurs.</p>
+<section class="slide sans-marge">
+  <div class="moitie moitie-barca rayures-sombres">
+    <div class="kicker or-barca">FC Barcelone</div>
+    <div class="geant or-barca">106</div>
+    <div class="legende-geant">victoires</div>
+    <div class="buts">441 buts marqués</div>
   </div>
-  <div class="source">Source : Wikipédia, « List of El Clásico matches » — matchs officiels jusqu'au 10 mai 2026.</div>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>2/9</span></div>
+  <div class="moitie moitie-real">
+    <div class="kicker marine">Real Madrid</div>
+    <div class="geant marine">106</div>
+    <div class="legende-geant marine-doux">victoires</div>
+    <div class="buts marine">444 buts marqués</div>
+  </div>
+  <div class="medaillon"><span class="num">52</span><span>nuls</span></div>
+  <div class="bas-sombre">
+    <div class="kicker">Le bilan depuis 1902</div>
+    <h2>264 Clásicos officiels. Personne devant.</h2>
+    <p class="gris">124 ans de rivalité, 3 buts d'écart. L'histoire ne départage personne : il faut regarder ailleurs.</p>
+    <div class="source">Source : Wikipédia, « List of El Clásico matches » — matchs officiels jusqu'au 10 mai 2026.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>2/9</span></div>
+  </div>
 </section>
-
-<!-- 3. Méthode -->
 <section class="slide">
+  <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">La méthode</div>
   <h2>Partir des preuves, pas des impressions.</h2>
-  <div class="grille3" style="margin-top:20px;">
-    <div class="etape"><div class="num">01</div><div><h3>18 Clásicos récents</h3><p>D'octobre 2021 à mai 2026, toutes compétitions : Liga, Coupe du Roi, Supercoupe.</p></div></div>
-    <div class="etape"><div class="num">02</div><div><h3>La forme avant chaque match</h3><p>Points et différence de buts sur les 5 matchs officiels précédents. Buts + passes des attaquants clés.</p></div></div>
-    <div class="etape"><div class="num">03</div><div><h3>Un modèle de Poisson</h3><p>Force d'attaque et de défense sur les 38 derniers matchs de Liga, vérifiée avec les expected goals (xG).</p></div></div>
+  <div class="etapes">
+    <div class="etape"><div class="pastille-num">01</div><div><h3>18 Clásicos récents</h3><p>D'octobre 2021 à mai 2026, toutes compétitions : Liga, Coupe du Roi, Supercoupe.</p></div></div>
+    <div class="etape"><div class="pastille-num">02</div><div><h3>La forme avant chaque match</h3><p>Points et différence de buts sur les 5 matchs officiels précédents. Buts + passes des attaquants clés.</p></div></div>
+    <div class="etape"><div class="pastille-num">03</div><div><h3>Un modèle de Poisson</h3><p>Force d'attaque et de défense sur les 38 derniers matchs de Liga, vérifiée avec les expected goals (xG).</p></div></div>
   </div>
-  <div class="carte" style="margin-top:auto; margin-bottom:110px;">
-    <p style="font-size:28px;">Données croisées entre deux sources : <span class="num">591</span> scores comparés, <span class="num">0</span> écart.</p>
+  <div class="carte-neutre" style="margin-top:auto; margin-bottom:120px;">
+    <p>Données croisées entre deux sources : <b class="num">591</b> scores comparés, <b class="num">0</b> écart.</p>
   </div>
-  <div class="source">Sources : ESPN, Wikipédia, Understat (xG). Code et données ouverts : lien en commentaire.</div>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>3/9</span></div>
+  <div class="source">Sources : ESPN, Wikipédia, Understat (xG). Code et données ouverts : lien en commentaire.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>3/9</span></div>
 </section>
-
-<!-- 4. Preuve n°1 -->
 <section class="slide">
+  <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Preuve n°1 · La forme</div>
   <h2>L'équipe la plus en forme gagne-t-elle&nbsp;?</h2>
-  <div class="hero" style="font-size:170px; margin:0 0 8px;">11<span class="gris" style="font-size:90px"> / 18</span></div>
+  <div class="hero">11<span class="hero-sur">/ 18</span></div>
   <p>L'équipe en meilleure forme a gagné <b>11 des 18</b> derniers Clásicos <span class="gris">(61 %)</span>.</p>
-  <img class="graph" src="../graphiques/preuve_forme.png" style="margin-top:36px;" alt="Les 18 derniers Clásicos, vainqueur et validation de la forme">
-  <p class="gris" style="margin-top:30px; font-size:28px;">Mais un pile ou face ferait aussi bien 1 fois sur 4. Et l'écart de forme ne dit rien de l'écart au score (corrélation : <span class="num">−0,14</span>).<br><b style="color:var(--encre)">Détail frappant : 0 match nul en 18 Clásicos.</b></p>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>4/9</span></div>
-</section>
-
-<!-- 5. Forme actuelle -->
-<section class="slide">
-  <div class="kicker">La forme avant dimanche</div>
-  <h2>12 points sur 15 chacun.<br>Égalité parfaite.</h2>
-  <div class="duel">
-    <div class="carte">
-      <p class="b" style="font:700 36px 'Space Grotesk'">FC Barcelone</p>
-      <div class="forme"><span class="pastille V">V</span><span class="pastille V">V</span><span class="pastille V">V</span><span class="pastille V">V</span><span class="pastille D">D</span></div>
-      <p class="num" style="font-size:40px">12/15 · +9</p>
-      <div class="liste-matchs" style="margin-top:14px">Séville 3-1<br>Getafe 3-0<br>Galatasaray 4-1 <span>(LdC)</span><br>Betis 5-2<br>PSG 2-4 <span>(LdC)</span></div>
-    </div>
-    <div class="carte">
-      <p class="r" style="font:700 36px 'Space Grotesk'">Real Madrid</p>
-      <div class="forme"><span class="pastille D">D</span><span class="pastille V">V</span><span class="pastille V">V</span><span class="pastille V">V</span><span class="pastille V">V</span></div>
-      <p class="num" style="font-size:40px">12/15 · +7</p>
-      <div class="liste-matchs" style="margin-top:14px">Atlético 1-2<br>Villarreal 1-0<br>AS Rome 4-3 <span>(LdC)</span><br>Séville 4-1<br>Leipzig 4-1 <span>(LdC)</span></div>
-    </div>
+  <div class="frise">
+    <div class="frise-dates"><span>Oct. 2021</span><span>Mai 2026 →</span></div>
+    <div class="frise-tuiles"><div class="col"><div class="tuile tuile-real"><span>✗</span></div><div class="score">1-2</div></div><div class="col"><div class="tuile tuile-real"><span>✗</span></div><div class="score">2-3</div></div><div class="col"><div class="tuile tuile-barca"><span>✗</span></div><div class="score">4-0</div></div><div class="col"><div class="tuile tuile-real"><span>✓</span></div><div class="score">1-3</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">3-1</div></div><div class="col"><div class="tuile tuile-barca"><span>✗</span></div><div class="score">1-0</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">2-1</div></div><div class="col"><div class="tuile tuile-real"><span>✗</span></div><div class="score">0-4</div></div><div class="col"><div class="tuile tuile-real"><span>✓</span></div><div class="score">1-2</div></div><div class="col"><div class="tuile tuile-real"><span>✓</span></div><div class="score">1-4</div></div><div class="col"><div class="tuile tuile-real"><span>✗</span></div><div class="score">2-3</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">4-0</div></div><div class="col"><div class="tuile tuile-barca"><span>✗</span></div><div class="score">5-2</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">3-2</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">4-3</div></div><div class="col"><div class="tuile tuile-real"><span>✓</span></div><div class="score">1-2</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">3-2</div></div><div class="col"><div class="tuile tuile-barca"><span>✓</span></div><div class="score">2-0</div></div></div>
+    <div class="frise-legende"><span class="mini tuile-barca"></span>Victoire Barça <span class="mini tuile-real"></span>Victoire Real <span class="sep">·</span> ✓ la plus en forme a gagné</div>
   </div>
-  <p style="margin-top:40px; font-size:28px;">Le Barça est devant à la différence de buts, mais sort d'une défaite à Paris. Le Real enchaîne 4 victoires.</p>
-  <p class="gris" style="margin-top:18px; font-size:26px;">Absents annoncés : Olmo, E. García, Christensen (Barça) · Vinícius (suspendu), Rodrygo (Real).</p>
-  <div class="source">Sources : ESPN (résultats), presse sportive du 21 au 23/10/2026 (absences).</div>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>5/9</span></div>
+  <p class="gris" style="margin-top:34px; font-size:28px;">Mais un pile ou face ferait aussi bien 1 fois sur 4. Et l'écart de forme ne dit rien de l'écart au score (corrélation : <b class="num">−0,14</b>).</p>
+  <p style="margin-top:14px; font-size:28px;"><b>Détail frappant : 0 match nul en 18 Clásicos.</b></p>
+  <div class="source">Source : ESPN, contrôlé avec Wikipédia.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>4/9</span></div>
 </section>
-
-<!-- 6. Joueurs -->
 <section class="slide">
+  <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
+  <div class="kicker">La forme avant dimanche</div>
+  <h2>12 points sur 15 chacun. Égalité parfaite.</h2>
+  <div class="duel"><div class="carte-club carte-barca">
+      <div class="nom-club">FC Barcelone</div>
+      <div class="chips"><span class="chip chip-barca chip-V">V</span><span class="chip chip-barca chip-V">V</span><span class="chip chip-barca chip-V">V</span><span class="chip chip-barca chip-V">V</span><span class="chip chip-barca chip-D">D</span></div>
+      <div class="pts"><span class="num">12</span><span class="sur">/15</span> <span class="db">+9</span></div>
+      <div class="liste"><div>Séville <b>3-1</b></div><div>Getafe <b>3-0</b></div><div>Galatasaray <b>4-1</b> <span class='ldc'>LdC</span></div><div>Betis <b>5-2</b></div><div>PSG <b>2-4</b> <span class='ldc'>LdC</span></div></div>
+    </div><div class="carte-club carte-real">
+      <div class="nom-club">Real Madrid</div>
+      <div class="chips"><span class="chip chip-real chip-D">D</span><span class="chip chip-real chip-V">V</span><span class="chip chip-real chip-V">V</span><span class="chip chip-real chip-V">V</span><span class="chip chip-real chip-V">V</span></div>
+      <div class="pts"><span class="num">12</span><span class="sur">/15</span> <span class="db">+7</span></div>
+      <div class="liste"><div>Atlético <b>1-2</b></div><div>Villarreal <b>1-0</b></div><div>AS Rome <b>4-3</b> <span class='ldc'>LdC</span></div><div>Séville <b>4-1</b></div><div>Leipzig <b>4-1</b> <span class='ldc'>LdC</span></div></div>
+    </div></div>
+  <p style="margin-top:36px; font-size:28px;">Le Barça est devant à la différence de buts, mais sort d'une défaite à Paris. Le Real enchaîne 4 victoires.</p>
+  <p class="gris" style="margin-top:14px; font-size:25px;">Absents annoncés : Olmo, E. García, Christensen (Barça) · Vinícius (suspendu), Rodrygo (Real).</p>
+  <div class="source">Sources : ESPN (résultats), presse sportive du 21 au 23/10/2026 (absences). V = victoire, N = nul, D = défaite.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>5/9</span></div>
+</section>
+<section class="slide">
+  <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Les joueurs clés</div>
   <h2>Qui élève son niveau dans le Clásico&nbsp;?</h2>
-  <p class="gris" style="font-size:26px; margin-bottom:24px;">Buts + passes décisives par match : sur les 5 matchs avant le Clásico (○) puis pendant le Clásico (●).</p>
-  <img class="graph" src="../graphiques/joueurs.png" alt="Buts et passes décisives avant et pendant le Clásico pour six joueurs">
-  <p style="margin-top:30px; font-size:28px;"><b class="r">Mbappé</b> : 1 but ou passe par Clásico. <b class="r">Bellingham</b> et <b class="b">Raphinha</b> montent d'un cran. <b class="b">Fermín López</b> et <b class="r">Güler</b> baissent.</p>
-  <p class="gris" style="margin-top:14px; font-size:26px;">Lien entre forme et rendement : <span class="num">0,33</span>, un lien faible.</p>
-  <div class="source">Source : ESPN — matchs où le joueur a joué uniquement. Vinícius, suspendu, n'est pas suivi.</div>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>6/9</span></div>
+  <p class="gris" style="font-size:25px; margin-bottom:22px;">Buts + passes décisives par match : ○ sur les 5 matchs avant le Clásico, ● pendant. Lien entre les deux : <b class="num" style="color:var(--texte)">0,33</b>, faible.</p>
+  <div class="panneau panneau-barca">
+      <div class="rangee">
+      <div class="joueur">Lamine Yamal <span class="nb">9 Cl.</span></div>
+      <div class="piste">
+        <div class="trait trait-barca" style="left:40.0%; width:6.666666666666671%"></div>
+        <div class="anneau anneau-barca" style="left:40.0%"></div>
+        <div class="point point-barca" style="left:46.66666666666667%"><span class="val">0,56</span></div>
+      </div>
+    </div><div class="rangee">
+      <div class="joueur">Raphinha <span class="nb">12 Cl.</span></div>
+      <div class="piste">
+        <div class="trait trait-barca" style="left:54.16666666666667%; width:8.333333333333329%"></div>
+        <div class="anneau anneau-barca" style="left:54.16666666666667%"></div>
+        <div class="point point-barca" style="left:62.5%"><span class="val">0,75</span></div>
+      </div>
+    </div><div class="rangee">
+      <div class="joueur">Fermín López <span class="nb">9 Cl.</span></div>
+      <div class="piste">
+        <div class="trait trait-barca" style="left:18.333333333333336%; width:24.16666666666667%"></div>
+        <div class="anneau anneau-barca" style="left:42.50000000000001%"></div>
+        <div class="point point-barca" style="left:18.333333333333336%"><span class="val">0,22</span></div>
+      </div>
+    </div>
+      <div class="axe"><div></div><div class="graduations"><span style="left:0.0%">0,0</span><span style="left:33.333333333333336%">0,4</span><span style="left:66.66666666666667%">0,8</span><span style="left:100.0%">1,2</span></div></div>
+    </div>
+  <div class="panneau panneau-real">
+      <div class="rangee">
+      <div class="joueur">Kylian Mbappé <span class="nb">6 Cl.</span></div>
+      <div class="piste">
+        <div class="trait trait-real" style="left:70.0%; width:13.333333333333343%"></div>
+        <div class="anneau anneau-real" style="left:70.0%"></div>
+        <div class="point point-real" style="left:83.33333333333334%"><span class="val">1,00</span></div>
+      </div>
+    </div><div class="rangee">
+      <div class="joueur">Jude Bellingham <span class="nb">10 Cl.</span></div>
+      <div class="piste">
+        <div class="trait trait-real" style="left:31.66666666666667%; width:18.33333333333333%"></div>
+        <div class="anneau anneau-real" style="left:31.66666666666667%"></div>
+        <div class="point point-real" style="left:50.0%"><span class="val">0,60</span></div>
+      </div>
+    </div><div class="rangee">
+      <div class="joueur">Arda Güler <span class="nb">4 Cl.</span></div>
+      <div class="piste">
+        <div class="trait trait-real" style="left:20.833333333333336%; width:27.5%"></div>
+        <div class="anneau anneau-real" style="left:48.333333333333336%"></div>
+        <div class="point point-real" style="left:20.833333333333336%"><span class="val">0,25</span></div>
+      </div>
+    </div>
+      <div class="axe"><div></div><div class="graduations"><span style="left:0.0%">0,0</span><span style="left:33.333333333333336%">0,4</span><span style="left:66.66666666666667%">0,8</span><span style="left:100.0%">1,2</span></div></div>
+    </div>
+  <p style="margin-top:20px; font-size:26px;"><b class="txt-real">Mbappé</b> : 1 but ou passe par Clásico. <b class="txt-real">Bellingham</b> et <b class="txt-barca">Raphinha</b> montent d'un cran. <b class="txt-barca">Fermín López</b> et <b class="txt-real">Güler</b> baissent.</p>
+  <div class="source">Source : ESPN — matchs où le joueur a joué uniquement. Vinícius, suspendu, n'est pas suivi.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>6/9</span></div>
 </section>
-
-<!-- 7. Pronostic -->
 <section class="slide">
+  <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Le pronostic du modèle</div>
   <h2>Le Barça favori, sans être intouchable.</h2>
   <div class="probas">
-    <div class="carte"><div class="val b">61<span style="font-size:56px">%</span></div><div class="lib">Victoire Barça</div></div>
-    <div class="carte"><div class="val gris">20<span style="font-size:56px">%</span></div><div class="lib">Match nul</div></div>
-    <div class="carte"><div class="val r">19<span style="font-size:56px">%</span></div><div class="lib">Victoire Real</div></div>
+    <div class="proba proba-barca rayures-sombres"><div class="val">61<small>%</small></div><div class="lib">Victoire Barça</div></div>
+    <div class="proba proba-nul"><div class="val">20<small>%</small></div><div class="lib">Match nul</div></div>
+    <div class="proba proba-real"><div class="val">19<small>%</small></div><div class="lib">Victoire Real</div></div>
   </div>
-  <p>Score le plus probable : <span class="num">2-1</span> <span class="gris">(10 %)</span><br>Buts attendus : <span class="num">2,2</span> pour le Barça, <span class="num">1,2</span> pour le Real</p>
-  <img class="graph" src="../graphiques/pronostic.png" style="margin-top:34px;" alt="Probabilités du modèle buts, du modèle xG et du marché">
-  <p style="margin-top:28px; font-size:28px;">Modèle contre marché : <b>61 % contre 59 %</b>. Les trois méthodes convergent. Le marché voit le Real un peu plus dangereux (24 %).</p>
+  <p>Score le plus probable : <b class="num">2-1</b> <span class="gris">(10 %)</span> · Buts attendus : <b class="num">2,2</b> – <b class="num">1,2</b></p>
+  <div class="barres"><div class="barre-ligne"><div class="barre-nom">Modèle (buts)</div><div class="barre">
+      <div class="seg seg-barca" style="flex:0.612"><span>61 %</span></div>
+      <div class="seg seg-nul" style="flex:0.197"><span>20 %</span></div>
+      <div class="seg seg-real" style="flex:0.191"><span>19 %</span></div></div></div><div class="barre-ligne"><div class="barre-nom">Modèle (xG)</div><div class="barre">
+      <div class="seg seg-barca" style="flex:0.616"><span>62 %</span></div>
+      <div class="seg seg-nul" style="flex:0.171"><span>17 %</span></div>
+      <div class="seg seg-real" style="flex:0.213"><span>21 %</span></div></div></div><div class="barre-ligne"><div class="barre-nom">Marché</div><div class="barre">
+      <div class="seg seg-barca" style="flex:0.593"><span>59 %</span></div>
+      <div class="seg seg-nul" style="flex:0.165"><span>16 %</span></div>
+      <div class="seg seg-real" style="flex:0.242"><span>24 %</span></div></div></div></div>
+  <p style="margin-top:26px; font-size:27px;">Modèle contre marché : <b>61 % contre 59 %</b>. Les trois méthodes convergent. Le marché voit le Real un peu plus dangereux (24 %).</p>
   <div class="avert">Analyse à but pédagogique — ceci n'est pas un conseil de pari. Marché : moyenne de 4 opérateurs, marge retirée (21/10/2026).</div>
   <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>7/9</span></div>
 </section>
-
-<!-- 8. Limites -->
 <section class="slide">
+  <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Les limites</div>
   <h2>Ce que les stats ne voient pas.</h2>
-  <ul class="limites" style="margin-top:20px;">
+  <ul class="limites">
     <li><b>Un petit échantillon.</b> <span class="gris">18 Clásicos, c'est peu : 61 % peut être un coup de chance.</span></li>
     <li><b>Les absences.</b> <span class="gris">Le modèle ne sait pas que Vinícius est suspendu ni qu'Olmo est blessé.</span></li>
     <li><b>Le scénario du match.</b> <span class="gris">Un carton rouge, un but précoce, et toutes les probabilités changent.</span></li>
     <li><b>L'émotion.</b> <span class="gris">Pression, ambiance, enjeu du titre : rien de tout cela n'est dans les chiffres.</span></li>
   </ul>
-  <div class="carte" style="margin-top:auto; margin-bottom:100px;">
+  <div class="carte-neutre" style="margin-top:auto; margin-bottom:110px;">
     <p>Un modèle décrit des tendances sur beaucoup de matchs. <b>Un seul match reste une épreuve du hasard.</b></p>
   </div>
   <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>8/9</span></div>
 </section>
-
-<!-- 9. Question ouverte -->
-<section class="slide">
-  <div class="kicker">Rendez-vous demain</div>
-  <h1 style="font-size:76px;">61 % pour le Barça.<br><span class="gris">Donc 39 % pour que ce soit autre chose.</span></h1>
-  <p style="margin-top:56px; font-size:40px; font-family:'Space Grotesk'; font-weight:700;">Les stats diront-elles la vérité&nbsp;?</p>
-  <p class="gris" style="margin-top:16px;">Verdict lundi à 8h GMT : modèle contre réalité.</p>
-  <div class="carte" style="margin-top:56px;">
-    <p><b>Et vous, quel score&nbsp;?</b><br><span class="gris">Votre pronostic en commentaire. Je ferai le bilan demain.</span></p>
+<section class="slide split-diag">
+  <div class="cote-barca rayures"></div>
+  <div class="cote-real"></div>
+  <div class="carte-titre carte-finale">
+    <div class="kicker">Rendez-vous demain</div>
+    <h1 style="font-size:78px;">61 % pour le Barça.<br><span class="gris">Donc 39 % pour que ce soit autre chose.</span></h1>
+    <p class="question">Les stats diront-elles la vérité&nbsp;?</p>
+    <p>Verdict lundi à 8h GMT : modèle contre réalité.</p>
+    <div class="appel"><b>Et vous, quel score&nbsp;?</b> Votre pronostic en commentaire.</div>
+    <p class="petit">Données et code ouverts : lien dans le premier commentaire.</p>
   </div>
-  <p class="gris" style="margin-top:auto; margin-bottom:100px; font-size:26px;">Données et code ouverts : lien dans le premier commentaire.</p>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>9/9</span></div>
+  <div class="pied pied-clair"><span class="signature">Moïse Monnin · Data Analyst</span><span>9/9</span></div>
 </section>
-
 </body>
 </html>

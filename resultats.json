@@ -17,6 +17,134 @@
     "correlation": -0.14,
     "nuls_sur_18": 0
   },
+  "clasicos": [
+    {
+      "date": "2021-10-24",
+      "competition": "Liga",
+      "score": "1-2",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2022-01-12",
+      "competition": "Supercoupe d'Espagne",
+      "score": "2-3",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2022-03-20",
+      "competition": "Liga",
+      "score": "4-0",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2022-10-16",
+      "competition": "Liga",
+      "score": "1-3",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2023-01-15",
+      "competition": "Supercoupe d'Espagne",
+      "score": "3-1",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2023-03-02",
+      "competition": "Coupe du Roi",
+      "score": "1-0",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2023-03-19",
+      "competition": "Liga",
+      "score": "2-1",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2023-04-05",
+      "competition": "Coupe du Roi",
+      "score": "0-4",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2023-10-28",
+      "competition": "Liga",
+      "score": "1-2",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2024-01-14",
+      "competition": "Supercoupe d'Espagne",
+      "score": "1-4",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2024-04-21",
+      "competition": "Liga",
+      "score": "2-3",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2024-10-26",
+      "competition": "Liga",
+      "score": "4-0",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2025-01-12",
+      "competition": "Supercoupe d'Espagne",
+      "score": "5-2",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2025-04-26",
+      "competition": "Coupe du Roi",
+      "score": "3-2",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2025-05-11",
+      "competition": "Liga",
+      "score": "4-3",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2025-10-26",
+      "competition": "Liga",
+      "score": "1-2",
+      "vainqueur": "Real Madrid",
+      "plus_en_forme": "Real Madrid"
+    },
+    {
+      "date": "2026-01-11",
+      "competition": "Supercoupe d'Espagne",
+      "score": "3-2",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    },
+    {
+      "date": "2026-05-10",
+      "competition": "Liga",
+      "score": "2-0",
+      "vainqueur": "Barcelona",
+      "plus_en_forme": "Barcelona"
+    }
+  ],
   "joueurs": [
     {
       "club": "Barcelona",
