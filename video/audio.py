@@ -1,13 +1,17 @@
 """Compose la bande son du Reel : une musique originale (synthèse) + des effets calés sur l'animation.
 
 Tout est généré par calcul : aucun échantillon externe, donc aucun problème de droits.
-Usage : python video/audio.py                          (musique synthétisée)
-        python video/audio.py --musique morceau.mp3    (remplace la musique, garde les effets)
+Usage : python video/audio.py [--projet verdict]                          (musique synthétisée)
+        python video/audio.py [--projet verdict] --musique morceau.mp3    (remplace la musique, garde les effets)
 """
 import subprocess, sys, wave
 from pathlib import Path
 import numpy as np
-from minutage import T, DUREE
+from projets import choisir
+
+ARGS = sys.argv[1:]
+NOM, CONF, MINUTAGE = choisir(ARGS)
+T, DUREE = MINUTAGE.T, MINUTAGE.DUREE
 
 ICI = Path(__file__).parent
 SR = 44100
@@ -90,11 +94,14 @@ ACCORDS = [(55.0, [220.0, 261.63, 329.63]), (43.65, [174.61, 220.0, 261.63]),
            (65.41, [261.63, 329.63, 392.0]), (49.0, [196.0, 246.94, 293.66])]
 
 
+s = T["scenes"]
+SECTIONS = getattr(MINUTAGE, "SECTIONS", {"intro_fin": s[1], "pauses": [[s[3], s[4]]], "fin_debut": s[7]})
+
+
 def section(t):
-    s = T["scenes"]
-    if t < s[1]: return "intro"
-    if s[3] <= t < s[4]: return "pause"
-    if t >= s[7]: return "fin"
+    if t < SECTIONS["intro_fin"]: return "intro"
+    if any(a <= t < b for a, b in SECTIONS["pauses"]): return "pause"
+    if t >= SECTIONS["fin_debut"]: return "fin"
     return "plein"
 
 
@@ -202,6 +209,24 @@ def effets():
     return buf
 
 
+def effets_listes(liste):
+    """Effets décrits dans le minutage : (instant, nom, gain[, pan])."""
+    sons = {"whoosh": lambda: whoosh(0.5), "whoosh_court": lambda: whoosh(0.35), "pop": pop, "pop_grave": lambda: pop(300, 700),
+            "pop_aigu": lambda: pop(600, 1100), "tic": tic, "impact": impact, "impact_court": lambda: impact()[: int(0.8 * SR)]}
+    buf = piste()
+    for e in liste:
+        t, nom, gain = e[:3]
+        pan = e[3] if len(e) > 3 else 0.0
+        if nom.startswith("montee:"):
+            placer(buf, t, montee(float(nom.split(":")[1])), gain, pan)
+        elif nom == "carillon":
+            for decal, son in carillon():
+                placer(buf, t + decal, son, gain, pan)
+        else:
+            placer(buf, t, sons[nom](), gain, pan)
+    return buf
+
+
 def charger_musique(chemin):
     """Convertit un morceau externe (mp3, wav…) en 44,1 kHz stéréo, coupé à la durée de la vidéo."""
     import imageio_ffmpeg
@@ -220,10 +245,10 @@ def ecrire(chemin, buf):
 
 
 if __name__ == "__main__":
-    m = charger_musique(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[1] == "--musique" else musique()
-    e = effets()
+    m = charger_musique(ARGS[1]) if len(ARGS) > 1 and ARGS[0] == "--musique" else musique()
+    e = effets_listes(MINUTAGE.EFFETS) if hasattr(MINUTAGE, "EFFETS") else effets()
     m /= np.abs(m).max() + 1e-9; e /= np.abs(e).max() + 1e-9
     mix = np.tanh(1.1 * (0.62 * m + 0.75 * e))
     mix *= 0.89 / np.abs(mix).max()   # crête à -1 dB
-    ecrire(ICI / "audio.wav", mix)
-    print("audio.wav écrit :", DUREE, "s")
+    ecrire(ICI / CONF["audio"], mix)
+    print(CONF["audio"], "écrit :", DUREE, "s")

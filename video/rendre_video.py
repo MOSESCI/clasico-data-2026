@@ -1,37 +1,40 @@
-"""Capture scene.html image par image (Chrome via Playwright) puis assemble la vidéo MP4 avec le son.
+"""Capture une scène animée image par image (Chrome via Playwright) puis assemble la vidéo MP4 avec le son.
 
-Usage : python video/rendre_video.py            (vidéo complète)
-        python video/rendre_video.py --apercu 1.2 4.5 13   (quelques images PNG pour vérifier)
+Usage : python video/rendre_video.py [--projet verdict]                 (vidéo complète)
+        python video/rendre_video.py [--projet verdict] --apercu 1.2 4.5 (quelques images PNG pour vérifier)
 """
 import subprocess, sys
 from pathlib import Path
 import imageio_ffmpeg
 from playwright.sync_api import sync_playwright
-from minutage import FPS, DUREE
+from projets import choisir
 
 ICI = Path(__file__).parent
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
+args = sys.argv[1:]
+NOM, CONF, MINUTAGE = choisir(args)
+FPS, DUREE = MINUTAGE.FPS, MINUTAGE.DUREE
 
 
 def ouvrir(p):
     nav = p.chromium.launch(channel="chrome")
     page = nav.new_page(viewport={"width": 1080, "height": 1920})
-    page.goto((ICI / "scene.html").as_uri())
+    page.goto((ICI / CONF["scene"]).as_uri())
     page.wait_for_load_state("networkidle")
     page.evaluate("document.fonts.ready")
     return nav, page
 
 
-if len(sys.argv) > 2 and sys.argv[1] == "--apercu":
+if args and args[0] == "--apercu":
     with sync_playwright() as p:
         nav, page = ouvrir(p)
-        for t in sys.argv[2:]:
+        for t in args[1:]:
             page.evaluate(f"render({float(t)})")
-            page.screenshot(path=str(ICI / f"apercu_{t}.png"))
+            page.screenshot(path=str(ICI / f"apercu_{NOM}_{t}.png"))
         nav.close()
     sys.exit()
 
-images = ICI / "images.mp4"
+images = ICI / f"images_{NOM}.mp4"
 n = int(DUREE * FPS)
 enc = subprocess.Popen([FFMPEG, "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-i", "-",
                         "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", str(images)],
@@ -46,8 +49,8 @@ with sync_playwright() as p:
     nav.close()
 enc.stdin.close(); enc.wait()
 
-son = ICI / "audio.wav"
-sortie = ICI / "clasico_reel.mp4"
+son = ICI / CONF["audio"]
+sortie = ICI / CONF["sortie"]
 cmd = [FFMPEG, "-y", "-loglevel", "error", "-i", str(images)]
 cmd += (["-i", str(son), "-c:a", "aac", "-b:a", "192k", "-shortest"] if son.exists() else [])
 cmd += ["-c:v", "copy", "-movflags", "+faststart", str(sortie)]

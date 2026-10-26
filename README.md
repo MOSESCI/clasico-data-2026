@@ -110,6 +110,8 @@ Musique et effets sonores sont composés par programme (aucun échantillon exter
 - `python video/generer_scene.py` : construit les 8 scènes animées (`scene.html`) à partir de `resultats.json`.
 - `python video/audio.py` : compose la bande son ; `python video/audio.py --musique morceau.mp3` remplace la musique en gardant les effets.
 - `python video/rendre_video.py` : capture les 1 080 images (Chrome via Playwright) et assemble le MP4 avec le son.
+- **Vidéo du verdict** (30 s, `video/clasico_verdict.mp4`) : même chaîne avec `--projet verdict`
+  (`minutage_verdict.py`, `generer_scene_verdict.py`, puis `audio.py --projet verdict` et `rendre_video.py --projet verdict`).
   Prérequis : `pip install playwright imageio-ffmpeg` et Google Chrome.
 
 ## Sources

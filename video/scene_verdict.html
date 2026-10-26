@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Clásico — Verdict</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --nuit:#0D1326; --nuit2:#151C35; --texte:#F5F3EE; --gris:#A3A9BD;
+  --bleu:#004D98; --grenat:#A50044; --or:#EDBB00; --blanc:#FFFFFF; --rmor:#FEBE10; --marine:#00529F; --encre:#0B1F3F; --creme:#FBF6E6; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { width:1080px; height:1920px; overflow:hidden; background:var(--nuit); color:var(--texte); font-family:Inter,sans-serif; }
+#scene { position:relative; width:1080px; height:1920px; overflow:hidden; background: radial-gradient(120% 70% at 50% 0%, var(--nuit2) 0%, var(--nuit) 70%); }
+.s { position:absolute; inset:0; display:none; }
+.abs { position:absolute; }
+.rayures { background: repeating-linear-gradient(90deg, var(--bleu) 0 90px, var(--grenat) 90px 180px); }
+.rayures-s { background: linear-gradient(180deg, rgba(6,18,48,.5), rgba(6,18,48,.85)), repeating-linear-gradient(90deg, var(--bleu) 0 90px, var(--grenat) 90px 180px); }
+.blancrm { background: linear-gradient(200deg, var(--blanc) 55%, var(--creme)); }
+.cond { font-family:"Barlow Condensed"; font-weight:800; text-transform:uppercase; line-height:.95; }
+.kicker { font:700 30px Inter; letter-spacing:.18em; text-transform:uppercase; color:var(--gris); }
+.centre { left:0; right:0; text-align:center; }
+.bandeau { position:absolute; top:0; left:0; right:0; height:22px; display:flex; z-index:20; }
+.bandeau i { flex:1; } .bandeau i:first-child { background: repeating-linear-gradient(90deg, var(--bleu) 0 44px, var(--grenat) 44px 88px); }
+.bandeau i:last-child { background:var(--blanc); border-bottom:7px solid var(--rmor); }
+#progres { position:absolute; top:22px; left:0; height:8px; z-index:21; background: linear-gradient(90deg, var(--bleu), var(--grenat), var(--rmor)); }
+#signature { position:absolute; top:52px; left:50%; transform:translateX(-50%); white-space:nowrap; padding:12px 26px; border-radius:40px;
+  background:rgba(13,19,38,.88); font:700 26px Inter; letter-spacing:.08em; color:var(--texte); z-index:21; }
+#volet { position:absolute; top:-200px; width:1700px; height:2400px; z-index:50; display:none;
+  background: linear-gradient(90deg, var(--bleu) 0 18%, var(--grenat) 18% 36%, var(--or) 36% 42%, var(--blanc) 42% 82%, var(--rmor) 82% 100%); }
+.diag-b { clip-path: polygon(0 0, 70% 0, 30% 100%, 0 100%); }
+.diag-r { clip-path: polygon(70% 0, 100% 0, 100% 100%, 30% 100%); }
+.diag-or { background:var(--rmor); clip-path: polygon(69.3% 0, 70.7% 0, 30.7% 100%, 29.3% 100%); }
+.carte { left:56px; right:56px; background:rgba(13,19,38,.95); border-radius:36px; padding:70px 60px 60px; overflow:hidden; box-shadow:0 40px 90px rgba(0,0,0,.5); }
+.carte::before { content:""; position:absolute; top:0; left:0; right:0; height:14px;
+  background: linear-gradient(90deg, var(--bleu) 0 25%, var(--grenat) 25% 50%, var(--blanc) 50% 75%, var(--rmor) 75%); }
+.buteur { font:800 52px "Barlow Condensed"; text-transform:uppercase; letter-spacing:.03em; }
+.jeton { width:150px; height:150px; border-radius:50%; border:8px solid #3A4160; display:grid; place-items:center;
+  font:800 60px "Barlow Condensed"; color:#3A4160; }
+.ligne4 { left:60px; right:60px; height:220px; }
+.ligne4 .lib { text-align:center; font:700 32px Inter; letter-spacing:.12em; text-transform:uppercase; color:var(--gris); }
+.ligne4 .val { position:absolute; top:52px; font:800 84px "Barlow Condensed"; }
+.ligne4 .piste { position:absolute; left:0; right:0; top:156px; height:44px; }
+.ligne4 .bb, .ligne4 .br { position:absolute; top:0; height:44px; }
+.ligne4 .bb { right:50%; border-radius:10px 0 0 10px; background: repeating-linear-gradient(90deg, var(--bleu) 0 18px, var(--grenat) 18px 36px); }
+.ligne4 .br { left:50%; border-radius:0 10px 10px 0; background:var(--blanc); box-shadow:inset 0 -8px 0 var(--rmor); }
+.ligne4 .axe { position:absolute; left:calc(50% - 2px); top:-10px; width:4px; height:64px; background:var(--gris); }
+</style></head>
+<body><div id="scene">
+  <div class="bandeau"><i></i><i></i></div><div id="progres"></div>
+  <div id="signature">MOÏSE MONNIN · DATA ANALYST</div>
+
+  <!-- 1 · Accroche -->
+  <div class="s" id="s1">
+    <div class="abs rayures diag-b" id="s1b" style="inset:0"></div>
+    <div class="abs blancrm diag-r" id="s1r" style="inset:0"></div>
+    <div class="abs diag-or" id="s1o" style="inset:0"></div>
+    <div class="abs cond" id="s1lb" style="left:70px; top:150px; font-size:64px; color:var(--or)">FC Barcelone</div>
+    <div class="abs cond" id="s1lr" style="right:70px; top:150px; font-size:64px; color:var(--marine)">Real Madrid</div>
+    <div class="abs carte" id="s1c" style="top:820px">
+      <div class="kicker">Clásico · Le verdict</div>
+      <div class="cond" style="font-size:132px; margin-top:28px">J'avais donné 19&nbsp;% au Real.</div>
+      <div class="cond" id="s1g" style="font-size:170px; margin-top:24px; color:var(--rmor); transform-origin:left center">Il a gagné.</div>
+    </div>
+  </div>
+
+  <!-- 2 · Le score, but par but -->
+  <div class="s" id="s2">
+    <div class="abs rayures-s" style="left:0; top:0; width:540px; height:1220px"></div>
+    <div class="abs blancrm" style="right:0; top:0; width:540px; height:1220px; border-left:10px solid var(--rmor)"></div>
+    <div class="abs cond" style="left:0; width:540px; top:200px; text-align:center; font-size:56px; color:var(--or)">FC Barcelone</div>
+    <div class="abs cond" style="right:0; width:540px; top:200px; text-align:center; font-size:56px; color:var(--marine)">Real Madrid</div>
+    <div class="abs cond" id="s2nb" style="left:0; width:540px; top:300px; text-align:center; font-size:400px; color:var(--or)">0</div>
+    <div class="abs cond" id="s2nr" style="right:0; width:540px; top:300px; text-align:center; font-size:400px; color:var(--marine)">0</div>
+    <div class="abs" id="s2lb" style="left:0; width:540px; top:760px; text-align:center"></div>
+    <div class="abs" id="s2lr" style="right:0; width:540px; top:760px; text-align:center; color:var(--encre)"></div>
+    <div class="abs" id="s2m" style="left:405px; top:960px; width:270px; height:270px; border-radius:50%; background:var(--nuit); border:9px solid var(--rmor); display:grid; place-items:center">
+      <div class="cond" id="s2mt" style="font-size:110px">0'</div></div>
+    <div class="abs centre" id="s2t" style="top:1340px; padding:0 70px">
+      <div class="kicker">Spotify Camp Nou · 25.10.2026</div>
+      <div class="cond" style="font-size:130px; margin-top:24px">Doublé de Mbappé.</div>
+    </div>
+  </div>
+
+  <!-- 3 · Une chance sur cinq -->
+  <div class="s" id="s3">
+    <div class="abs" style="left:80px; right:80px; top:200px">
+      <div class="kicker">Avant le match, mon modèle disait</div>
+      <div class="cond" style="font-size:120px; margin-top:22px">Victoire du Real : 19&nbsp;%</div>
+    </div>
+    <div class="abs" id="s3j" style="left:95px; top:760px; width:890px; display:flex; justify-content:space-between"></div>
+    <div class="abs centre cond" id="s3a" style="top:1060px; font-size:170px">1 chance sur 5.</div>
+    <div class="abs centre cond" id="s3b" style="top:1260px; font-size:130px; color:var(--rmor)">Et c'est arrivé.</div>
+  </div>
+
+  <!-- 4 · Le ballon contre les occasions -->
+  <div class="s" id="s4">
+    <div class="abs" style="left:60px; right:60px; top:170px">
+      <div class="kicker">Le match en chiffres</div>
+      <div class="cond" style="font-size:104px; margin-top:22px">Le ballon contre les occasions</div>
+    </div>
+    <div class="abs" style="left:60px; right:60px; top:470px; display:flex; justify-content:space-between">
+      <span class="cond" style="font-size:44px; color:var(--or)">Barça</span><span class="cond" style="font-size:44px; color:var(--blanc)">Real</span></div>
+    <div id="s4l"></div>
+    <div class="abs centre" id="s4c" style="top:1560px; padding:0 70px"><div class="cond" style="font-size:84px; color:var(--rmor)">Pas un hold-up.</div>
+      <div style="font:600 40px Inter; color:var(--gris); margin-top:14px">Le Real a créé plus et mieux, avec 8 tirs de moins.</div></div>
+  </div>
+
+  <!-- 5 · Zéro nul -->
+  <div class="s" id="s5">
+    <div class="abs" id="s5f" style="inset:0; background:radial-gradient(60% 40% at 50% 42%, rgba(254,190,16,.55), transparent 70%)"></div>
+    <div class="abs centre cond" id="s5z" style="top:330px; font-size:760px; line-height:.85">0</div>
+    <div class="abs centre cond" id="s5a" style="top:1060px; font-size:170px">Match nul</div>
+    <div class="abs centre" id="s5b" style="top:1270px; font:700 54px Inter; color:var(--gris)">en 19 Clásicos : la série continue</div>
+  </div>
+
+  <!-- 6 · Mbappé -->
+  <div class="s" id="s6">
+    <div class="abs blancrm" id="s6p" style="left:56px; right:56px; top:300px; height:980px; border-radius:36px; color:var(--encre); padding:70px 64px; border-bottom:16px solid var(--rmor)">
+      <div class="kicker" style="color:#4E6A93">Le joueur du match</div>
+      <div class="cond" style="font-size:170px; color:var(--marine); margin-top:20px">Kylian<br>Mbappé</div>
+      <div style="font:600 36px Inter; color:#4E6A93; margin-top:50px" id="s6l">Moyenne en Clásico depuis 2021</div>
+      <div class="cond" id="s6n" style="font-size:300px; margin-top:6px">1,00</div>
+      <div class="cond" id="s6u" style="font-size:60px; color:#4E6A93">but ou passe par match</div>
+    </div>
+    <div class="abs rayures-s" id="s6r" style="left:56px; right:56px; top:1330px; border-radius:30px; padding:40px 50px; border-bottom:12px solid var(--or)">
+      <div class="cond" style="font-size:64px; color:var(--or)">Raphinha : 1 but</div>
+      <div style="font:600 36px Inter; margin-top:10px">Comme son historique l'annonçait.</div>
+    </div>
+  </div>
+
+  <!-- 7 · La leçon -->
+  <div class="s" id="s7">
+    <div class="abs rayures diag-b" id="s7b" style="inset:0"></div>
+    <div class="abs blancrm diag-r" id="s7r" style="inset:0"></div>
+    <div class="abs diag-or" id="s7o" style="inset:0"></div>
+    <div class="abs carte" id="s7c" style="top:400px">
+      <div class="kicker">La leçon</div>
+      <div class="cond" style="font-size:124px; margin-top:26px">Un modèle ne prédit pas un match.</div>
+      <div id="s7l" style="font:600 46px Inter; margin-top:36px; line-height:1.3">Il dit à quel point le résultat était surprenant. <b style="color:var(--rmor)">Ici : 1 chance sur 5.</b></div>
+      <div id="s7a" class="cond" style="font-size:64px; margin-top:46px; color:var(--rmor)">Prochain Clásico : 9 mai 2027 👇</div>
+      <div style="font:700 34px Inter; margin-top:30px">Moïse Monnin · Data Analyst</div>
+    </div>
+  </div>
+
+  <div id="volet"></div>
+</div>
+<script>
+const T = {"scenes": [0, 3.5, 7.5, 12, 17, 20.5, 25, 30], "titre1": 0.9, "il_a_gagne": 2.0, "buts2": [4.0, 4.8, 5.6], "fin2": 6.4, "jetons3": 8.0, "jeton_dt": 0.15, "allume3": 9.2, "texte3": [9.8, 10.6], "barres4": 12.5, "barre_dt": 0.6, "barre_duree": 0.9, "legende4": 15.6, "choc5": 17.3, "impact5": 17.6, "compteur6": [21.4, 22.4], "note6": 22.8, "raphinha6": 23.5, "lecon7": 25.6, "appel7": 27.4}, D = {"proba_real": 19, "buts": [{"minute": "41", "equipe": "Real Madrid", "buteur": "Kylian Mbappé", "passeur": null}, {"minute": "61", "equipe": "Barcelona", "buteur": "Raphinha", "passeur": "Pedri"}, {"minute": "87", "equipe": "Real Madrid", "buteur": "Kylian Mbappé", "passeur": "Eduardo Camavinga"}], "lignes": [{"lib": "Possession", "b": 62, "r": 38, "fmt": "%"}, {"lib": "Tirs", "b": 18, "r": 10, "fmt": ""}, {"lib": "Expected goals (xG)", "b": 1.19, "r": 1.95, "fmt": "xg"}, {"lib": "Grosses occasions", "b": 2, "r": 4, "fmt": ""}], "mbappe_moy": 1.0, "mbappe_buts": 2}, DUREE = 30.0;
+const $ = id => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const p = (t, a, b) => clamp((t - a) / (b - a));
+const out3 = x => 1 - Math.pow(1 - x, 3);
+const back = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const st = (el, o) => { el = typeof el === "string" ? $(el) : el; Object.assign(el.style, o); };
+const fr = (n, d = 2) => n.toFixed(d).replace(".", ",");
+
+// Lignes de buteurs (scène 2)
+D.buts.forEach((b, i) => {
+  const d = document.createElement("div");
+  d.className = "buteur"; d.id = "but" + i;
+  d.textContent = b.buteur.split(" ").slice(-1)[0] + " " + b.minute + "'";
+  (b.equipe === "Barcelona" ? $("s2lb") : $("s2lr")).appendChild(d);
+});
+// Jetons (scène 3) : le 4e sera le Real
+for (let i = 0; i < 5; i++) {
+  const j = document.createElement("div");
+  j.className = "jeton"; j.id = "jeton" + i; j.textContent = i === 3 ? "R" : "";
+  $("s3j").appendChild(j);
+}
+// Lignes de statistiques (scène 4)
+D.lignes.forEach((l, i) => {
+  const d = document.createElement("div");
+  d.className = "abs ligne4"; d.style.top = (560 + i * 240) + "px";
+  const f = v => l.fmt === "%" ? v + " %" : l.fmt === "xg" ? fr(v) : v;
+  d.innerHTML = `<div class="lib">${l.lib}</div>
+    <div class="val" id="vb${i}" style="left:0; color:var(--or)">${f(l.b)}</div>
+    <div class="val" id="vr${i}" style="right:0; color:var(--blanc)">${f(l.r)}</div>
+    <div class="piste"><div class="bb" id="bb${i}"></div><div class="br" id="br${i}"></div><div class="axe"></div></div>`;
+  $("s4l").appendChild(d);
+});
+
+function scene(t) { let k = 0; while (k < 6 && t >= T.scenes[k + 1]) k++; return k + 1; }
+
+function diag(prefixe, a) {
+  const e = out3(p(t_, a, a + 0.55));
+  st(prefixe + "b", { transform: `translateX(${(e - 1) * 100}%)` });
+  st(prefixe + "r", { transform: `translateX(${(1 - e) * 100}%)` });
+  st(prefixe + "o", { opacity: p(t_, a + 0.4, a + 0.6) });
+}
+let t_ = 0;
+
+function render(t) {
+  t_ = t;
+  const n = scene(t);
+  for (let k = 1; k <= 7; k++) $("s" + k).style.display = k === n ? "block" : "none";
+  st("progres", { width: (t / DUREE * 100) + "%" });
+  $("signature").style.opacity = (n === 1 || n === 7) ? 0 : 1;
+  let v = null;
+  for (const b of T.scenes.slice(1, 7)) if (t > b - 0.22 && t < b + 0.22) v = p(t, b - 0.22, b + 0.22);
+  if (v === null) st("volet", { display: "none" });
+  else st("volet", { display: "block", transform: `translateX(${-1800 + v * 3300}px) skewX(-14deg)` });
+
+  if (n === 1) {
+    diag("s1", 0);
+    st("s1lb", { opacity: p(t, 0.45, 0.8) }); st("s1lr", { opacity: p(t, 0.5, 0.85) });
+    const c = out3(p(t, T.titre1, T.titre1 + 0.5));
+    st("s1c", { opacity: c, transform: `translateY(${(1 - c) * 160}px)` });
+    const g = p(t, T.il_a_gagne, T.il_a_gagne + 0.4);
+    st("s1g", { opacity: g > 0 ? 1 : 0, transform: `scale(${g > 0 ? 0.4 + 0.6 * back(g) : 0})` });
+  }
+  if (n === 2) {
+    let sb = 0, sr = 0, minute = "0'";
+    D.buts.forEach((b, i) => {
+      const k = p(t, T.buts2[i], T.buts2[i] + 0.35);
+      if (t >= T.buts2[i]) { b.equipe === "Barcelona" ? sb++ : sr++; minute = b.minute + "'"; }
+      st("but" + i, { opacity: k, transform: `translateY(${(1 - out3(k)) * 40}px)` });
+    });
+    const dernier = D.buts.map((b, i) => T.buts2[i]).filter(x => t >= x).pop();
+    const pulse = dernier !== undefined ? back(p(t, dernier, dernier + 0.35)) : 1;
+    $("s2nb").textContent = sb; $("s2nr").textContent = sr;
+    const qui = dernier !== undefined ? D.buts[T.buts2.indexOf(dernier)].equipe : null;
+    st("s2nb", { transform: `scale(${qui === "Barcelona" ? 0.7 + 0.3 * pulse : 1})` });
+    st("s2nr", { transform: `scale(${qui === "Real Madrid" ? 0.7 + 0.3 * pulse : 1})` });
+    $("s2mt").textContent = t >= T.fin2 ? "FIN" : minute;
+    st("s2mt", { fontSize: t >= T.fin2 ? "92px" : "110px" });
+    st("s2m", { transform: `scale(${t >= T.fin2 ? back(p(t, T.fin2, T.fin2 + 0.35)) : 1})` });
+    const l = out3(p(t, T.fin2 + 0.2, T.fin2 + 0.6));
+    st("s2t", { opacity: l, transform: `translateY(${(1 - l) * 60}px)` });
+  }
+  if (n === 3) {
+    for (let i = 0; i < 5; i++) {
+      const k = p(t, T.jetons3 + i * T.jeton_dt, T.jetons3 + i * T.jeton_dt + 0.3);
+      const allume = i === 3 && t >= T.allume3;
+      const eteint = i !== 3 && t >= T.allume3;
+      st("jeton" + i, {
+        transform: `scale(${back(k) * (allume ? 1 + 0.18 * back(p(t, T.allume3, T.allume3 + 0.35)) - 0.18 * 0 : 1)})`,
+        opacity: k > 0 ? (eteint ? 0.35 : 1) : 0,
+        background: allume ? "var(--blanc)" : "transparent", borderColor: allume ? "var(--rmor)" : "#3A4160",
+        color: allume ? "var(--marine)" : "#3A4160", boxShadow: allume ? "0 0 60px rgba(254,190,16,.6)" : "none" });
+    }
+    for (const [id, a] of [["s3a", T.texte3[0]], ["s3b", T.texte3[1]]]) {
+      const k = out3(p(t, a, a + 0.4));
+      st(id, { opacity: k, transform: `translateY(${(1 - k) * 60}px)` });
+    }
+  }
+  if (n === 4) {
+    D.lignes.forEach((l, i) => {
+      const k = out3(p(t, T.barres4 + i * T.barre_dt, T.barres4 + i * T.barre_dt + T.barre_duree));
+      const max = Math.max(l.b, l.r);   // la plus grande valeur remplit sa moitié
+      st("bb" + i, { width: (l.b / max * 47 * k) + "%" });
+      st("br" + i, { width: (l.r / max * 47 * k) + "%" });
+      st("vb" + i, { opacity: k }); st("vr" + i, { opacity: k });
+    });
+    const c = out3(p(t, T.legende4, T.legende4 + 0.4));
+    st("s4c", { opacity: c, transform: `scale(${0.8 + 0.2 * c})` });
+  }
+  if (n === 5) {
+    const z = p(t, T.choc5, T.impact5), apres = t - T.impact5;
+    const tremble = apres > 0 && apres < 0.35 ? Math.sin(apres * 90) * 22 * (1 - apres / 0.35) : 0;
+    st("s5z", { opacity: z > 0 ? 1 : 0, transform: `translate(${tremble}px, ${tremble * 0.6}px) scale(${3.2 - 2.2 * (z * z)})` });
+    st("s5f", { opacity: apres > 0 ? Math.max(0, 1 - apres / 0.9) : 0 });
+    st("s5a", { opacity: p(t, T.impact5 + 0.15, T.impact5 + 0.45) });
+    st("s5b", { opacity: p(t, T.impact5 + 0.45, T.impact5 + 0.8) });
+  }
+  if (n === 6) {
+    const a = T.scenes[5], e = out3(p(t, a, a + 0.5));
+    st("s6p", { transform: `translateY(${(1 - e) * 300}px)`, opacity: e });
+    const k = out3(p(t, T.compteur6[0], T.compteur6[1]));
+    const fini = t >= T.compteur6[1];
+    $("s6n").textContent = fini ? String(D.mbappe_buts) : fr(D.mbappe_moy + (D.mbappe_buts - D.mbappe_moy) * k);
+    $("s6l").textContent = t >= T.compteur6[0] ? "Dimanche soir" : "Moyenne en Clásico depuis 2021";
+    $("s6u").textContent = fini ? "buts · note 8,8" : "but ou passe par match";
+    st("s6n", { transform: `scale(${fini ? back(p(t, T.compteur6[1], T.compteur6[1] + 0.35)) : 1})`, transformOrigin: "left center",
+                color: fini ? "var(--rmor)" : "var(--encre)", textShadow: fini ? "0 4px 0 var(--marine)" : "none" });
+    const r = out3(p(t, T.raphinha6, T.raphinha6 + 0.45));
+    st("s6r", { opacity: r, transform: `translateX(${(1 - r) * -1100}px)` });
+  }
+  if (n === 7) {
+    const a = T.scenes[6];
+    diag("s7", a);
+    const c = out3(p(t, a + 0.4, a + 0.9));
+    st("s7c", { opacity: c, transform: `translateY(${(1 - c) * 160}px)` });
+    st("s7l", { opacity: p(t, T.lecon7, T.lecon7 + 0.4) });
+    const pulse = t > T.appel7 ? 1 + 0.06 * Math.sin((t - T.appel7) * 2 * Math.PI * 1.6) : 1;
+    st("s7a", { opacity: p(t, T.appel7 - 0.3, T.appel7), transform: `scale(${pulse})`, transformOrigin: "left center" });
+  }
+}
+window.render = render;
+render(0);
+</script></body></html>

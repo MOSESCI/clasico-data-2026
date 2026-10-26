@@ -119,6 +119,16 @@ Données et code : https://github.com/MOSESCI/clasico-data-2026
 _Analyse pédagogique — pas un conseil de pari._
 — Moïse Monnin, Data Analyst
 
+### Reel / TikTok / Statut du verdict (même jour que le post LinkedIn n°2)
+
+Publier `video/clasico_verdict.mp4` avec cette légende :
+
+J'avais donné 19 % au Real. Il a gagné. 📊
+Barça 1-2 Real, doublé de Mbappé. Mais les xG du match disent que ce n'était pas un hold-up : 1,95 contre 1,19.
+Un modèle ne prédit pas un match. Il dit à quel point le résultat était surprenant.
+
+#ElClasico #BarcaRealMadrid #Mbappe #DataAnalyse #Football
+
 ### Message du verdict (1 h après le post LinkedIn n°2)
 
 Joindre `carrousel/post2_verdict/slide_03.png` (prédit contre réel).
