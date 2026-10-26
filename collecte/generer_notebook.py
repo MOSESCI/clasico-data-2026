@@ -346,16 +346,27 @@ plt.show()
 md(r"""
 ### Après le match (pour le post du lundi)
 
-Renseigne le score réel ci-dessous, par exemple `SCORE_REEL = (2, 1)` (Barça d'abord), puis exécute la cellule.
+Le résultat et les statistiques du match sont dans `data/match_25102026.json` (source : Flashscore).
+On mesure à quel point le résultat était surprenant pour le modèle, et si le match a ressemblé à la prédiction.
 """)
 code(r"""
-SCORE_REEL = None   # ← à remplir dimanche soir, ex. (2, 1)
+try:
+    with open(SOURCE.replace(DEPOT, "data/") + "match_25102026.json", encoding="utf-8") as f:
+        MATCH = json.load(f)
+except FileNotFoundError:
+    import urllib.request
+    MATCH = json.load(urllib.request.urlopen(DEPOT + "match_25102026.json"))
 
-if SCORE_REEL:
-    b, r = SCORE_REEL
-    issue = "barca" if b > r else "real" if r > b else "nul"
-    print(f"Score réel {b}-{r} : le modèle lui donnait {modele['grille'][b, r]:.1%} de chances.")
-    print(f"L'issue ({issue}) avait {modele[issue]:.0%} de probabilité selon le modèle, {marche[issue]:.0%} selon le marché.")
+b, r = MATCH["score"]["barca"], MATCH["score"]["real"]
+issue = "barca" if b > r else "real" if r > b else "nul"
+rang = sorted((g[i, j] for i in range(11) for j in range(11)), reverse=True).index(g[b, r]) + 1
+xg_b, xg_r = MATCH["stats"]["xg"]
+verdict = {"score": f"{b}-{r}", "issue": issue, "proba_score": round(float(g[b, r]), 3), "rang_score": rang,
+           "proba_issue_modele": round(float(modele[issue]), 3), "proba_issue_xg": round(float(modele_xg[issue]), 3),
+           "proba_issue_marche": round(float(marche[issue]), 3), "xg": [xg_b, xg_r]}
+print(f"Score réel {b}-{r} : le modèle lui donnait {g[b, r]:.1%} de chances ({rang}e score le plus probable).")
+print(f"L'issue « {issue} » : modèle {modele[issue]:.0%}, version xG {modele_xg[issue]:.0%}, marché {marche[issue]:.0%}.")
+print(f"Buts attendus avant le match : {modele['lambda_barca']:.2f} – {modele['lambda_real']:.2f} | xG réels : {xg_b} – {xg_r}")
 """)
 
 md(r"""
@@ -376,6 +387,7 @@ resultats = {
     "modele_xg": {k: round(float(modele_xg[k]), 3) for k in ("barca", "nul", "real")},
     "scores_probables": [(s, round(float(p), 3)) for p, s in top],
     "marche": {k: round(float(v), 3) for k, v in marche.items()},
+    "verdict": verdict,
 }
 with open("resultats.json", "w", encoding="utf-8") as f:
     json.dump(resultats, f, ensure_ascii=False, indent=2)

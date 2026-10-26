@@ -262,5 +262,18 @@
     "barca": 0.593,
     "nul": 0.165,
     "real": 0.242
+  },
+  "verdict": {
+    "score": "1-2",
+    "issue": "real",
+    "proba_score": 0.051,
+    "rang_score": 8,
+    "proba_issue_modele": 0.191,
+    "proba_issue_xg": 0.213,
+    "proba_issue_marche": 0.242,
+    "xg": [
+      1.19,
+      1.95
+    ]
   }
 }

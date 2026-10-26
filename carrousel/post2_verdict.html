@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Clásico — Verdict data</title>
-<!-- Gabarit généré par carrousel/generer_post2.py. Remplacer chaque [À REMPLIR] dimanche soir, directement ici. -->
+<!-- Fichier généré par carrousel/generer_post2.py à partir de resultats.json et data/match_25102026.json. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -220,12 +220,10 @@ ul.limites li::before {
 }
 
 
-.a-remplir { background: #FFE08A; color: #3B2A00; border-radius: 8px; padding: 0 10px; font-family: Inter; font-weight: 700; font-size: .6em; letter-spacing: 0; vertical-align: middle; }
-.geant .a-remplir { font-size: 64px; }
-table.pvr { width: 100%; border-collapse: collapse; font-size: 30px; }
+table.pvr { width: 100%; border-collapse: collapse; font-size: 29px; }
 table.pvr th { text-align: right; color: var(--gris); font: 700 22px Inter; text-transform: uppercase; letter-spacing: .12em; padding: 0 0 16px; }
 table.pvr th:first-child { text-align: left; }
-table.pvr td { padding: 18px 0; border-top: 1px solid var(--trait); }
+table.pvr td { padding: 17px 0; border-top: 1px solid var(--trait); }
 table.pvr td.num { text-align: right; }
 .pastille-club { display: inline-block; width: 22px; height: 22px; border-radius: 5px; margin-right: 16px; vertical-align: -2px; }
 .pc-barca { background: linear-gradient(90deg, var(--fcb-bleu) 0 50%, var(--fcb-grenat) 50%); }
@@ -234,6 +232,7 @@ table.pvr td.num { text-align: right; }
 .pvr-panneau td { padding: 12px 0; border-top-color: rgba(127, 127, 127, .25); }
 .panneau-real .pvr-panneau th { color: #4E6A93; }
 .pvr-panneau .joueur { font-size: 32px; }
+.split-diag .vs { font-size: 70px; }
 
 </style>
 </head>
@@ -242,66 +241,66 @@ table.pvr td.num { text-align: right; }
 <section class="slide split-diag">
   <div class="cote-barca rayures"></div><div class="cote-real"></div>
   <div class="etiquette-barca">FC Barcelone</div><div class="etiquette-real">Real Madrid</div>
-  <div class="vs">VS</div>
-  <!-- Accroche à adapter : favori gagnant → « Les stats avaient raison… cette fois. » -->
+  <div class="vs">1-2</div>
   <div class="carte-titre">
     <div class="kicker">Clásico · Le verdict</div>
-    <h1>J'avais donné 61 % au Barça.</h1>
-    <p>Voici ce qui s'est passé. Modèle contre réalité : ce que les stats ont vu, et ce qu'elles ont raté.</p>
+    <h1>J'avais donné 19 % au Real.<br><span class="txt-real">Il a gagné.</span></h1>
+    <p>Barça 1-2 Real. Ce que les stats avaient vu, et ce qu'elles ont raté.</p>
   </div>
   <div class="pied pied-clair"><span class="signature">Moïse Monnin · Data Analyst</span><span>Faites défiler →</span></div>
 </section>
 <section class="slide sans-marge">
   <div class="moitie moitie-barca rayures-sombres">
     <div class="kicker or-barca">FC Barcelone</div>
-    <div class="geant or-barca"><span class="a-remplir">[À REMPLIR]</span></div>
-    <div class="buts">Buteurs : <span class="a-remplir">[À REMPLIR]</span></div>
+    <div class="geant or-barca">1</div>
+    <div class="buts">Raphinha 61'</div>
   </div>
   <div class="moitie moitie-real">
     <div class="kicker marine">Real Madrid</div>
-    <div class="geant marine"><span class="a-remplir">[À REMPLIR]</span></div>
-    <div class="buts">Buteurs : <span class="a-remplir">[À REMPLIR]</span></div>
+    <div class="geant marine">2</div>
+    <div class="buts">Mbappé 41', Mbappé 87'</div>
   </div>
-  <div class="medaillon"><span class="num" style="font-size:44px">FIN</span><span>score final</span></div>
+  <div class="medaillon"><span class="num" style="font-size:52px">FIN</span><span>25.10.26</span></div>
   <div class="bas-sombre">
     <div class="kicker">Prédit contre réel</div>
-    <h2>Prédit : 2-1 · Réel : <span class="a-remplir">[À REMPLIR]</span></h2>
-    <p class="gris">Le modèle donnait <b class="num" style="color:var(--texte)"><span class="a-remplir">[À REMPLIR]</span> %</b> de chances à ce score exact,
-    et <b class="num" style="color:var(--texte)"><span class="a-remplir">[À REMPLIR]</span> %</b> à cette issue (victoire / nul / défaite).</p>
-    <div class="source">Calcul : cellule « Après le match » du notebook.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>2/7</span></div>
+    <h2>Prédit : 2-1 · Réel : 1-2</h2>
+    <p class="gris">Le modèle donnait <b class="num" style="color:var(--texte)">5 %</b> à ce score
+    (8<sup>e</sup> plus probable) et <b class="num" style="color:var(--texte)">19 %</b> à une victoire du Real.
+    Le marché : 24 %.</p>
+    <div class="source">Sources : Flashscore (statistiques du match), modèle publié le 25/10/2026 avant le coup d'envoi.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>2/7</span></div>
   </div>
 </section>
 <section class="slide">
   <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Prédit ou réel ?</div>
-  <h2>Le match en chiffres.</h2>
-  <table class="pvr"><tr><th></th><th>Prédit</th><th>Réel</th></tr><tr><td><span class="pastille-club pc-barca"></span>Buts Barça</td><td class="num">2,23</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td><span class="pastille-club pc-real"></span>Buts Real</td><td class="num">1,18</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td><span class="pastille-club pc-barca"></span>xG Barça</td><td class="num">—</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td><span class="pastille-club pc-real"></span>xG Real</td><td class="num">—</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td><span class="pastille-club pc-barca"></span>Possession Barça</td><td class="num">—</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td><span class="pastille-club pc-barca"></span>Tirs cadrés Barça</td><td class="num">—</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td><span class="pastille-club pc-real"></span>Tirs cadrés Real</td><td class="num">—</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr></table>
-  <p class="gris" style="margin-top:34px; font-size:28px;">Les xG disent qui a mérité. Le score dit qui a marqué. Quand les deux divergent, c'est là que l'histoire se joue.</p>
-  <div class="source">Sources : ESPN (statistiques), Understat (xG) — relevés le 25/10/2026.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>3/7</span></div>
+  <h2>Le Barça a eu le ballon. Le Real, les occasions.</h2>
+  <table class="pvr"><tr><th></th><th>Prédit</th><th>Réel</th></tr><tr><td><span class="pastille-club pc-barca"></span>Buts attendus Barça</td><td class="num">2,23</td><td class="num">1,19 xG</td></tr><tr><td><span class="pastille-club pc-real"></span>Buts attendus Real</td><td class="num">1,18</td><td class="num">1,95 xG</td></tr><tr><td><span class="pastille-club pc-barca"></span>Possession Barça</td><td class="num">—</td><td class="num">62 %</td></tr><tr><td><span class="pastille-club pc-barca"></span>Tirs Barça (cadrés)</td><td class="num">—</td><td class="num">18 (6)</td></tr><tr><td><span class="pastille-club pc-real"></span>Tirs Real (cadrés)</td><td class="num">—</td><td class="num">10 (5)</td></tr><tr><td><span class="pastille-club pc-barca"></span>Grosses occasions Barça</td><td class="num">—</td><td class="num">2</td></tr><tr><td><span class="pastille-club pc-real"></span>Grosses occasions Real</td><td class="num">—</td><td class="num">4</td></tr></table>
+  <p style="margin-top:30px; font-size:28px;">Selon les xG, la victoire du Real n'a rien d'un hold-up : <b>il a créé plus et mieux</b>, avec 8 tirs de moins.</p>
+  <div class="source">Buts attendus prédits : modèle de Poisson. Réel : expected goals (xG) du match, Flashscore.</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>3/7</span></div>
 </section>
 <section class="slide">
   <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Les joueurs suivis</div>
-  <h2>Leur historique annonçait-il leur match&nbsp;?</h2>
+  <h2>Les joueurs de grand match ont tenu leur rang.</h2>
   <p class="gris" style="font-size:25px; margin-bottom:20px;">Buts + passes décisives : moyenne par Clásico depuis 2021, puis dimanche.</p>
-  <div class="panneau panneau-barca"><table class="pvr pvr-panneau"><tr><th>Joueur</th><th>Moy. Clásico</th><th>Dimanche</th></tr><tr><td class="joueur">Fermín López</td><td class="num">0,22</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td class="joueur">Lamine Yamal</td><td class="num">0,56</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td class="joueur">Raphinha</td><td class="num">0,75</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr></table></div><div class="panneau panneau-real"><table class="pvr pvr-panneau"><tr><th>Joueur</th><th>Moy. Clásico</th><th>Dimanche</th></tr><tr><td class="joueur">Arda Güler</td><td class="num">0,25</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td class="joueur">Jude Bellingham</td><td class="num">0,60</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr><tr><td class="joueur">Kylian Mbappé</td><td class="num">1,00</td><td class="num"><span class="a-remplir">[À REMPLIR]</span></td></tr></table></div>
-  <p style="margin-top:18px; font-size:27px;"><span class="a-remplir">[À REMPLIR]</span> — une phrase sur le joueur qui a confirmé ou démenti son historique.</p>
-  <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>4/7</span></div>
+  <div class="panneau panneau-barca"><table class="pvr pvr-panneau"><tr><th>Joueur</th><th>Moy. Clásico</th><th>Dimanche</th></tr><tr><td class="joueur">Fermín López</td><td class="num">0,22</td><td class="num">0</td></tr><tr><td class="joueur">Lamine Yamal</td><td class="num">0,56</td><td class="num">0</td></tr><tr><td class="joueur">Raphinha</td><td class="num">0,75</td><td class="num">1 ✓</td></tr></table></div><div class="panneau panneau-real"><table class="pvr pvr-panneau"><tr><th>Joueur</th><th>Moy. Clásico</th><th>Dimanche</th></tr><tr><td class="joueur">Arda Güler</td><td class="num">0,25</td><td class="num">0</td></tr><tr><td class="joueur">Jude Bellingham</td><td class="num">0,60</td><td class="num">0</td></tr><tr><td class="joueur">Kylian Mbappé</td><td class="num">1,00</td><td class="num">2 ✓</td></tr></table></div>
+  <p style="margin-top:18px; font-size:27px;"><b class="txt-real">Mbappé</b>, déjà le plus décisif de l'historique, a doublé la mise : 2 buts. <b class="txt-barca">Raphinha</b> a marqué, comme son historique l'annonçait.</p>
+  <div class="source">Sources : ESPN (historique), Flashscore (25/10/2026).</div><div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>4/7</span></div>
 </section>
 <section class="slide">
   <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Ce que le modèle a vu</div>
   <h2>Ce qui s'est vérifié.</h2>
-  <ul class="limites"><li><span class="a-remplir">[À REMPLIR]</span></li><li><span class="a-remplir">[À REMPLIR]</span></li><li><span class="a-remplir">[À REMPLIR]</span></li></ul>
-  <div class="carte-neutre" style="margin-top:auto; margin-bottom:110px;"><p class="gris" style="font-size:25px;">Pistes : le favori, le nombre de buts (plus ou moins de 3), l'absence de nul (0 en 18 Clásicos), les joueurs « de grand match ».</p></div>
+  <ul class="limites"><li><b>Pas de match nul.</b> <span class='gris'>La série continue : 0 nul en 19 Clásicos. Le modèle n'y donnait que 20 %.</span></li><li><b>Un match à 3 buts.</b> <span class='gris'>Le total le plus probable selon le modèle (22 %).</span></li><li><b>Les joueurs décisifs.</b> <span class='gris'>Mbappé et Raphinha, les deux meilleurs rendements en Clásico, ont marqué.</span></li></ul>
+  <div class="carte-neutre" style="margin-top:auto; margin-bottom:110px;"><p>Le modèle avait bien lu <b>la nature du match</b> : ouvert, sans nul, porté par ses stars.</p></div>
   <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>5/7</span></div>
 </section>
 <section class="slide">
   <div class="bandeau"><span class="rayures"></span><span class="blanc-or"></span></div>
   <div class="kicker">Ce que le modèle n'a pas vu</div>
   <h2>Ce qui échappe aux chiffres.</h2>
-  <ul class="limites"><li><span class="a-remplir">[À REMPLIR]</span></li><li><span class="a-remplir">[À REMPLIR]</span></li><li><span class="a-remplir">[À REMPLIR]</span></li></ul>
-  <div class="carte-neutre" style="margin-top:auto; margin-bottom:110px;"><p class="gris" style="font-size:25px;">Pistes : carton rouge, blessure en cours de match, penalty, but contre le cours du jeu, efficacité très supérieure aux xG.</p></div>
+  <ul class="limites"><li><b>Une attaque du Barça éteinte.</b> <span class='gris'>1,19 xG produits, moitié moins que les 2,23 buts attendus.</span></li><li><b>Un Real plus dangereux que prévu.</b> <span class='gris'>1,95 xG au lieu de 1,18, et 4 grosses occasions contre 2.</span></li><li><b>La forme n'a pas suffi.</b> <span class='gris'>Le Barça, plus en forme, a perdu : 11 victoires sur 19 pour l'équipe la plus en forme (58 %).</span></li></ul>
+  <div class="carte-neutre" style="margin-top:auto; margin-bottom:110px;"><p>Ni chance ni malchance : chaque équipe a marqué à peu près ses xG. <b>Le modèle s'est trompé sur le match, pas sur la finition.</b></p></div>
   <div class="pied"><span class="signature">Moïse Monnin · Data Analyst</span><span>6/7</span></div>
 </section>
 <section class="slide split-diag">
@@ -309,9 +308,9 @@ table.pvr td.num { text-align: right; }
   <div class="carte-titre carte-finale">
     <div class="kicker">La leçon</div>
     <h1 style="font-size:84px;">Les stats ont-elles dit la vérité&nbsp;?</h1>
-    <p style="font-size:32px; color:var(--texte);"><span class="a-remplir">[À REMPLIR]</span> — ta réponse nuancée en deux phrases.</p>
-    <div class="appel">Un modèle ne prédit pas un match. <b>Il dit à quel point le résultat était surprenant.</b></div>
-    <p class="petit">Merci à tous ceux qui ont joué le jeu en commentaire. Prochain Clásico : 9 mai 2027.</p>
+    <p style="font-size:31px; color:var(--texte);">Oui et non. Le Real n'avait qu'1 chance sur 5 avant le match. Mais pendant le match, les chiffres ont parlé pour lui.</p>
+    <div class="appel">Un modèle ne prédit pas un match. <b>Il dit à quel point le résultat était surprenant. Ici : 1 chance sur 5.</b></div>
+    <p class="petit">Merci à tous ceux qui ont joué le jeu. Prochain Clásico : 9 mai 2027.</p>
   </div>
   <div class="pied pied-clair"><span class="signature">Moïse Monnin · Data Analyst</span><span>7/7</span></div>
 </section>
